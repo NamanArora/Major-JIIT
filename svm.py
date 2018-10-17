@@ -10,16 +10,17 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
 def read_csv():
-    features = pd.read_csv('data.csv',usecols = ['ENTDATEDAYOFWEEK', 'ENTQUARTHOUR','ENTSTATION','EXTSTATION','AVG_TRIPS'],)
+    features = pd.read_csv('data.csv')
     print(features.head())
     print(features.shape)
     binarizer1=LabelEncoder()
     binarizer2=LabelEncoder()
     features.iloc[:,1:2]=binarizer1.fit_transform(features.iloc[:,1:2])
     features.iloc[:,2:3]=binarizer2.fit_transform(features.iloc[:,2:3])
-    print(features.head())
+    # print(features.head())
     #hot encoder
-    features = pd.get_dummies(features,  columns=['ENTDATEDAYOFWEEK', 'ENTQUARTHOUR',])
+    features = pd.get_dummies(features)
+    print(features.head())
     labels = np.array(features['AVG_TRIPS'])
     features= features.drop('AVG_TRIPS', axis = 1)
     feature_list = list(features.columns)
@@ -30,18 +31,18 @@ def read_csv():
     print('Training Labels Shape:', train_labels.shape)
     print('Testing Features Shape:', test_features.shape)
     print('Testing Labels Shape:', test_labels.shape)
+    print('Training data in progress...')
     svr_rbf.fit(train_features, train_labels)
     predictions = svr_rbf.predict(test_features)
     errors = abs(predictions - test_labels)
-    print('Mean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
+    print('Mean Absolute Error:', round(np.mean(errors), 2), '.')
     return features
 
 
 #binarizer
 # mlb = MultiLabelBinarizer()
 # a = mlb.fit_transform([set(['Navy Yard','Takoma']), set(['Anacostia','U Street-Cardozo']), set(['Crystal City','Metro Center'])])
-days = ['Wed', 'Thu', 'Fri']
-density = [3,3,2]
+
 read_csv()
 # encode = pd.get_dummies(days)
 # print encode
