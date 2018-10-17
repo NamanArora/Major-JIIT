@@ -1,0 +1,100 @@
+ENTDATESERVICETYPE,ENTDATEDAYOFWEEK,ENTSTATION,EXTSTATION,ENTPERIOD,ENTQUARTHOUR,AVG_TRIPS
+Saturday,Sat,Navy Yard,Dupont Circle,PM Peak,4:00 PM to 4:15 PM,2
+Weekday,Thu,Huntington,Gallery Place-Chinatown,AM Peak,5:30 AM to 5:45 AM,5
+Weekday,Thu,Shady Grove,Judiciary Square,AM Peak,9:00 AM to 9:15 AM,11
+Weekday,Thu,Foggy Bottom,Van Dorn Street,PM Peak,5:45 PM to 6:00 PM,10
+Weekday,Thu,L'Enfant Plaza,West Hyattsville,PM Peak,5:30 PM to 5:45 PM,12
+Weekday,Thu,Federal Center SW,Vienna,PM Peak,5:30 PM to 5:45 PM,12
+Weekday,Thu,Capitol Heights,U Street-Cardozo,AM Peak,6:30 AM to 6:45 AM,1
+Weekday,Thu,West Falls Church,McPherson Square,Midday,11:30 AM to 11:45 AM,1
+Weekday,Thu,Union Station,L'Enfant Plaza,Midday,9:45 AM to 10:00 AM,7
+Weekday,Thu,Archives-Navy Memorial,Reagan Washington National Airport,PM Peak,3:15 PM to 3:30 PM,5
+Weekday,Thu,Metro Center,Forest Glen,Evening,7:45 PM to 8:00 PM,3
+Weekday,Thu,Gallery Place-Chinatown,Bethesda,Evening,11:15 PM to 11:30 PM,2
+Weekday,Thu,McPherson Square,Farragut West,PM Peak,4:00 PM to 4:15 PM,2
+Weekday,Thu,Gallery Place-Chinatown,Reagan Washington National Airport,Midday,12:45 PM to 1:00 PM,5
+Weekday,Thu,Dunn Loring,Crystal City,AM Peak,6:00 AM to 6:15 AM,3
+Weekday,Thu,L'Enfant Plaza,Wheaton,Midday,1:00 PM to 1:15 PM,1
+Weekday,Thu,Bethesda,Woodley Park-Zoo,Evening,11:00 PM to 11:15 PM,2
+Sunday,Sun,Southern Avenue,Silver Spring,PM Peak,4:45 PM to 5:00 PM,2
+Weekday,Fri,Rosslyn,Federal Triangle,AM Peak,7:45 AM to 8:00 AM,11
+Weekday,Thu,Columbia Heights,Wheaton,AM Peak,8:45 AM to 9:00 AM,2
+Weekday,Thu,Friendship Heights,Vienna,PM Peak,3:30 PM to 3:45 PM,1
+Weekday,Thu,Capitol Heights,McPherson Square,AM Peak,8:00 AM to 8:15 AM,6
+Weekday,Thu,Navy Yard,Spring Hill,PM Peak,4:30 PM to 4:45 PM,2
+Weekday,Thu,Dupont Circle,Franconia-Springfield,Midday,12:15 PM to 12:30 PM,1
+Weekday,Thu,Farragut North,L'Enfant Plaza,AM Peak,7:15 AM to 7:30 AM,1
+Weekday,Thu,Takoma,Columbia Heights,PM Peak,5:30 PM to 5:45 PM,2
+Weekday,Thu,King Street,Eastern Market,PM Peak,4:15 PM to 4:30 PM,2
+Weekday,Thu,New Carrollton,Branch Avenue,PM Peak,3:45 PM to 4:00 PM,2
+Weekday,Thu,Cleveland Park,L'Enfant Plaza,AM Peak,6:30 AM to 6:45 AM,3
+Weekday,Fri,Navy Yard,Shady Grove,PM Peak,3:00 PM to 3:15 PM,3
+Weekday,Fri,Brookland,Ballston,AM Peak,6:30 AM to 6:45 AM,2
+Weekday,Thu,West Falls Church,Virginia Square-GMU,AM Peak,7:30 AM to 7:45 AM,3
+Weekday,Thu,College Park-U of MD,Archives-Navy Memorial,PM Peak,4:45 PM to 5:00 PM,3
+Weekday,Fri,Judiciary Square,Cheverly,PM Peak,3:15 PM to 3:30 PM,1
+Saturday,Sat,Tenleytown-AU,Grosvenor,Midday,10:30 AM to 10:45 AM,1
+Weekday,Thu,Benning Road,Ballston,AM Peak,6:00 AM to 6:15 AM,1
+Weekday,Thu,Judiciary Square,Judiciary Square,AM Peak,5:15 AM to 5:30 AM,2
+Weekday,Thu,Federal Center SW,Pentagon City,Evening,7:15 PM to 7:30 PM,2
+Weekday,Fri,Potomac Avenue,King Street,AM Peak,6:30 AM to 6:45 AM,2
+Sunday,Sun,Landover,Ballston,Evening,7:45 PM to 8:00 PM,1
+Saturday,Sat,Judiciary Square,Takoma,PM Peak,6:45 PM to 7:00 PM,4
+Sunday,Sun,Union Station,Pentagon City,PM Peak,3:00 PM to 3:15 PM,6
+Sunday,Sun,Columbia Heights,Wheaton,Midday,1:15 PM to 1:30 PM,5
+Weekday,Thu,Columbia Heights,Forest Glen,PM Peak,4:45 PM to 5:00 PM,1
+Weekday,Fri,Spring Hill,Capitol South,Midday,12:15 PM to 12:30 PM,5
+Saturday,Sat,Dupont Circle,Woodley Park-Zoo,PM Peak,3:00 PM to 3:15 PM,9
+Weekday,Fri,Union Station,Virginia Square-GMU,PM Peak,6:00 PM to 6:15 PM,5
+Sunday,Sun,Cleveland Park,Metro Center,Midday,2:00 PM to 2:15 PM,3
+Saturday,Sat,Foggy Bottom,Crystal City,Midday,1:15 PM to 1:30 PM,5
+Weekday,Fri,Farragut West,McLean,Midday,2:15 PM to 2:30 PM,2
+Weekday,Thu,Gallery Place-Chinatown,Huntington,Evening,11:00 PM to 11:15 PM,4
+Weekday,Thu,Medical Center,Prince George's Plaza,Midday,2:15 PM to 2:30 PM,1
+Weekday,Thu,Takoma,Rhode Island Avenue,PM Peak,6:45 PM to 7:00 PM,1
+Weekday,Fri,Southern Avenue,Union Station,Midday,1:30 PM to 1:45 PM,3
+Weekday,Thu,Georgia Avenue-Petworth,Foggy Bottom,Midday,11:45 AM to 12:00 PM,1
+Weekday,Thu,McPherson Square,Dupont Circle,Evening,7:45 PM to 8:00 PM,4
+Weekday,Thu,Georgia Avenue-Petworth,Dupont Circle,Evening,8:45 PM to 9:00 PM,1
+Weekday,Thu,Takoma,Farragut West,AM Peak,6:15 AM to 6:30 AM,2
+Saturday,Sat,Court House,Ballston,PM Peak,5:45 PM to 6:00 PM,5
+Weekday,Fri,Farragut North,Judiciary Square,PM Peak,3:00 PM to 3:15 PM,3
+Weekday,Thu,Medical Center,Pentagon City,Midday,2:45 PM to 3:00 PM,2
+Weekday,Thu,Brookland,Judiciary Square,Midday,12:45 PM to 1:00 PM,3
+Weekday,Thu,Mt. Vernon Square-UDC,Wheaton,PM Peak,6:45 PM to 7:00 PM,1
+Weekday,Thu,Addison Road,McLean,AM Peak,5:15 AM to 5:30 AM,1
+Sunday,Sun,Shady Grove,Friendship Heights,PM Peak,4:30 PM to 4:45 PM,2
+Weekday,Fri,Fort Totten,U Street-Cardozo,PM Peak,6:30 PM to 6:45 PM,3
+Weekday,Thu,Cleveland Park,Naylor Road,PM Peak,6:30 PM to 6:45 PM,1
+Weekday,Fri,Gallery Place-Chinatown,Dupont Circle,PM Peak,6:45 PM to 7:00 PM,23
+Weekday,Fri,Farragut North,Rhode Island Avenue,Evening,7:45 PM to 8:00 PM,5
+Weekday,Fri,Medical Center,Medical Center,PM Peak,5:00 PM to 5:15 PM,1
+Saturday,Sat,Greenbelt,Greenbelt,PM Peak,6:15 PM to 6:30 PM,2
+Sunday,Sun,Union Station,Franconia-Springfield,AM Peak,7:15 AM to 7:30 AM,1
+Sunday,Sun,U Street-Cardozo,Reagan Washington National Airport,Evening,7:45 PM to 8:00 PM,1
+Weekday,Fri,Braddock Road,Naylor Road,AM Peak,8:45 AM to 9:00 AM,1
+Weekday,Mon,Pentagon,Foggy Bottom,Midday,12:00 PM to 12:15 PM,5
+Saturday,Sat,Crystal City,Archives-Navy Memorial,Evening,9:30 PM to 9:45 PM,2
+Saturday,Sat,Braddock Road,King Street,Midday,1:45 PM to 2:00 PM,2
+Weekday,Fri,Federal Triangle,McPherson Square,Evening,9:30 PM to 9:45 PM,1
+Weekday,Fri,Smithsonian,College Park-U of MD,Midday,12:00 PM to 12:15 PM,2
+Weekday,Fri,Anacostia,Addison Road,Evening,9:15 PM to 9:30 PM,1
+Weekday,Fri,Shady Grove,Van Ness-UDC,AM Peak,9:00 AM to 9:15 AM,2
+Weekday,Mon,Brookland,Federal Center SW,AM Peak,9:00 AM to 9:15 AM,2
+Weekday,Mon,Archives-Navy Memorial,Braddock Road,Evening,10:45 PM to 11:00 PM,1
+Weekday,Mon,King Street,Pentagon City,AM Peak,5:45 AM to 6:00 AM,3
+Weekday,Mon,Georgia Avenue-Petworth,U Street-Cardozo,Evening,7:00 PM to 7:15 PM,4
+Weekday,Mon,Silver Spring,Foggy Bottom,AM Peak,8:45 AM to 9:00 AM,8
+Weekday,Mon,Medical Center,Branch Avenue,PM Peak,6:00 PM to 6:15 PM,2
+Weekday,Fri,Dupont Circle,Pentagon City,Evening,10:15 PM to 10:30 PM,4
+Weekday,Fri,Eisenhower Avenue,Gallery Place-Chinatown,AM Peak,6:45 AM to 7:00 AM,2
+Saturday,Sat,Reagan Washington National Airport,Mt. Vernon Square-UDC,PM Peak,5:15 PM to 5:30 PM,6
+Weekday,Thu,Virginia Square-GMU,Waterfront,Evening,7:45 PM to 8:00 PM,2
+Sunday,Sun,Cleveland Park,Fort Totten,Evening,9:00 PM to 9:15 PM,1
+Sunday,Sun,Tenleytown-AU,Dupont Circle,Midday,11:45 AM to 12:00 PM,6
+Weekday,Fri,Union Station,Southern Avenue,Midday,9:30 AM to 9:45 AM,2
+Weekday,Fri,Pentagon City,Court House,PM Peak,4:45 PM to 5:00 PM,4
+Weekday,Mon,Suitland,Dupont Circle,AM Peak,8:15 AM to 8:30 AM,5
+Weekday,Mon,L'Enfant Plaza,McPherson Square,AM Peak,8:00 AM to 8:15 AM,31
+Weekday,Mon,U Street-Cardozo,L'Enfant Plaza,PM Peak,6:30 PM to 6:45 PM,1
+Weekday,Mon,McPherson Square,Glenmont,Midday,2:00 PM to 2:15 PM,2
