@@ -10,15 +10,24 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
 def categorize_ridership(csvFile):
+    # print(csvFile.head(0))
     # our current categories are as follows: <10=1 <20=2 >20=3
     for i,row in csvFile.iterrows():
-        val=1
-        # if condition:
-        #     val=2;
-        # else if condition:
-        #     val=3;
-
+        val=0
+        if row['AVG_TRIPS'] <10:
+            val=1
+        elif row['AVG_TRIPS'] <20:
+            val=2
+        elif row['AVG_TRIPS'] > 20:
+            val=3
         csvFile.set_value(i, 'congestion_level', val)
+    csvFile.to_csv("categorized.csv", index=False)
+
+def test_module():
+    features = pd.read_csv('data.csv')
+    categorize_ridership(features)
+    
+
 
 def read_csv():
     features = pd.read_csv('data.csv')
@@ -58,6 +67,10 @@ def read_csv():
 # a = mlb.fit_transform([set(['Navy Yard','Takoma']), set(['Anacostia','U Street-Cardozo']), set(['Crystal City','Metro Center'])])
 
 read_csv()
+# test_module()
+
+
+
 # encode = pd.get_dummies(days)
 # print encode
 # print day
