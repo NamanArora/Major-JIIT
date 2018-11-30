@@ -9,9 +9,14 @@ import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
-def categorize_ridership(csvFile):
+
+
+# Categorizes the ridership according to the congestion level of 1-3
+#Reads modded.csv and stores result in categorized.csv
+def categorize_ridership():
     # print(csvFile.head(0))
     # our current categories are as follows: <10=1 <20=2 >20=3
+    csvFile = pd.read_csv('modded.csv')
     for i,row in csvFile.iterrows():
         val=0
         if row['AVG_TRIPS'] <10:
@@ -23,15 +28,45 @@ def categorize_ridership(csvFile):
         csvFile.set_value(i, 'congestion_level', val)
     csvFile.to_csv("categorized.csv", index=False)
 
-def test_module():
-    features = pd.read_csv('data.csv')
-    categorize_ridership(features)
-    
+
+# Uses the congestion level to compute on the prices
+# reads categorized.csv and stores result in final.csv
+def compute_final_prices():
+    csvFile = pd.read_csv('categorized.csv')
+    before_discount = 0
+    after_discount = 0
+    for i,row in csvFile.iterrows():
+        val=0
+        #we call the api here to get the cost 
+        #TODO: replace old_cost with api response 
+        # fetcher(row['ENTSTATION'],row['EXTSTATION'])
+        old_cost = 100
+        before_discount =before_discount +old_cost
+        discount = row['congestion_level']/(10*1.0)
+        new_cost = old_cost - old_cost * discount
+        after_discount = after_discount + new_cost
+        csvFile.set_value(i, 'old_cost', old_cost)
+        csvFile.set_value(i, 'new_cost', new_cost)
+
+    print("Cost before discount: ")
+    print(before_discount)
+    print("Cost after discount: ")
+    print(after_discount)
+    csvFile.to_csv("final.csv", index=False)
+
+
+# Makes the file ready for business logic 
+# reads data.csv and the ready file is in modded.csv
+def create_extra_columns():
+    csvFile = pd.read_csv('data.csv')
+    csvFile['congestion_level'] = ''
+    csvFile['old_cost'] = ''
+    csvFile['new_cost'] = ''
+    csvFile.to_csv('modded.csv',index=False)
 
 
 def read_csv():
     features = pd.read_csv('data.csv')
-    categorize_ridership(features)
     print(features.head())
     print(features.shape)
     binarizer1=LabelEncoder()
@@ -59,24 +94,11 @@ def read_csv():
     predictions = svr_rbf.predict(test_features)
     errors = abs(predictions - test_labels)
     print('Mean Absolute Error:', round(np.mean(errors), 2), '.')
+    create_extra_columns()
+    categorize_ridership()
+    compute_final_prices()
     return features
 
-
-#binarizer
-# mlb = MultiLabelBinarizer()
-# a = mlb.fit_transform([set(['Navy Yard','Takoma']), set(['Anacostia','U Street-Cardozo']), set(['Crystal City','Metro Center'])])
-
 read_csv()
-# test_module()
-
-
-
-# encode = pd.get_dummies(days)
-# print encode
-# print day
-# print svr_rbf.predict([[0,1,1,0,0,0]])[0]
-# print a
-# print list(mlb.classes_)
-
 
 
