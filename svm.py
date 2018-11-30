@@ -9,16 +9,29 @@ import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
+def categorize_ridership(csvFile):
+    for i,row in csvFile.iterrows():
+        val=1
+        if condition:
+            val=2;
+        else if condition:
+            val=3;
+
+        csvFile.set_value(i, 'congestion_level', val)
+
 def read_csv():
     features = pd.read_csv('data.csv')
+    categorize_ridership(features)
     print(features.head())
     print(features.shape)
     binarizer1=LabelEncoder()
     binarizer2=LabelEncoder()
+    print('Binarizing the station names...')
     features.iloc[:,1:2]=binarizer1.fit_transform(features.iloc[:,1:2])
     features.iloc[:,2:3]=binarizer2.fit_transform(features.iloc[:,2:3])
     # print(features.head())
     #hot encoder
+    print('Hot encoding the features...')
     features = pd.get_dummies(features)
     print(features.head())
     labels = np.array(features['AVG_TRIPS'])
