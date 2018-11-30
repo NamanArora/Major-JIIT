@@ -10,12 +10,13 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
 def categorize_ridership(csvFile):
+    # our current categories are as follows: <10=1 <20=2 >20=3
     for i,row in csvFile.iterrows():
         val=1
-        if condition:
-            val=2;
-        else if condition:
-            val=3;
+        # if condition:
+        #     val=2;
+        # else if condition:
+        #     val=3;
 
         csvFile.set_value(i, 'congestion_level', val)
 
