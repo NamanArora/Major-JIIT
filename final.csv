@@ -1,0 +1,1000 @@
+ENTDATESERVICETYPE,ENTDATEDAYOFWEEK,ENTSTATION,EXTSTATION,ENTPERIOD,ENTQUARTHOUR,AVG_TRIPS,congestion_level,old_cost,new_cost
+Saturday,Sat,Navy Yard-Ballpark,Dupont Circle,PM Peak,4:00 PM to 4:15 PM,2,1.0,2.4,2.16
+Weekday,Thu,Huntington,Gallery Pl-Chinatown,AM Peak,5:30 AM to 5:45 AM,5,1.0,4.05,3.6449999999999996
+Weekday,Thu,Shady Grove,Judiciary Square,AM Peak,9:00 AM to 9:15 AM,11,2.0,6.0,4.8
+Weekday,Thu,Foggy Bottom-GWU,Van Dorn Street,PM Peak,5:45 PM to 6:00 PM,10,2.0,4.55,3.6399999999999997
+Weekday,Thu,L'Enfant Plaza,West Hyattsville,PM Peak,5:30 PM to 5:45 PM,12,2.0,3.45,2.7600000000000002
+Weekday,Thu,Federal Center SW,Vienna/Fairfax-GMU,PM Peak,5:30 PM to 5:45 PM,12,2.0,5.85,4.68
+Weekday,Thu,Capitol Heights,U Street/African-Amer Civil War Memorial/Cardozo,AM Peak,6:30 AM to 6:45 AM,1,1.0,3.75,3.375
+Weekday,Thu,West Falls Church-VT/UVA,McPherson Square,Midday,11:30 AM to 11:45 AM,1,1.0,4.05,3.6449999999999996
+Weekday,Thu,Union Station,L'Enfant Plaza,Midday,9:45 AM to 10:00 AM,7,1.0,2.25,2.025
+Weekday,Thu,Archives-Navy Memorial-Penn Quarter,Ronald Reagan Washington National Airport,PM Peak,3:15 PM to 3:30 PM,5,1.0,2.55,2.295
+Weekday,Thu,Metro Center,Forest Glen,Evening,7:45 PM to 8:00 PM,3,1.0,4.15,3.7350000000000003
+Weekday,Thu,Gallery Pl-Chinatown,Bethesda,Evening,11:15 PM to 11:30 PM,2,1.0,3.6,3.24
+Weekday,Thu,McPherson Square,Farragut West,PM Peak,4:00 PM to 4:15 PM,2,1.0,2.25,2.025
+Weekday,Thu,Gallery Pl-Chinatown,Ronald Reagan Washington National Airport,Midday,12:45 PM to 1:00 PM,5,1.0,2.65,2.385
+Weekday,Thu,Dunn Loring-Merrifield,Crystal City,AM Peak,6:00 AM to 6:15 AM,3,1.0,4.8,4.32
+Weekday,Thu,L'Enfant Plaza,Wheaton,Midday,1:00 PM to 1:15 PM,1,1.0,4.8,4.32
+Weekday,Thu,Bethesda,Woodley Park-Zoo/Adams Morgan,Evening,11:00 PM to 11:15 PM,2,1.0,2.8,2.52
+Sunday,Sun,Southern Avenue,Silver Spring,PM Peak,4:45 PM to 5:00 PM,2,1.0,5.1,4.59
+Weekday,Fri,Rosslyn,Federal Triangle,AM Peak,7:45 AM to 8:00 AM,11,2.0,2.25,1.8
+Weekday,Thu,Columbia Heights,Wheaton,AM Peak,8:45 AM to 9:00 AM,2,1.0,3.9,3.51
+Weekday,Thu,Friendship Heights,Vienna/Fairfax-GMU,PM Peak,3:30 PM to 3:45 PM,1,1.0,6.0,5.4
+Weekday,Thu,Capitol Heights,McPherson Square,AM Peak,8:00 AM to 8:15 AM,6,1.0,3.65,3.285
+Weekday,Thu,Navy Yard-Ballpark,Spring Hill,PM Peak,4:30 PM to 4:45 PM,2,1.0,5.9,5.3100000000000005
+Weekday,Thu,Dupont Circle,Franconia-Springfield,Midday,12:15 PM to 12:30 PM,1,1.0,5.8,5.22
+Weekday,Thu,Farragut North,L'Enfant Plaza,AM Peak,7:15 AM to 7:30 AM,1,1.0,2.25,2.025
+Weekday,Thu,Takoma,Columbia Heights,PM Peak,5:30 PM to 5:45 PM,2,1.0,2.55,2.295
+Weekday,Thu,King St-Old Town,Eastern Market,PM Peak,4:15 PM to 4:30 PM,2,1.0,3.75,3.375
+Weekday,Thu,New Carrollton,Branch Ave,PM Peak,3:45 PM to 4:00 PM,2,1.0,5.55,4.995
+Weekday,Thu,Cleveland Park,L'Enfant Plaza,AM Peak,6:30 AM to 6:45 AM,3,1.0,2.65,2.385
+Weekday,Fri,Navy Yard-Ballpark,Shady Grove,PM Peak,3:00 PM to 3:15 PM,3,1.0,6.0,5.4
+Weekday,Fri,Brookland-CUA,Ballston-MU,AM Peak,6:30 AM to 6:45 AM,2,1.0,3.9,3.51
+Weekday,Thu,West Falls Church-VT/UVA,Virginia Square-GMU,AM Peak,7:30 AM to 7:45 AM,3,1.0,2.9,2.61
+Weekday,Thu,College Park-U of Md,Archives-Navy Memorial-Penn Quarter,PM Peak,4:45 PM to 5:00 PM,3,1.0,4.1,3.6899999999999995
+Weekday,Fri,Judiciary Square,Cheverly,PM Peak,3:15 PM to 3:30 PM,1,1.0,3.5,3.15
+Saturday,Sat,Tenleytown-AU,Grosvenor-Strathmore,Midday,10:30 AM to 10:45 AM,1,1.0,3.15,2.835
+Weekday,Thu,Benning Road,Ballston-MU,AM Peak,6:00 AM to 6:15 AM,1,1.0,4.55,4.095
+Weekday,Thu,Judiciary Square,Judiciary Square,AM Peak,5:15 AM to 5:30 AM,2,1.0,,
+Weekday,Thu,Federal Center SW,Pentagon City,Evening,7:15 PM to 7:30 PM,2,1.0,2.25,2.025
+Weekday,Fri,Potomac Ave,King St-Old Town,AM Peak,6:30 AM to 6:45 AM,2,1.0,3.9,3.51
+Sunday,Sun,Landover,Ballston-MU,Evening,7:45 PM to 8:00 PM,1,1.0,5.5,4.95
+Saturday,Sat,Judiciary Square,Takoma,PM Peak,6:45 PM to 7:00 PM,4,1.0,3.25,2.925
+Sunday,Sun,Union Station,Pentagon City,PM Peak,3:00 PM to 3:15 PM,6,1.0,2.65,2.385
+Sunday,Sun,Columbia Heights,Wheaton,Midday,1:15 PM to 1:30 PM,5,1.0,3.9,3.51
+Weekday,Thu,Columbia Heights,Forest Glen,PM Peak,4:45 PM to 5:00 PM,1,1.0,3.45,3.105
+Weekday,Fri,Spring Hill,Capitol South,Midday,12:15 PM to 12:30 PM,5,1.0,5.8,5.22
+Saturday,Sat,Dupont Circle,Woodley Park-Zoo/Adams Morgan,PM Peak,3:00 PM to 3:15 PM,9,1.0,2.25,2.025
+Weekday,Fri,Union Station,Virginia Square-GMU,PM Peak,6:00 PM to 6:15 PM,5,1.0,3.1,2.79
+Sunday,Sun,Cleveland Park,Metro Center,Midday,2:00 PM to 2:15 PM,3,1.0,2.3,2.07
+Saturday,Sat,Foggy Bottom-GWU,Crystal City,Midday,1:15 PM to 1:30 PM,5,1.0,2.55,2.295
+Weekday,Fri,Farragut West,McLean,Midday,2:15 PM to 2:30 PM,2,1.0,4.5,4.05
+Weekday,Thu,Gallery Pl-Chinatown,Huntington,Evening,11:00 PM to 11:15 PM,4,1.0,4.05,3.6449999999999996
+Weekday,Thu,Medical Center,Prince George's Plaza,Midday,2:15 PM to 2:30 PM,1,1.0,5.05,4.545
+Weekday,Thu,Takoma,Rhode Island Ave-Brentwood,PM Peak,6:45 PM to 7:00 PM,1,1.0,2.6,2.34
+Weekday,Fri,Southern Avenue,Union Station,Midday,1:30 PM to 1:45 PM,3,1.0,3.1,2.79
+Weekday,Thu,Georgia Ave-Petworth,Foggy Bottom-GWU,Midday,11:45 AM to 12:00 PM,1,1.0,2.55,2.295
+Weekday,Thu,McPherson Square,Dupont Circle,Evening,7:45 PM to 8:00 PM,4,1.0,2.25,2.025
+Weekday,Thu,Georgia Ave-Petworth,Dupont Circle,Evening,8:45 PM to 9:00 PM,1,1.0,2.45,2.205
+Weekday,Thu,Takoma,Farragut West,AM Peak,6:15 AM to 6:30 AM,2,1.0,3.4,3.06
+Saturday,Sat,Court House,Ballston-MU,PM Peak,5:45 PM to 6:00 PM,5,1.0,2.25,2.025
+Weekday,Fri,Farragut North,Judiciary Square,PM Peak,3:00 PM to 3:15 PM,3,1.0,2.25,2.025
+Weekday,Thu,Medical Center,Pentagon City,Midday,2:45 PM to 3:00 PM,2,1.0,4.7,4.23
+Weekday,Thu,Brookland-CUA,Judiciary Square,Midday,12:45 PM to 1:00 PM,3,1.0,2.25,2.025
+Weekday,Thu,Mt Vernon Sq 7th St-Convention Center,Wheaton,PM Peak,6:45 PM to 7:00 PM,1,1.0,4.4,3.9600000000000004
+Weekday,Thu,Addison Road-Seat Pleasant,McLean,AM Peak,5:15 AM to 5:30 AM,1,1.0,6.0,5.4
+Sunday,Sun,Shady Grove,Friendship Heights,PM Peak,4:30 PM to 4:45 PM,2,1.0,4.95,4.455
+Weekday,Fri,Fort Totten,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,6:30 PM to 6:45 PM,3,1.0,2.25,2.025
+Weekday,Thu,Cleveland Park,Naylor Road,PM Peak,6:30 PM to 6:45 PM,1,1.0,4.15,3.7350000000000003
+Weekday,Fri,Gallery Pl-Chinatown,Dupont Circle,PM Peak,6:45 PM to 7:00 PM,23,3.0,2.25,1.5750000000000002
+Weekday,Fri,Farragut North,Rhode Island Ave-Brentwood,Evening,7:45 PM to 8:00 PM,5,1.0,2.35,2.115
+Weekday,Fri,Medical Center,Medical Center,PM Peak,5:00 PM to 5:15 PM,1,1.0,,
+Saturday,Sat,Greenbelt,Greenbelt,PM Peak,6:15 PM to 6:30 PM,2,1.0,,
+Sunday,Sun,Union Station,Franconia-Springfield,AM Peak,7:15 AM to 7:30 AM,1,1.0,5.8,5.22
+Sunday,Sun,U Street/African-Amer Civil War Memorial/Cardozo,Ronald Reagan Washington National Airport,Evening,7:45 PM to 8:00 PM,1,1.0,3.1,2.79
+Weekday,Fri,Braddock Road,Naylor Road,AM Peak,8:45 AM to 9:00 AM,1,1.0,4.3,3.8699999999999997
+Weekday,Mon,Pentagon,Foggy Bottom-GWU,Midday,12:00 PM to 12:15 PM,5,1.0,2.25,2.025
+Saturday,Sat,Crystal City,Archives-Navy Memorial-Penn Quarter,Evening,9:30 PM to 9:45 PM,2,1.0,2.45,2.205
+Saturday,Sat,Braddock Road,King St-Old Town,Midday,1:45 PM to 2:00 PM,2,1.0,2.25,2.025
+Weekday,Fri,Federal Triangle,McPherson Square,Evening,9:30 PM to 9:45 PM,1,1.0,2.25,2.025
+Weekday,Fri,Smithsonian,College Park-U of Md,Midday,12:00 PM to 12:15 PM,2,1.0,4.3,3.8699999999999997
+Weekday,Fri,Anacostia,Addison Road-Seat Pleasant,Evening,9:15 PM to 9:30 PM,1,1.0,3.8,3.42
+Weekday,Fri,Shady Grove,Van Ness-UDC,AM Peak,9:00 AM to 9:15 AM,2,1.0,5.45,4.905
+Weekday,Mon,Brookland-CUA,Federal Center SW,AM Peak,9:00 AM to 9:15 AM,2,1.0,2.65,2.385
+Weekday,Mon,Archives-Navy Memorial-Penn Quarter,Braddock Road,Evening,10:45 PM to 11:00 PM,1,1.0,3.45,3.105
+Weekday,Mon,King St-Old Town,Pentagon City,AM Peak,5:45 AM to 6:00 AM,3,1.0,2.7,2.43
+Weekday,Mon,Georgia Ave-Petworth,U Street/African-Amer Civil War Memorial/Cardozo,Evening,7:00 PM to 7:15 PM,4,1.0,2.25,2.025
+Weekday,Mon,Silver Spring,Foggy Bottom-GWU,AM Peak,8:45 AM to 9:00 AM,8,1.0,3.85,3.465
+Weekday,Mon,Medical Center,Branch Ave,PM Peak,6:00 PM to 6:15 PM,2,1.0,6.0,5.4
+Weekday,Fri,Dupont Circle,Pentagon City,Evening,10:15 PM to 10:30 PM,4,1.0,2.7,2.43
+Weekday,Fri,Eisenhower Avenue,Gallery Pl-Chinatown,AM Peak,6:45 AM to 7:00 AM,2,1.0,3.9,3.51
+Saturday,Sat,Ronald Reagan Washington National Airport,Mt Vernon Sq 7th St-Convention Center,PM Peak,5:15 PM to 5:30 PM,6,1.0,2.85,2.565
+Weekday,Thu,Virginia Square-GMU,Waterfront,Evening,7:45 PM to 8:00 PM,2,1.0,3.1,2.79
+Sunday,Sun,Cleveland Park,Fort Totten,Evening,9:00 PM to 9:15 PM,1,1.0,3.15,2.835
+Sunday,Sun,Tenleytown-AU,Dupont Circle,Midday,11:45 AM to 12:00 PM,6,1.0,2.4,2.16
+Weekday,Fri,Union Station,Southern Avenue,Midday,9:30 AM to 9:45 AM,2,1.0,3.1,2.79
+Weekday,Fri,Pentagon City,Court House,PM Peak,4:45 PM to 5:00 PM,4,1.0,2.3,2.07
+Weekday,Mon,Suitland,Dupont Circle,AM Peak,8:15 AM to 8:30 AM,5,1.0,4.05,3.6449999999999996
+Weekday,Mon,L'Enfant Plaza,McPherson Square,AM Peak,8:00 AM to 8:15 AM,31,3.0,2.25,1.5750000000000002
+Weekday,Mon,U Street/African-Amer Civil War Memorial/Cardozo,L'Enfant Plaza,PM Peak,6:30 PM to 6:45 PM,1,1.0,2.25,2.025
+Weekday,Mon,McPherson Square,Glenmont,Midday,2:00 PM to 2:15 PM,2,1.0,5.1,4.59
+Weekday,Mon,Pentagon City,Gallery Pl-Chinatown,AM Peak,6:15 AM to 6:30 AM,6,1.0,2.45,2.205
+Weekday,Mon,Metro Center,Rosslyn,PM Peak,6:00 PM to 6:15 PM,30,3.0,2.25,1.5750000000000002
+Weekday,Mon,Crystal City,Eastern Market,Evening,7:00 PM to 7:15 PM,3,1.0,2.65,2.385
+Sunday,Sun,Gallery Pl-Chinatown,Friendship Heights,PM Peak,6:45 PM to 7:00 PM,3,1.0,3.15,2.835
+Weekday,Fri,Farragut West,Wiehle-Reston East,Midday,11:15 AM to 11:30 AM,3,1.0,6.0,5.4
+Saturday,Sat,Foggy Bottom-GWU,Smithsonian,Midday,2:00 PM to 2:15 PM,8,1.0,2.25,2.025
+Weekday,Mon,Metro Center,Metro Center,PM Peak,5:30 PM to 5:45 PM,5,1.0,,
+Weekday,Mon,Braddock Road,Federal Center SW,AM Peak,8:30 AM to 8:45 AM,3,1.0,3.35,3.015
+Weekday,Wed,Prince George's Plaza,Glenmont,AM Peak,6:00 AM to 6:15 AM,1,1.0,4.4,3.9600000000000004
+Weekday,Wed,McPherson Square,Rhode Island Ave-Brentwood,Evening,7:30 PM to 7:45 PM,1,1.0,2.25,2.025
+Weekday,Fri,Eastern Market,Dupont Circle,Evening,10:15 PM to 10:30 PM,2,1.0,2.4,2.16
+Weekday,Fri,Navy Yard-Ballpark,Takoma,PM Peak,6:15 PM to 6:30 PM,3,1.0,3.8,3.42
+Weekday,Fri,Anacostia,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,6:15 PM to 6:30 PM,3,1.0,2.75,2.475
+Weekday,Fri,Crystal City,Metro Center,AM Peak,6:15 AM to 6:30 AM,2,1.0,2.55,2.295
+Weekday,Fri,Foggy Bottom-GWU,Wheaton,AM Peak,8:30 AM to 8:45 AM,1,1.0,4.75,4.275
+Sunday,Sun,L'Enfant Plaza,Crystal City,Midday,11:30 AM to 11:45 AM,12,2.0,2.25,1.8
+Saturday,Sat,Navy Yard-Ballpark,Rhode Island Ave-Brentwood,PM Peak,5:45 PM to 6:00 PM,1,1.0,2.6,2.34
+Weekday,Fri,Twinbrook,Rockville,Evening,9:00 PM to 9:15 PM,2,1.0,2.25,2.025
+Sunday,Sun,Ronald Reagan Washington National Airport,Huntington,AM Peak,8:45 AM to 9:00 AM,1,1.0,2.8,2.52
+Weekday,Mon,Farragut West,College Park-U of Md,PM Peak,6:45 PM to 7:00 PM,1,1.0,4.25,3.825
+Weekday,Wed,Judiciary Square,College Park-U of Md,PM Peak,3:30 PM to 3:45 PM,2,1.0,4.0,3.6
+Weekday,Wed,White Flint,Dupont Circle,Midday,2:15 PM to 2:30 PM,1,1.0,4.55,4.095
+Weekday,Wed,Friendship Heights,Shady Grove,PM Peak,5:15 PM to 5:30 PM,24,3.0,4.95,3.465
+Sunday,Sun,Naylor Road,Court House,Midday,12:45 PM to 1:00 PM,1,1.0,4.2,3.7800000000000002
+Saturday,Sat,Landover,Dupont Circle,Midday,9:45 AM to 10:00 AM,1,1.0,4.3,3.8699999999999997
+Sunday,Sun,Georgia Ave-Petworth,Fort Totten,Evening,10:30 PM to 10:45 PM,2,1.0,2.25,2.025
+Weekday,Fri,College Park-U of Md,Branch Ave,PM Peak,4:30 PM to 4:45 PM,1,1.0,5.95,5.355
+Weekday,Fri,McPherson Square,Rockville,PM Peak,4:15 PM to 4:30 PM,2,1.0,5.75,5.175
+Sunday,Sun,Virginia Square-GMU,Farragut West,Midday,11:15 AM to 11:30 AM,3,1.0,2.5,2.25
+Weekday,Tue,Waterfront,Vienna/Fairfax-GMU,PM Peak,3:45 PM to 4:00 PM,2,1.0,5.9,5.3100000000000005
+Weekday,Tue,Navy Yard-Ballpark,Shaw-Howard U,Midday,11:15 AM to 11:30 AM,1,1.0,2.25,2.025
+Weekday,Mon,Friendship Heights,Greenbelt,Evening,7:45 PM to 8:00 PM,1,1.0,5.6,5.04
+Weekday,Wed,Franconia-Springfield,Gallery Pl-Chinatown,AM Peak,8:00 AM to 8:15 AM,22,3.0,5.55,3.885
+Sunday,Sun,Georgia Ave-Petworth,Pentagon City,Midday,2:45 PM to 3:00 PM,2,1.0,3.35,3.015
+Weekday,Fri,Metro Center,L'Enfant Plaza,Midday,1:15 PM to 1:30 PM,5,1.0,2.25,2.025
+Weekday,Thu,Ronald Reagan Washington National Airport,Braddock Road,Evening,11:15 PM to 11:30 PM,1,1.0,2.25,2.025
+Weekday,Fri,White Flint,Stadium-Armory,PM Peak,6:00 PM to 6:15 PM,2,1.0,5.75,5.175
+Saturday,Sat,Dupont Circle,Union Station,AM Peak,8:30 AM to 8:45 AM,7,1.0,2.25,2.025
+Weekday,Fri,Grosvenor-Strathmore,Woodley Park-Zoo/Adams Morgan,Midday,2:00 PM to 2:15 PM,3,1.0,3.8,3.42
+Sunday,Sun,Pentagon City,Tenleytown-AU,PM Peak,3:30 PM to 3:45 PM,1,1.0,3.7,3.33
+Weekday,Fri,Georgia Ave-Petworth,Judiciary Square,Midday,11:45 AM to 12:00 PM,1,1.0,2.35,2.115
+Saturday,Sat,McLean,Metro Center,Midday,11:30 AM to 11:45 AM,1,1.0,4.75,4.275
+Saturday,Sat,Arlington Cemetery,Woodley Park-Zoo/Adams Morgan,Midday,2:00 PM to 2:15 PM,2,1.0,2.75,2.475
+Weekday,Wed,Rosslyn,Virginia Square-GMU,AM Peak,7:00 AM to 7:15 AM,3,1.0,2.25,2.025
+Weekday,Mon,Waterfront,Union Station,Midday,1:00 PM to 1:15 PM,3,1.0,2.25,2.025
+Weekday,Mon,Twinbrook,Landover,Evening,7:15 PM to 7:30 PM,1,1.0,6.0,5.4
+Sunday,Sun,Brookland-CUA,Pentagon,Evening,8:00 PM to 8:15 PM,1,1.0,3.25,2.925
+Saturday,Sat,U Street/African-Amer Civil War Memorial/Cardozo,U Street/African-Amer Civil War Memorial/Cardozo,Midday,11:45 AM to 12:00 PM,1,1.0,,
+Sunday,Sun,Foggy Bottom-GWU,Largo Town Center,PM Peak,6:30 PM to 6:45 PM,4,1.0,5.0,4.5
+Weekday,Tue,Metro Center,Pentagon City,PM Peak,6:30 PM to 6:45 PM,12,2.0,2.45,1.9600000000000002
+Weekday,Mon,Fort Totten,Ronald Reagan Washington National Airport,AM Peak,7:45 AM to 8:00 AM,1,1.0,3.95,3.555
+Weekday,Mon,Pentagon City,Pentagon,Midday,2:30 PM to 2:45 PM,8,1.0,2.25,2.025
+Weekday,Wed,Friendship Heights,Rockville,PM Peak,5:00 PM to 5:15 PM,4,1.0,4.2,3.7800000000000002
+Sunday,Sun,Ronald Reagan Washington National Airport,Federal Center SW,PM Peak,5:00 PM to 5:15 PM,1,1.0,2.45,2.205
+Sunday,Sun,Clarendon,Eastern Market,Midday,2:00 PM to 2:15 PM,2,1.0,3.25,2.925
+Saturday,Sat,Rhode Island Ave-Brentwood,Waterfront,Midday,12:30 PM to 12:45 PM,2,1.0,2.55,2.295
+Sunday,Sun,Takoma,Fort Totten,PM Peak,4:00 PM to 4:15 PM,2,1.0,2.25,2.025
+Weekday,Fri,Crystal City,Foggy Bottom-GWU,Evening,8:15 PM to 8:30 PM,4,1.0,2.55,2.295
+Weekday,Mon,Smithsonian,McLean,PM Peak,6:15 PM to 6:30 PM,2,1.0,4.85,4.364999999999999
+Weekday,Mon,Judiciary Square,Court House,Midday,1:15 PM to 1:30 PM,1,1.0,2.6,2.34
+Weekday,Mon,Navy Yard-Ballpark,Farragut North,AM Peak,9:15 AM to 9:30 AM,5,1.0,2.25,2.025
+Weekday,Tue,Glenmont,King St-Old Town,AM Peak,7:15 AM to 7:30 AM,6,1.0,6.0,5.4
+Weekday,Mon,Huntington,Mt Vernon Sq 7th St-Convention Center,AM Peak,9:15 AM to 9:30 AM,2,1.0,4.2,3.7800000000000002
+Saturday,Sat,Clarendon,Foggy Bottom-GWU,Midday,2:00 PM to 2:15 PM,3,1.0,2.25,2.025
+Weekday,Tue,Rockville,Potomac Ave,Midday,9:30 AM to 9:45 AM,1,1.0,6.0,5.4
+Weekday,Tue,L'Enfant Plaza,Van Ness-UDC,PM Peak,3:30 PM to 3:45 PM,3,1.0,2.85,2.565
+Weekday,Tue,Bethesda,Shady Grove,Evening,7:45 PM to 8:00 PM,6,1.0,4.45,4.005
+Weekday,Tue,Union Station,Columbia Heights,PM Peak,6:30 PM to 6:45 PM,24,3.0,2.25,1.5750000000000002
+Weekday,Tue,Foggy Bottom-GWU,Ballston-MU,PM Peak,6:45 PM to 7:00 PM,29,3.0,2.5,1.75
+Weekday,Fri,Tysons Corner,Clarendon,Midday,9:30 AM to 9:45 AM,1,1.0,3.8,3.42
+Weekday,Thu,Shaw-Howard U,Forest Glen,Midday,2:30 PM to 2:45 PM,1,1.0,3.8,3.42
+Weekday,Fri,Farragut North,NoMa-Gallaudet U,PM Peak,3:45 PM to 4:00 PM,11,2.0,2.25,1.8
+Saturday,Sat,Foggy Bottom-GWU,Bethesda,Midday,9:45 AM to 10:00 AM,1,1.0,3.65,3.285
+Weekday,Fri,Fort Totten,West Hyattsville,AM Peak,8:00 AM to 8:15 AM,1,1.0,2.25,2.025
+Weekday,Thu,Silver Spring,Dupont Circle,Midday,11:15 AM to 11:30 AM,3,1.0,3.75,3.375
+Weekday,Mon,Ronald Reagan Washington National Airport,Fort Totten,Evening,9:45 PM to 10:00 PM,7,1.0,3.95,3.555
+Weekday,Mon,Foggy Bottom-GWU,Foggy Bottom-GWU,Evening,10:15 PM to 10:30 PM,1,1.0,,
+Weekday,Mon,College Park-U of Md,Foggy Bottom-GWU,AM Peak,6:45 AM to 7:00 AM,3,1.0,4.4,3.9600000000000004
+Weekday,Mon,Huntington,Huntington,AM Peak,6:45 AM to 7:00 AM,3,1.0,,
+Weekday,Mon,Takoma,Brookland-CUA,AM Peak,8:15 AM to 8:30 AM,8,1.0,2.35,2.115
+Weekday,Tue,NoMa-Gallaudet U,NoMa-Gallaudet U,AM Peak,8:30 AM to 8:45 AM,3,1.0,,
+Weekday,Thu,Ronald Reagan Washington National Airport,Stadium-Armory,PM Peak,3:30 PM to 3:45 PM,1,1.0,3.1,2.79
+Weekday,Thu,Farragut West,Ballston-MU,PM Peak,5:30 PM to 5:45 PM,61,3.0,2.7,1.8900000000000001
+Weekday,Thu,Pentagon City,Metro Center,AM Peak,9:00 AM to 9:15 AM,17,2.0,2.45,1.9600000000000002
+Weekday,Thu,Prince George's Plaza,Archives-Navy Memorial-Penn Quarter,Midday,10:15 AM to 10:30 AM,3,1.0,3.6,3.24
+Weekday,Thu,Judiciary Square,Silver Spring,PM Peak,4:15 PM to 4:30 PM,14,2.0,3.6,2.88
+Weekday,Thu,Farragut West,Wiehle-Reston East,AM Peak,8:00 AM to 8:15 AM,4,1.0,6.0,5.4
+Weekday,Tue,Pentagon City,Crystal City,Midday,2:00 PM to 2:15 PM,4,1.0,2.25,2.025
+Weekday,Tue,Pentagon City,Federal Center SW,AM Peak,8:00 AM to 8:15 AM,9,1.0,2.25,2.025
+Weekday,Mon,West Falls Church-VT/UVA,L'Enfant Plaza,Midday,12:45 PM to 1:00 PM,2,1.0,4.4,3.9600000000000004
+Weekday,Tue,Foggy Bottom-GWU,Suitland,PM Peak,6:45 PM to 7:00 PM,2,1.0,4.05,3.6449999999999996
+Weekday,Tue,Crystal City,Suitland,PM Peak,4:30 PM to 4:45 PM,5,1.0,4.05,3.6449999999999996
+Weekday,Tue,Tenleytown-AU,Shady Grove,PM Peak,4:45 PM to 5:00 PM,8,1.0,5.2,4.68
+Weekday,Tue,Van Ness-UDC,Brookland-CUA,PM Peak,3:30 PM to 3:45 PM,3,1.0,3.15,2.835
+Weekday,Tue,Ronald Reagan Washington National Airport,Farragut West,Midday,10:30 AM to 10:45 AM,5,1.0,2.8,2.52
+Weekday,Fri,Farragut West,Pentagon,Late Night Peak,12:30 AM to 12:45 AM,1,1.0,2.3,2.07
+Weekday,Fri,Benning Road,Prince George's Plaza,AM Peak,8:45 AM to 9:00 AM,1,1.0,4.3,3.8699999999999997
+Weekday,Fri,West Hyattsville,Takoma,Evening,10:15 PM to 10:30 PM,1,1.0,2.4,2.16
+Weekday,Fri,Farragut North,Branch Ave,PM Peak,6:45 PM to 7:00 PM,5,1.0,4.4,3.9600000000000004
+Saturday,Sat,Pentagon City,Tysons Corner,PM Peak,4:00 PM to 4:15 PM,3,1.0,4.8,4.32
+Saturday,Sat,Stadium-Armory,Huntington,PM Peak,3:45 PM to 4:00 PM,2,1.0,4.4,3.9600000000000004
+Weekday,Mon,Tenleytown-AU,Metro Center,Midday,9:30 AM to 9:45 AM,11,2.0,2.8,2.2399999999999998
+Weekday,Wed,Farragut North,Fort Totten,Midday,11:15 AM to 11:30 AM,2,1.0,2.9,2.61
+Weekday,Wed,Gallery Pl-Chinatown,Van Ness-UDC,Evening,11:00 PM to 11:15 PM,2,1.0,2.55,2.295
+Weekday,Fri,Federal Center SW,Silver Spring,Midday,2:45 PM to 3:00 PM,1,1.0,3.95,3.555
+Weekday,Fri,U Street/African-Amer Civil War Memorial/Cardozo,Medical Center,PM Peak,6:30 PM to 6:45 PM,2,1.0,3.95,3.555
+Saturday,Sat,Anacostia,Dupont Circle,PM Peak,3:00 PM to 3:15 PM,2,1.0,2.75,2.475
+Weekday,Tue,Navy Yard-Ballpark,Brookland-CUA,Evening,9:15 PM to 9:30 PM,1,1.0,2.9,2.61
+Weekday,Tue,Wiehle-Reston East,Virginia Square-GMU,Evening,10:45 PM to 11:00 PM,1,1.0,5.7,5.13
+Weekday,Tue,Rosslyn,Clarendon,Midday,12:15 PM to 12:30 PM,3,1.0,2.25,2.025
+Weekday,Tue,Naylor Road,Prince George's Plaza,AM Peak,5:30 AM to 5:45 AM,1,1.0,4.85,4.364999999999999
+Weekday,Tue,Archives-Navy Memorial-Penn Quarter,Pentagon,AM Peak,7:00 AM to 7:15 AM,2,1.0,2.25,2.025
+Weekday,Mon,Capitol Heights,Smithsonian,AM Peak,8:30 AM to 8:45 AM,2,1.0,3.45,3.105
+Weekday,Mon,College Park-U of Md,Georgia Ave-Petworth,Evening,7:45 PM to 8:00 PM,3,1.0,3.3,2.9699999999999998
+Weekday,Mon,Southern Avenue,Southern Avenue,Midday,9:30 AM to 9:45 AM,1,1.0,,
+Weekday,Mon,King St-Old Town,Dunn Loring-Merrifield,Evening,7:00 PM to 7:15 PM,2,1.0,5.5,4.95
+Weekday,Mon,Union Station,Columbia Heights,PM Peak,3:15 PM to 3:30 PM,8,1.0,2.25,2.025
+Weekday,Thu,Deanwood,Rhode Island Ave-Brentwood,AM Peak,8:30 AM to 8:45 AM,1,1.0,3.35,3.015
+Weekday,Thu,Congress Heights,Suitland,AM Peak,7:15 AM to 7:30 AM,2,1.0,2.35,2.115
+Weekday,Wed,Van Dorn Street,Columbia Heights,AM Peak,8:00 AM to 8:15 AM,2,1.0,5.15,4.635000000000001
+Weekday,Tue,King St-Old Town,Smithsonian,Midday,12:30 PM to 12:45 PM,3,1.0,3.55,3.195
+Weekday,Tue,Dupont Circle,Vienna/Fairfax-GMU,PM Peak,6:00 PM to 6:15 PM,8,1.0,5.6,5.04
+Weekday,Tue,Georgia Ave-Petworth,Mt Vernon Sq 7th St-Convention Center,Midday,2:00 PM to 2:15 PM,2,1.0,2.25,2.025
+Sunday,Sun,Largo Town Center,Addison Road-Seat Pleasant,AM Peak,6:15 AM to 6:30 AM,1,1.0,2.25,2.025
+Weekday,Fri,L'Enfant Plaza,Branch Ave,PM Peak,6:45 PM to 7:00 PM,5,1.0,3.9,3.51
+Weekday,Tue,McPherson Square,Southern Avenue,Midday,1:00 PM to 1:15 PM,2,1.0,3.2,2.88
+Weekday,Mon,Van Dorn Street,Benning Road,Midday,11:30 AM to 11:45 AM,1,1.0,5.7,5.13
+Weekday,Tue,Pentagon City,Eastern Market,PM Peak,5:15 PM to 5:30 PM,2,1.0,2.6,2.34
+Weekday,Thu,Smithsonian,Friendship Heights,PM Peak,5:15 PM to 5:30 PM,9,1.0,3.25,2.925
+Weekday,Tue,Federal Triangle,Bethesda,PM Peak,3:30 PM to 3:45 PM,3,1.0,3.65,3.285
+Weekday,Tue,Dunn Loring-Merrifield,Mt Vernon Sq 7th St-Convention Center,PM Peak,5:00 PM to 5:15 PM,1,1.0,5.0,4.5
+Weekday,Tue,Pentagon,Addison Road-Seat Pleasant,PM Peak,6:45 PM to 7:00 PM,2,1.0,4.2,3.7800000000000002
+Weekday,Tue,Pentagon,NoMa-Gallaudet U,Midday,12:15 PM to 12:30 PM,4,1.0,2.7,2.43
+Weekday,Tue,Silver Spring,Tenleytown-AU,Midday,12:45 PM to 1:00 PM,1,1.0,4.0,3.6
+Weekday,Mon,Braddock Road,Rosslyn,PM Peak,6:00 PM to 6:15 PM,1,1.0,3.35,3.015
+Weekday,Mon,Rosslyn,New Carrollton,Evening,11:00 PM to 11:15 PM,1,1.0,5.15,4.635000000000001
+Weekday,Mon,Largo Town Center,White Flint,Midday,2:30 PM to 2:45 PM,2,1.0,6.0,5.4
+Weekday,Mon,East Falls Church,Clarendon,Midday,12:45 PM to 1:00 PM,2,1.0,2.4,2.16
+Weekday,Wed,Judiciary Square,Eastern Market,PM Peak,5:30 PM to 5:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Columbia Heights,Smithsonian,AM Peak,5:15 AM to 5:30 AM,1,1.0,2.25,2.025
+Weekday,Thu,Shady Grove,Smithsonian,AM Peak,5:15 AM to 5:30 AM,8,1.0,6.0,5.4
+Weekday,Wed,Eastern Market,Metro Center,AM Peak,7:00 AM to 7:15 AM,4,1.0,2.25,2.025
+Weekday,Tue,Gallery Pl-Chinatown,Forest Glen,PM Peak,3:15 PM to 3:30 PM,3,1.0,4.1,3.6899999999999995
+Weekday,Tue,Gallery Pl-Chinatown,Stadium-Armory,PM Peak,4:15 PM to 4:30 PM,1,1.0,2.3,2.07
+Weekday,Tue,Woodley Park-Zoo/Adams Morgan,Metro Center,Midday,2:15 PM to 2:30 PM,6,1.0,2.25,2.025
+Weekday,Mon,Anacostia,New Carrollton,PM Peak,3:30 PM to 3:45 PM,1,1.0,4.6,4.14
+Weekday,Wed,Foggy Bottom-GWU,Eastern Market,PM Peak,3:15 PM to 3:30 PM,11,2.0,2.45,1.9600000000000002
+Weekday,Thu,Suitland,L'Enfant Plaza,AM Peak,9:00 AM to 9:15 AM,9,1.0,3.4,3.06
+Weekday,Thu,Smithsonian,Brookland-CUA,PM Peak,3:15 PM to 3:30 PM,1,1.0,2.6,2.34
+Weekday,Wed,Woodley Park-Zoo/Adams Morgan,Federal Center SW,AM Peak,6:00 AM to 6:15 AM,2,1.0,2.5,2.25
+Weekday,Tue,Federal Center SW,Southern Avenue,Evening,7:45 PM to 8:00 PM,1,1.0,2.75,2.475
+Weekday,Tue,Rockville,Largo Town Center,PM Peak,5:00 PM to 5:15 PM,3,1.0,6.0,5.4
+Weekday,Thu,Takoma,Union Station,AM Peak,7:00 AM to 7:15 AM,18,2.0,3.1,2.48
+Weekday,Wed,White Flint,Bethesda,Midday,1:30 PM to 1:45 PM,2,1.0,2.8,2.52
+Weekday,Wed,Crystal City,Vienna/Fairfax-GMU,Midday,11:45 AM to 12:00 PM,1,1.0,5.5,4.95
+Weekday,Wed,Pentagon,Capitol South,Midday,9:30 AM to 9:45 AM,3,1.0,2.25,2.025
+Weekday,Thu,Pentagon City,Largo Town Center,PM Peak,6:00 PM to 6:15 PM,3,1.0,5.15,4.635000000000001
+Weekday,Wed,Georgia Ave-Petworth,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,5:00 PM to 5:15 PM,5,1.0,2.25,2.025
+Weekday,Wed,Van Ness-UDC,Van Ness-UDC,AM Peak,8:00 AM to 8:15 AM,1,1.0,,
+Weekday,Thu,Takoma,Rosslyn,Midday,2:15 PM to 2:30 PM,1,1.0,3.8,3.42
+Weekday,Wed,Eastern Market,U Street/African-Amer Civil War Memorial/Cardozo,AM Peak,8:45 AM to 9:00 AM,1,1.0,2.35,2.115
+Weekday,Wed,Foggy Bottom-GWU,Suitland,AM Peak,5:00 AM to 5:15 AM,2,1.0,4.05,3.6449999999999996
+Saturday,Sat,Archives-Navy Memorial-Penn Quarter,Waterfront,Evening,10:15 PM to 10:30 PM,5,1.0,2.25,2.025
+Weekday,Wed,New Carrollton,Farragut West,PM Peak,3:45 PM to 4:00 PM,2,1.0,4.65,4.1850000000000005
+Saturday Holiday,Mon,Judiciary Square,Union Station,PM Peak,3:15 PM to 3:30 PM,3,1.0,2.25,2.025
+Saturday Holiday,Mon,Shaw-Howard U,Ballston-MU,PM Peak,6:45 PM to 7:00 PM,1,1.0,3.25,2.925
+Weekday,Thu,Tenleytown-AU,Cleveland Park,PM Peak,6:45 PM to 7:00 PM,3,1.0,2.25,2.025
+Saturday,Sat,Smithsonian,College Park-U of Md,PM Peak,3:30 PM to 3:45 PM,5,1.0,4.3,3.8699999999999997
+Sunday,Sun,Grosvenor-Strathmore,Bethesda,Midday,12:15 PM to 12:30 PM,2,1.0,2.35,2.115
+Saturday,Sat,Georgia Ave-Petworth,Columbia Heights,Evening,10:00 PM to 10:15 PM,2,1.0,2.25,2.025
+Saturday,Sat,Smithsonian,Union Station,Midday,2:45 PM to 3:00 PM,8,1.0,2.25,2.025
+Sunday,Sun,Ronald Reagan Washington National Airport,Union Station,PM Peak,5:15 PM to 5:30 PM,3,1.0,2.85,2.565
+Sunday,Sun,Fort Totten,Branch Ave,PM Peak,4:15 PM to 4:30 PM,2,1.0,5.1,4.59
+Weekday,Tue,Crystal City,L'Enfant Plaza,PM Peak,3:45 PM to 4:00 PM,9,1.0,2.25,2.025
+Saturday,Sat,Foggy Bottom-GWU,Shaw-Howard U,Evening,8:45 PM to 9:00 PM,3,1.0,2.25,2.025
+Weekday,Fri,Silver Spring,Clarendon,AM Peak,7:30 AM to 7:45 AM,2,1.0,4.5,4.05
+Weekday,Fri,Southern Avenue,Mt Vernon Sq 7th St-Convention Center,Midday,12:15 PM to 12:30 PM,1,1.0,3.15,2.835
+Weekday,Fri,Silver Spring,Clarendon,PM Peak,3:45 PM to 4:00 PM,1,1.0,4.5,4.05
+Weekday,Fri,Columbia Heights,Union Station,AM Peak,6:30 AM to 6:45 AM,6,1.0,2.25,2.025
+Weekday,Fri,Twinbrook,Shady Grove,PM Peak,6:45 PM to 7:00 PM,6,1.0,2.8,2.52
+Weekday,Tue,Federal Triangle,King St-Old Town,Evening,8:00 PM to 8:15 PM,4,1.0,3.65,3.285
+Weekday,Tue,Farragut North,Rockville,PM Peak,6:45 PM to 7:00 PM,15,2.0,5.55,4.4399999999999995
+Weekday,Tue,Pentagon City,Ronald Reagan Washington National Airport,AM Peak,6:15 AM to 6:30 AM,3,1.0,2.25,2.025
+Weekday,Tue,Dupont Circle,Metro Center,Midday,10:30 AM to 10:45 AM,15,2.0,2.25,1.8
+Weekday,Wed,Ronald Reagan Washington National Airport,King St-Old Town,PM Peak,3:00 PM to 3:15 PM,3,1.0,2.4,2.16
+Weekday,Wed,Union Station,Tenleytown-AU,Midday,10:00 AM to 10:15 AM,3,1.0,3.15,2.835
+Weekday,Tue,Crystal City,Metro Center,PM Peak,5:30 PM to 5:45 PM,3,1.0,2.55,2.295
+Saturday,Sat,McPherson Square,Union Station,Evening,7:15 PM to 7:30 PM,2,1.0,2.25,2.025
+Weekday,Fri,Dupont Circle,Rockville,Late Night Peak,1:45 AM to 2:00 AM,1,1.0,5.4,4.86
+Saturday Holiday,Mon,King St-Old Town,Farragut West,PM Peak,5:00 PM to 5:15 PM,4,1.0,3.85,3.465
+Weekday,Fri,Capitol South,Fort Totten,Midday,2:30 PM to 2:45 PM,2,1.0,3.1,2.79
+Weekday,Fri,Suitland,Virginia Square-GMU,AM Peak,8:00 AM to 8:15 AM,1,1.0,4.85,4.364999999999999
+Weekday,Wed,West Falls Church-VT/UVA,Ronald Reagan Washington National Airport,Midday,9:30 AM to 9:45 AM,1,1.0,4.35,3.9149999999999996
+Weekday,Wed,Smithsonian,Court House,PM Peak,4:30 PM to 4:45 PM,9,1.0,2.5,2.25
+Weekday,Tue,Suitland,Rhode Island Ave-Brentwood,AM Peak,6:15 AM to 6:30 AM,2,1.0,4.05,3.6449999999999996
+Weekday,Fri,McPherson Square,McPherson Square,Midday,12:30 PM to 12:45 PM,1,1.0,,
+Sunday,Sun,Stadium-Armory,Gallery Pl-Chinatown,PM Peak,6:30 PM to 6:45 PM,2,1.0,2.3,2.07
+Saturday Holiday,Mon,Congress Heights,Fort Totten,AM Peak,6:45 AM to 7:00 AM,2,1.0,3.95,3.555
+Weekday,Thu,Union Station,Dupont Circle,Evening,8:00 PM to 8:15 PM,19,2.0,2.25,1.8
+Weekday,Tue,Ronald Reagan Washington National Airport,Court House,Evening,10:00 PM to 10:15 PM,1,1.0,2.7,2.43
+Weekday,Fri,Largo Town Center,King St-Old Town,AM Peak,6:30 AM to 6:45 AM,2,1.0,6.0,5.4
+Saturday,Sat,King St-Old Town,Union Station,Midday,12:15 PM to 12:30 PM,3,1.0,3.9,3.51
+Saturday,Sat,Archives-Navy Memorial-Penn Quarter,Gallery Pl-Chinatown,PM Peak,6:45 PM to 7:00 PM,2,1.0,2.25,2.025
+Weekday,Fri,White Flint,White Flint,Midday,12:15 PM to 12:30 PM,1,1.0,,
+Weekday,Fri,Waterfront,Mt Vernon Sq 7th St-Convention Center,AM Peak,5:15 AM to 5:30 AM,1,1.0,2.25,2.025
+Weekday,Wed,Wiehle-Reston East,Judiciary Square,AM Peak,6:45 AM to 7:00 AM,12,2.0,6.0,4.8
+Weekday,Wed,King St-Old Town,Farragut West,AM Peak,6:30 AM to 6:45 AM,13,2.0,3.85,3.08
+Weekday,Wed,Mt Vernon Sq 7th St-Convention Center,L'Enfant Plaza,AM Peak,7:45 AM to 8:00 AM,12,2.0,2.25,1.8
+Weekday,Wed,Smithsonian,Morgan Boulevard,PM Peak,4:30 PM to 4:45 PM,8,1.0,4.15,3.7350000000000003
+Weekday,Wed,Wiehle-Reston East,Dupont Circle,Evening,8:30 PM to 8:45 PM,3,1.0,6.0,5.4
+Weekday,Wed,Suitland,Archives-Navy Memorial-Penn Quarter,PM Peak,3:30 PM to 3:45 PM,2,1.0,3.5,3.15
+Saturday,Sat,Braddock Road,Columbia Heights,PM Peak,4:45 PM to 5:00 PM,3,1.0,4.15,3.7350000000000003
+Sunday,Sun,Rosslyn,East Falls Church,Midday,10:30 AM to 10:45 AM,7,1.0,2.85,2.565
+Weekday,Wed,Dupont Circle,White Flint,AM Peak,7:30 AM to 7:45 AM,5,1.0,4.55,4.095
+Weekday,Wed,Union Station,Franconia-Springfield,Midday,1:30 PM to 1:45 PM,3,1.0,5.8,5.22
+Weekday,Wed,Federal Triangle,Silver Spring,PM Peak,6:30 PM to 6:45 PM,6,1.0,3.75,3.375
+Weekday,Wed,Judiciary Square,Grosvenor-Strathmore,Midday,11:00 AM to 11:15 AM,3,1.0,4.65,4.1850000000000005
+Weekday,Mon,Metro Center,Greenbelt,Midday,12:45 PM to 1:00 PM,1,1.0,4.8,4.32
+Weekday,Mon,Rhode Island Ave-Brentwood,Crystal City,Midday,12:00 PM to 12:15 PM,2,1.0,3.3,2.9699999999999998
+Weekday,Thu,New Carrollton,Judiciary Square,Midday,9:30 AM to 9:45 AM,1,1.0,4.4,3.9600000000000004
+Sunday,Sun,Ronald Reagan Washington National Airport,Wheaton,Evening,10:45 PM to 11:00 PM,1,1.0,5.7,5.13
+Weekday,Tue,Stadium-Armory,Crystal City,AM Peak,7:15 AM to 7:30 AM,4,1.0,3.05,2.7449999999999997
+Weekday,Tue,Rosslyn,Tysons Corner,Evening,7:00 PM to 7:15 PM,2,1.0,4.2,3.7800000000000002
+Weekday,Wed,Rhode Island Ave-Brentwood,Gallery Pl-Chinatown,AM Peak,6:45 AM to 7:00 AM,3,1.0,2.25,2.025
+Weekday,Tue,Judiciary Square,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,4:45 PM to 5:00 PM,3,1.0,2.25,2.025
+Weekday,Mon,Shady Grove,Gallery Pl-Chinatown,Evening,10:00 PM to 10:15 PM,2,1.0,6.0,5.4
+Weekday,Thu,Brookland-CUA,Brookland-CUA,Midday,2:00 PM to 2:15 PM,1,1.0,,
+Weekday,Fri,Rosslyn,L'Enfant Plaza,PM Peak,5:30 PM to 5:45 PM,2,1.0,2.35,2.115
+Weekday,Tue,Capitol South,Glenmont,Evening,7:00 PM to 7:15 PM,2,1.0,5.45,4.905
+Weekday,Tue,Archives-Navy Memorial-Penn Quarter,Dupont Circle,PM Peak,5:15 PM to 5:30 PM,6,1.0,2.25,2.025
+Weekday,Tue,Mt Vernon Sq 7th St-Convention Center,Capitol South,AM Peak,8:30 AM to 8:45 AM,12,2.0,2.25,1.8
+Weekday,Wed,Vienna/Fairfax-GMU,King St-Old Town,AM Peak,7:45 AM to 8:00 AM,1,1.0,6.0,5.4
+Weekday,Wed,Farragut North,Metro Center,Midday,12:15 PM to 12:30 PM,10,2.0,2.25,1.8
+Weekday,Mon,U Street/African-Amer Civil War Memorial/Cardozo,College Park-U of Md,Midday,1:30 PM to 1:45 PM,1,1.0,3.7,3.33
+Weekday,Mon,Bethesda,Columbia Heights,Evening,11:15 PM to 11:30 PM,1,1.0,3.7,3.33
+Weekday,Thu,Gallery Pl-Chinatown,Bethesda,AM Peak,8:45 AM to 9:00 AM,5,1.0,3.6,3.24
+Weekday,Tue,NoMa-Gallaudet U,Forest Glen,Evening,7:15 PM to 7:30 PM,2,1.0,3.8,3.42
+Weekday,Tue,L'Enfant Plaza,Tysons Corner,PM Peak,4:15 PM to 4:30 PM,3,1.0,5.15,4.635000000000001
+Weekday,Wed,Twinbrook,Woodley Park-Zoo/Adams Morgan,AM Peak,6:00 AM to 6:15 AM,1,1.0,4.5,4.05
+Weekday,Wed,Silver Spring,Wheaton,PM Peak,6:45 PM to 7:00 PM,6,1.0,2.35,2.115
+Weekday,Wed,West Hyattsville,Navy Yard-Ballpark,AM Peak,6:15 AM to 6:30 AM,3,1.0,3.65,3.285
+Weekday,Tue,Union Station,Waterfront,PM Peak,3:00 PM to 3:15 PM,3,1.0,2.25,2.025
+Weekday,Tue,Franconia-Springfield,King St-Old Town,AM Peak,5:45 AM to 6:00 AM,3,1.0,3.5,3.15
+Weekday,Wed,Metro Center,McPherson Square,Midday,2:15 PM to 2:30 PM,3,1.0,2.25,2.025
+Weekday,Wed,Ronald Reagan Washington National Airport,Bethesda,AM Peak,6:00 AM to 6:15 AM,1,1.0,4.7,4.23
+Weekday,Wed,West Falls Church-VT/UVA,Crystal City,Evening,8:00 PM to 8:15 PM,1,1.0,4.2,3.7800000000000002
+Weekday,Tue,Mt Vernon Sq 7th St-Convention Center,Farragut North,PM Peak,6:30 PM to 6:45 PM,1,1.0,2.25,2.025
+Weekday,Tue,Woodley Park-Zoo/Adams Morgan,Wheaton,PM Peak,4:30 PM to 4:45 PM,1,1.0,4.65,4.1850000000000005
+Weekday,Mon,Ronald Reagan Washington National Airport,Georgia Ave-Petworth,Evening,8:30 PM to 8:45 PM,2,1.0,3.55,3.195
+Weekday,Mon,Naylor Road,Rockville,Midday,11:15 AM to 11:30 AM,1,1.0,6.0,5.4
+Weekday,Mon,Foggy Bottom-GWU,Braddock Road,Evening,9:45 PM to 10:00 PM,2,1.0,3.6,3.24
+Weekday,Wed,West Hyattsville,Rhode Island Ave-Brentwood,AM Peak,7:45 AM to 8:00 AM,2,1.0,2.4,2.16
+Weekday,Fri,College Park-U of Md,Dupont Circle,Midday,11:45 AM to 12:00 PM,2,1.0,4.3,3.8699999999999997
+Weekday,Mon,Suitland,Anacostia,Midday,1:45 PM to 2:00 PM,4,1.0,2.7,2.43
+Weekday,Mon,Farragut West,Ronald Reagan Washington National Airport,Midday,12:30 PM to 12:45 PM,4,1.0,2.8,2.52
+Weekday,Mon,Ronald Reagan Washington National Airport,Franconia-Springfield,Midday,1:30 PM to 1:45 PM,4,1.0,4.4,3.9600000000000004
+Weekday,Mon,Wiehle-Reston East,Takoma,PM Peak,3:45 PM to 4:00 PM,2,1.0,6.0,5.4
+Weekday,Fri,Grosvenor-Strathmore,L'Enfant Plaza,AM Peak,6:30 AM to 6:45 AM,3,1.0,4.8,4.32
+Sunday,Sun,Shaw-Howard U,Benning Road,Midday,11:30 AM to 11:45 AM,1,1.0,3.25,2.925
+Weekday,Fri,New Carrollton,Metro Center,Midday,12:15 PM to 12:30 PM,3,1.0,4.45,4.005
+Sunday,Sun,Metro Center,Minnesota Ave,AM Peak,9:15 AM to 9:30 AM,1,1.0,2.95,2.6550000000000002
+Sunday,Sun,New Carrollton,McPherson Square,Evening,8:45 PM to 9:00 PM,1,1.0,4.55,4.095
+Saturday,Sat,Mt Vernon Sq 7th St-Convention Center,Georgia Ave-Petworth,PM Peak,4:30 PM to 4:45 PM,3,1.0,2.25,2.025
+Weekday,Tue,West Falls Church-VT/UVA,Court House,AM Peak,9:00 AM to 9:15 AM,3,1.0,3.15,2.835
+Weekday,Tue,Farragut West,Tysons Corner,AM Peak,6:15 AM to 6:30 AM,1,1.0,4.7,4.23
+Weekday,Tue,NoMa-Gallaudet U,Franconia-Springfield,AM Peak,7:45 AM to 8:00 AM,1,1.0,5.95,5.355
+Weekday,Thu,Fort Totten,Rosslyn,AM Peak,8:00 AM to 8:15 AM,2,1.0,3.4,3.06
+Saturday,Sat,Shady Grove,Shady Grove,Midday,11:30 AM to 11:45 AM,1,1.0,,
+Sunday,Sun,Capitol South,McPherson Square,Midday,11:45 AM to 12:00 PM,1,1.0,2.25,2.025
+Weekday,Fri,Wiehle-Reston East,Metro Center,Midday,10:45 AM to 11:00 AM,4,1.0,6.0,5.4
+Weekday,Mon,Pentagon City,U Street/African-Amer Civil War Memorial/Cardozo,AM Peak,9:15 AM to 9:30 AM,3,1.0,2.85,2.565
+Weekday,Fri,Mt Vernon Sq 7th St-Convention Center,New Carrollton,PM Peak,4:45 PM to 5:00 PM,1,1.0,4.4,3.9600000000000004
+Saturday,Sat,Tysons Corner,Woodley Park-Zoo/Adams Morgan,Evening,7:45 PM to 8:00 PM,2,1.0,5.05,4.545
+Saturday,Sat,Smithsonian,Minnesota Ave,Evening,11:15 PM to 11:30 PM,1,1.0,2.85,2.565
+Weekday,Thu,Shady Grove,Navy Yard-Ballpark,Midday,2:15 PM to 2:30 PM,1,1.0,6.0,5.4
+Weekday,Thu,Clarendon,Ronald Reagan Washington National Airport,AM Peak,5:45 AM to 6:00 AM,1,1.0,2.8,2.52
+Weekday,Mon,Eastern Market,Georgia Ave-Petworth,AM Peak,9:00 AM to 9:15 AM,1,1.0,2.85,2.565
+Weekday,Fri,Ballston-MU,Farragut West,PM Peak,4:00 PM to 4:15 PM,12,2.0,2.7,2.16
+Saturday,Sat,Court House,Spring Hill,Midday,2:00 PM to 2:15 PM,1,1.0,4.3,3.8699999999999997
+Weekday,Wed,Huntington,Court House,Midday,1:15 PM to 1:30 PM,2,1.0,3.95,3.555
+Saturday,Sat,Virginia Square-GMU,King St-Old Town,PM Peak,6:30 PM to 6:45 PM,1,1.0,3.75,3.375
+Weekday,Fri,Ballston-MU,Spring Hill,AM Peak,9:00 AM to 9:15 AM,2,1.0,3.95,3.555
+Saturday,Sat,Grosvenor-Strathmore,Woodley Park-Zoo/Adams Morgan,Evening,11:45 PM to 12:00 AM,1,1.0,3.8,3.42
+Weekday,Wed,L'Enfant Plaza,Prince George's Plaza,Evening,7:15 PM to 7:30 PM,3,1.0,3.75,3.375
+Weekday,Fri,McPherson Square,Greenbelt,Midday,2:30 PM to 2:45 PM,2,1.0,4.85,4.364999999999999
+Saturday,Sat,Columbia Heights,Pentagon,Midday,10:45 AM to 11:00 AM,6,1.0,2.9,2.61
+Weekday,Wed,Shaw-Howard U,Glenmont,Evening,7:30 PM to 7:45 PM,3,1.0,4.75,4.275
+Saturday,Sat,Archives-Navy Memorial-Penn Quarter,Tysons Corner,Midday,2:45 PM to 3:00 PM,2,1.0,5.05,4.545
+Saturday,Sat,Cleveland Park,King St-Old Town,PM Peak,3:30 PM to 3:45 PM,7,1.0,4.55,4.095
+Saturday,Sat,Largo Town Center,Ronald Reagan Washington National Airport,Midday,11:00 AM to 11:15 AM,1,1.0,5.25,4.725
+Weekday,Fri,NoMa-Gallaudet U,Foggy Bottom-GWU,Midday,2:30 PM to 2:45 PM,2,1.0,2.25,2.025
+Weekday,Fri,Rosslyn,Shady Grove,PM Peak,4:30 PM to 4:45 PM,7,1.0,6.0,5.4
+Weekday,Mon,Archives-Navy Memorial-Penn Quarter,Capitol Heights,Evening,9:30 PM to 9:45 PM,1,1.0,3.4,3.06
+Weekday,Mon,Fort Totten,Fort Totten,PM Peak,3:30 PM to 3:45 PM,1,1.0,,
+Weekday,Mon,Vienna/Fairfax-GMU,Anacostia,AM Peak,8:15 AM to 8:30 AM,1,1.0,6.0,5.4
+Saturday,Sat,Wiehle-Reston East,Stadium-Armory,Midday,2:45 PM to 3:00 PM,3,1.0,6.0,5.4
+Weekday,Fri,Metro Center,Vienna/Fairfax-GMU,AM Peak,9:00 AM to 9:15 AM,1,1.0,5.55,4.995
+Weekday,Fri,Navy Yard-Ballpark,Waterfront,PM Peak,6:15 PM to 6:30 PM,2,1.0,2.25,2.025
+Sunday,Sun,Archives-Navy Memorial-Penn Quarter,Potomac Ave,PM Peak,3:45 PM to 4:00 PM,1,1.0,2.25,2.025
+Saturday,Sat,Suitland,Pentagon City,Midday,11:45 AM to 12:00 PM,1,1.0,4.0,3.6
+Weekday,Fri,Virginia Square-GMU,Medical Center,PM Peak,4:00 PM to 4:15 PM,1,1.0,4.55,4.095
+Weekday,Fri,Shaw-Howard U,Eastern Market,Evening,8:15 PM to 8:30 PM,1,1.0,2.25,2.025
+Sunday,Sun,Deanwood,New Carrollton,Midday,2:15 PM to 2:30 PM,1,1.0,2.7,2.43
+Weekday,Fri,Capitol South,Metro Center,AM Peak,8:45 AM to 9:00 AM,9,1.0,2.25,2.025
+Weekday,Tue,Deanwood,Minnesota Ave,Midday,12:30 PM to 12:45 PM,1,1.0,2.25,2.025
+Weekday,Tue,Anacostia,Brookland-CUA,AM Peak,9:00 AM to 9:15 AM,4,1.0,3.2,2.88
+Weekday,Fri,Van Dorn Street,Pentagon,AM Peak,5:30 AM to 5:45 AM,2,1.0,3.75,3.375
+Weekday,Mon,Wiehle-Reston East,McLean,Evening,8:15 PM to 8:30 PM,1,1.0,3.65,3.285
+Weekday,Mon,Union Station,Farragut West,Midday,1:15 PM to 1:30 PM,2,1.0,2.25,2.025
+Weekday,Tue,Dupont Circle,Van Ness-UDC,Midday,2:45 PM to 3:00 PM,6,1.0,2.25,2.025
+Weekday,Thu,Farragut West,Virginia Square-GMU,PM Peak,4:00 PM to 4:15 PM,10,2.0,2.5,2.0
+Saturday,Sat,Georgia Ave-Petworth,Dupont Circle,Midday,2:45 PM to 3:00 PM,1,1.0,2.45,2.205
+Weekday,Thu,Franconia-Springfield,Suitland,PM Peak,5:30 PM to 5:45 PM,3,1.0,6.0,5.4
+Saturday,Sat,King St-Old Town,Eisenhower Avenue,Evening,7:15 PM to 7:30 PM,2,1.0,2.25,2.025
+Weekday,Mon,Wheaton,Glenmont,Midday,2:30 PM to 2:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Virginia Square-GMU,Van Ness-UDC,PM Peak,5:45 PM to 6:00 PM,1,1.0,3.4,3.06
+Weekday,Wed,Archives-Navy Memorial-Penn Quarter,Federal Center SW,AM Peak,9:00 AM to 9:15 AM,2,1.0,2.25,2.025
+Weekday,Fri,Woodley Park-Zoo/Adams Morgan,Friendship Heights,Midday,1:15 PM to 1:30 PM,4,1.0,2.25,2.025
+Weekday,Tue,White Flint,New Carrollton,Evening,7:45 PM to 8:00 PM,1,1.0,6.0,5.4
+Sunday,Sun,Rosslyn,Minnesota Ave,AM Peak,7:00 AM to 7:15 AM,1,1.0,3.7,3.33
+Weekday,Fri,Dupont Circle,Federal Triangle,Midday,2:15 PM to 2:30 PM,4,1.0,2.25,2.025
+Weekday,Fri,Foggy Bottom-GWU,Van Ness-UDC,PM Peak,3:30 PM to 3:45 PM,3,1.0,2.6,2.34
+Saturday,Sat,Potomac Ave,Union Station,Midday,12:00 PM to 12:15 PM,2,1.0,2.25,2.025
+Weekday,Fri,Farragut North,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,4:30 PM to 4:45 PM,3,1.0,2.25,2.025
+Saturday,Sat,Gallery Pl-Chinatown,Takoma,PM Peak,5:30 PM to 5:45 PM,4,1.0,3.25,2.925
+Sunday,Sun,Farragut North,Pentagon,Evening,11:00 PM to 11:15 PM,1,1.0,2.35,2.115
+Saturday Holiday,Mon,Gallery Pl-Chinatown,Georgia Ave-Petworth,Evening,11:00 PM to 11:15 PM,2,1.0,2.25,2.025
+Weekday,Fri,Clarendon,Union Station,Evening,9:15 PM to 9:30 PM,2,1.0,2.95,2.6550000000000002
+Weekday,Tue,Dupont Circle,Metro Center,Midday,11:45 AM to 12:00 PM,10,2.0,2.25,1.8
+Weekday,Tue,New Carrollton,Pentagon,AM Peak,5:30 AM to 5:45 AM,8,1.0,4.9,4.41
+Weekday,Thu,Forest Glen,NoMa-Gallaudet U,Midday,11:30 AM to 11:45 AM,1,1.0,3.8,3.42
+Weekday,Thu,Braddock Road,Greenbelt,Midday,12:45 PM to 1:00 PM,1,1.0,6.0,5.4
+Weekday,Thu,Rhode Island Ave-Brentwood,Capitol Heights,Evening,11:15 PM to 11:30 PM,1,1.0,3.75,3.375
+Saturday,Sat,Huntington,Eastern Market,AM Peak,7:45 AM to 8:00 AM,1,1.0,4.1,3.6899999999999995
+Weekday,Mon,Georgia Ave-Petworth,Woodley Park-Zoo/Adams Morgan,AM Peak,8:00 AM to 8:15 AM,1,1.0,2.55,2.295
+Weekday,Tue,Federal Center SW,Stadium-Armory,PM Peak,4:00 PM to 4:15 PM,2,1.0,2.25,2.025
+Weekday,Tue,East Falls Church,Van Dorn Street,Midday,12:00 PM to 12:15 PM,1,1.0,4.8,4.32
+Weekday,Tue,Branch Ave,Van Ness-UDC,AM Peak,8:45 AM to 9:00 AM,2,1.0,5.2,4.68
+Weekday,Tue,Forest Glen,Federal Triangle,AM Peak,8:45 AM to 9:00 AM,3,1.0,4.2,3.7800000000000002
+Weekday,Thu,Southern Avenue,Mt Vernon Sq 7th St-Convention Center,AM Peak,8:30 AM to 8:45 AM,4,1.0,3.15,2.835
+Weekday,Thu,Georgia Ave-Petworth,Gallery Pl-Chinatown,AM Peak,6:45 AM to 7:00 AM,4,1.0,2.25,2.025
+Weekday,Wed,Rhode Island Ave-Brentwood,Naylor Road,Midday,1:30 PM to 1:45 PM,1,1.0,3.7,3.33
+Weekday,Tue,West Hyattsville,Medical Center,AM Peak,5:45 AM to 6:00 AM,1,1.0,4.85,4.364999999999999
+Weekday,Mon,Judiciary Square,Vienna/Fairfax-GMU,PM Peak,4:00 PM to 4:15 PM,11,2.0,5.7,4.5600000000000005
+Saturday,Sat,Foggy Bottom-GWU,Columbia Heights,PM Peak,3:30 PM to 3:45 PM,4,1.0,2.25,2.025
+Weekday,Thu,Metro Center,Tenleytown-AU,PM Peak,4:45 PM to 5:00 PM,18,2.0,2.8,2.2399999999999998
+Weekday,Thu,U Street/African-Amer Civil War Memorial/Cardozo,Foggy Bottom-GWU,Evening,8:30 PM to 8:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Federal Center SW,McPherson Square,Midday,1:15 PM to 1:30 PM,2,1.0,2.25,2.025
+Sunday,Sun,Brookland-CUA,Pentagon,AM Peak,8:00 AM to 8:15 AM,1,1.0,3.25,2.925
+Weekday,Fri,King St-Old Town,Farragut North,AM Peak,6:30 AM to 6:45 AM,1,1.0,3.9,3.51
+Weekday,Wed,Shady Grove,Federal Center SW,Midday,10:15 AM to 10:30 AM,3,1.0,6.0,5.4
+Weekday,Mon,Metro Center,Tenleytown-AU,Evening,7:00 PM to 7:15 PM,18,2.0,2.8,2.2399999999999998
+Weekday,Mon,Greenbelt,Gallery Pl-Chinatown,AM Peak,9:00 AM to 9:15 AM,19,2.0,4.7,3.7600000000000002
+Sunday,Sun,Georgia Ave-Petworth,Congress Heights,Evening,7:00 PM to 7:15 PM,2,1.0,3.6,3.24
+Weekday,Fri,Southern Avenue,Stadium-Armory,AM Peak,7:15 AM to 7:30 AM,2,1.0,3.05,2.7449999999999997
+Sunday,Sun,Foggy Bottom-GWU,Naylor Road,Evening,10:30 PM to 10:45 PM,2,1.0,3.65,3.285
+Weekday,Tue,Shaw-Howard U,Benning Road,PM Peak,4:00 PM to 4:15 PM,1,1.0,3.25,2.925
+Weekday,Tue,Shaw-Howard U,Shaw-Howard U,PM Peak,5:15 PM to 5:30 PM,1,1.0,,
+Weekday,Wed,Twinbrook,Union Station,Midday,11:15 AM to 11:30 AM,3,1.0,5.45,4.905
+Weekday,Mon,Rockville,Silver Spring,PM Peak,3:00 PM to 3:15 PM,1,1.0,6.0,5.4
+Weekday,Mon,Judiciary Square,Brookland-CUA,Evening,7:30 PM to 7:45 PM,3,1.0,2.25,2.025
+Weekday,Mon,Benning Road,Foggy Bottom-GWU,AM Peak,7:45 AM to 8:00 AM,7,1.0,3.5,3.15
+Weekday,Mon,Silver Spring,NoMa-Gallaudet U,PM Peak,4:15 PM to 4:30 PM,3,1.0,3.35,3.015
+Weekday,Mon,Potomac Ave,Union Station,Midday,10:15 AM to 10:30 AM,1,1.0,2.25,2.025
+Sunday,Sun,Brookland-CUA,Columbia Heights,Evening,7:45 PM to 8:00 PM,3,1.0,2.25,2.025
+Weekday,Tue,Suitland,Southern Avenue,Midday,2:45 PM to 3:00 PM,2,1.0,2.25,2.025
+Weekday,Tue,Southern Avenue,Waterfront,Evening,8:45 PM to 9:00 PM,2,1.0,2.5,2.25
+Weekday,Tue,Rhode Island Ave-Brentwood,Smithsonian,AM Peak,6:30 AM to 6:45 AM,2,1.0,2.35,2.115
+Weekday,Tue,Shady Grove,Grosvenor-Strathmore,AM Peak,7:45 AM to 8:00 AM,3,1.0,3.55,3.195
+Weekday,Tue,Bethesda,Brookland-CUA,PM Peak,4:15 PM to 4:30 PM,2,1.0,4.05,3.6449999999999996
+Weekday,Tue,Pentagon City,Van Ness-UDC,AM Peak,6:45 AM to 7:00 AM,2,1.0,3.45,3.105
+Weekday,Tue,Rosslyn,Franconia-Springfield,Evening,9:00 PM to 9:15 PM,3,1.0,5.2,4.68
+Weekday,Tue,Wiehle-Reston East,L'Enfant Plaza,AM Peak,4:45 AM to 5:00 AM,13,2.0,6.0,4.8
+Weekday,Tue,Rhode Island Ave-Brentwood,Branch Ave,PM Peak,5:00 PM to 5:15 PM,1,1.0,4.5,4.05
+Weekday,Fri,Navy Yard-Ballpark,Columbia Heights,Midday,10:15 AM to 10:30 AM,2,1.0,2.65,2.385
+Weekday,Fri,Georgia Ave-Petworth,Greenbelt,Midday,12:00 PM to 12:15 PM,2,1.0,3.95,3.555
+Weekday,Thu,NoMa-Gallaudet U,Takoma,PM Peak,5:45 PM to 6:00 PM,9,1.0,2.9,2.61
+Weekday,Tue,Franconia-Springfield,Ballston-MU,AM Peak,7:30 AM to 7:45 AM,6,1.0,5.3,4.77
+Weekday,Tue,Greensboro,Crystal City,AM Peak,8:00 AM to 8:15 AM,4,1.0,5.2,4.68
+Saturday,Sat,Friendship Heights,McLean,PM Peak,6:15 PM to 6:30 PM,1,1.0,5.15,4.635000000000001
+Sunday,Sun,Ballston-MU,Tysons Corner,AM Peak,8:15 AM to 8:30 AM,1,1.0,3.55,3.195
+Weekday,Tue,Gallery Pl-Chinatown,Branch Ave,PM Peak,6:45 PM to 7:00 PM,10,2.0,4.1,3.28
+Weekday,Wed,Greenbelt,Fort Totten,AM Peak,5:45 AM to 6:00 AM,2,1.0,3.55,3.195
+Weekday,Wed,Navy Yard-Ballpark,Congress Heights,Evening,7:30 PM to 7:45 PM,2,1.0,2.25,2.025
+Weekday,Wed,NoMa-Gallaudet U,Glenmont,Evening,7:45 PM to 8:00 PM,2,1.0,4.75,4.275
+Weekday,Wed,Mt Vernon Sq 7th St-Convention Center,Pentagon,PM Peak,5:30 PM to 5:45 PM,8,1.0,2.4,2.16
+Weekday,Wed,McPherson Square,Glenmont,Midday,12:00 PM to 12:15 PM,1,1.0,5.1,4.59
+Sunday,Sun,Archives-Navy Memorial-Penn Quarter,Dupont Circle,PM Peak,5:45 PM to 6:00 PM,3,1.0,2.25,2.025
+Weekday,Fri,Dupont Circle,Braddock Road,Evening,10:00 PM to 10:15 PM,2,1.0,3.85,3.465
+Weekday,Wed,U Street/African-Amer Civil War Memorial/Cardozo,Fort Totten,Midday,2:30 PM to 2:45 PM,2,1.0,2.25,2.025
+Weekday,Wed,Huntington,New Carrollton,PM Peak,6:15 PM to 6:30 PM,1,1.0,6.0,5.4
+Saturday Holiday,Mon,Tenleytown-AU,Union Station,Midday,2:45 PM to 3:00 PM,3,1.0,3.15,2.835
+Weekday,Tue,Rhode Island Ave-Brentwood,Metro Center,Evening,9:00 PM to 9:15 PM,1,1.0,2.25,2.025
+Weekday,Tue,Shady Grove,Woodley Park-Zoo/Adams Morgan,AM Peak,8:30 AM to 8:45 AM,3,1.0,5.85,5.265
+Weekday,Fri,Takoma,Navy Yard-Ballpark,Midday,9:30 AM to 9:45 AM,1,1.0,3.8,3.42
+Weekday,Fri,Franconia-Springfield,Ronald Reagan Washington National Airport,Evening,7:30 PM to 7:45 PM,1,1.0,4.4,3.9600000000000004
+Weekday,Fri,Glenmont,Judiciary Square,AM Peak,7:45 AM to 8:00 AM,25,3.0,5.05,3.535
+Saturday,Sat,Spring Hill,Branch Ave,AM Peak,8:00 AM to 8:15 AM,1,1.0,6.0,5.4
+Weekday,Thu,Pentagon City,Dupont Circle,Midday,1:30 PM to 1:45 PM,2,1.0,2.7,2.43
+Weekday,Fri,Eastern Market,Cleveland Park,Midday,10:15 AM to 10:30 AM,4,1.0,3.0,2.7
+Saturday,Sat,Foggy Bottom-GWU,Largo Town Center,PM Peak,5:15 PM to 5:30 PM,3,1.0,5.0,4.5
+Weekday,Tue,White Flint,Judiciary Square,AM Peak,5:30 AM to 5:45 AM,1,1.0,5.05,4.545
+Weekday,Thu,Van Ness-UDC,Waterfront,PM Peak,5:30 PM to 5:45 PM,2,1.0,3.05,2.7449999999999997
+Weekday,Thu,Capitol Heights,Columbia Heights,Midday,11:15 AM to 11:30 AM,1,1.0,3.95,3.555
+Weekday,Fri,Greenbelt,Southern Avenue,Midday,2:45 PM to 3:00 PM,2,1.0,5.9,5.3100000000000005
+Weekday,Thu,Rosslyn,Cleveland Park,Midday,1:15 PM to 1:30 PM,1,1.0,2.7,2.43
+Weekday,Mon,Archives-Navy Memorial-Penn Quarter,Congress Heights,PM Peak,6:15 PM to 6:30 PM,3,1.0,2.6,2.34
+Weekday,Mon,McPherson Square,Smithsonian,Midday,12:45 PM to 1:00 PM,4,1.0,2.25,2.025
+Weekday,Thu,Deanwood,Southern Avenue,AM Peak,7:00 AM to 7:15 AM,1,1.0,3.8,3.42
+Weekday,Wed,Shaw-Howard U,Waterfront,Evening,8:30 PM to 8:45 PM,2,1.0,2.25,2.025
+Saturday Holiday,Mon,Navy Yard-Ballpark,Waterfront,Evening,11:00 PM to 11:15 PM,1,1.0,2.25,2.025
+Saturday Holiday,Mon,Benning Road,Van Ness-UDC,AM Peak,6:00 AM to 6:15 AM,1,1.0,4.1,3.6899999999999995
+Weekday,Wed,U Street/African-Amer Civil War Memorial/Cardozo,Archives-Navy Memorial-Penn Quarter,AM Peak,8:15 AM to 8:30 AM,22,3.0,2.25,1.5750000000000002
+Weekday,Wed,Judiciary Square,Farragut North,PM Peak,3:30 PM to 3:45 PM,8,1.0,2.25,2.025
+Weekday,Wed,Farragut North,Takoma,PM Peak,3:45 PM to 4:00 PM,9,1.0,3.4,3.06
+Weekday,Wed,L'Enfant Plaza,Rosslyn,PM Peak,3:00 PM to 3:15 PM,4,1.0,2.35,2.115
+Weekday,Wed,Minnesota Ave,Silver Spring,AM Peak,6:45 AM to 7:00 AM,1,1.0,4.65,4.1850000000000005
+Weekday,Fri,L'Enfant Plaza,Gallery Pl-Chinatown,Evening,8:15 PM to 8:30 PM,4,1.0,2.25,2.025
+Saturday Holiday,Mon,Anacostia,Gallery Pl-Chinatown,PM Peak,6:30 PM to 6:45 PM,1,1.0,2.3,2.07
+Weekday,Wed,L'Enfant Plaza,Greenbelt,PM Peak,5:30 PM to 5:45 PM,37,3.0,4.95,3.465
+Weekday,Fri,Southern Avenue,Minnesota Ave,Midday,1:00 PM to 1:15 PM,1,1.0,3.55,3.195
+Saturday,Sat,Stadium-Armory,Ballston-MU,Evening,9:15 PM to 9:30 PM,1,1.0,3.9,3.51
+Weekday,Wed,Capitol Heights,Metro Center,PM Peak,3:15 PM to 3:30 PM,1,1.0,3.55,3.195
+Weekday,Wed,Navy Yard-Ballpark,NoMa-Gallaudet U,AM Peak,6:15 AM to 6:30 AM,1,1.0,2.25,2.025
+Weekday,Fri,College Park-U of Md,Tysons Corner,PM Peak,5:00 PM to 5:15 PM,1,1.0,6.0,5.4
+Weekday,Fri,Morgan Boulevard,Court House,AM Peak,7:00 AM to 7:15 AM,1,1.0,5.25,4.725
+Weekday,Thu,U Street/African-Amer Civil War Memorial/Cardozo,College Park-U of Md,AM Peak,9:00 AM to 9:15 AM,3,1.0,3.7,3.33
+Weekday,Wed,Twinbrook,Navy Yard-Ballpark,AM Peak,7:30 AM to 7:45 AM,1,1.0,5.85,5.265
+Sunday,Sun,Deanwood,Shaw-Howard U,Midday,1:15 PM to 1:30 PM,1,1.0,3.3,2.9699999999999998
+Weekday,Tue,L'Enfant Plaza,McLean,PM Peak,5:30 PM to 5:45 PM,2,1.0,5.0,4.5
+Weekday,Tue,L'Enfant Plaza,Federal Triangle,AM Peak,6:15 AM to 6:30 AM,14,2.0,2.25,1.8
+Weekday,Fri,Georgia Ave-Petworth,Greenbelt,AM Peak,7:00 AM to 7:15 AM,1,1.0,3.95,3.555
+Weekday,Mon,Eastern Market,Van Dorn Street,PM Peak,5:30 PM to 5:45 PM,1,1.0,4.75,4.275
+Weekday,Mon,Union Station,Eisenhower Avenue,PM Peak,6:00 PM to 6:15 PM,3,1.0,4.1,3.6899999999999995
+Weekday,Mon,Union Station,Tysons Corner,PM Peak,3:00 PM to 3:15 PM,2,1.0,5.25,4.725
+Weekday,Tue,Union Station,Judiciary Square,Midday,2:00 PM to 2:15 PM,6,1.0,2.25,2.025
+Sunday,Sun,Franconia-Springfield,Mt Vernon Sq 7th St-Convention Center,Midday,10:30 AM to 10:45 AM,4,1.0,5.7,5.13
+Weekday,Tue,Greensboro,Congress Heights,PM Peak,4:30 PM to 4:45 PM,1,1.0,6.0,5.4
+Weekday,Tue,Waterfront,Farragut West,PM Peak,3:45 PM to 4:00 PM,1,1.0,2.25,2.025
+Weekday,Tue,Benning Road,Foggy Bottom-GWU,Midday,1:30 PM to 1:45 PM,3,1.0,3.5,3.15
+Weekday,Tue,Suitland,New Carrollton,AM Peak,5:45 AM to 6:00 AM,1,1.0,5.2,4.68
+Weekday,Fri,Waterfront,Prince George's Plaza,PM Peak,4:15 PM to 4:30 PM,1,1.0,3.9,3.51
+Weekday,Tue,Navy Yard-Ballpark,McPherson Square,PM Peak,3:15 PM to 3:30 PM,1,1.0,2.25,2.025
+Weekday,Fri,Wheaton,Foggy Bottom-GWU,AM Peak,7:45 AM to 8:00 AM,4,1.0,4.75,4.275
+Weekday,Fri,Pentagon,Capitol Heights,AM Peak,7:30 AM to 7:45 AM,1,1.0,3.95,3.555
+Sunday,Sun,Ronald Reagan Washington National Airport,Twinbrook,PM Peak,3:15 PM to 3:30 PM,2,1.0,6.0,5.4
+Weekday,Fri,Archives-Navy Memorial-Penn Quarter,Pentagon,Evening,10:30 PM to 10:45 PM,2,1.0,2.25,2.025
+Weekday,Wed,Van Dorn Street,Landover,PM Peak,4:00 PM to 4:15 PM,1,1.0,6.0,5.4
+Weekday,Thu,Georgia Ave-Petworth,Addison Road-Seat Pleasant,PM Peak,3:00 PM to 3:15 PM,1,1.0,4.35,3.9149999999999996
+Weekday,Tue,Pentagon City,East Falls Church,Evening,7:15 PM to 7:30 PM,1,1.0,3.45,3.105
+Weekday,Wed,U Street/African-Amer Civil War Memorial/Cardozo,Gallery Pl-Chinatown,Midday,2:45 PM to 3:00 PM,4,1.0,2.25,2.025
+Weekday,Fri,Fort Totten,L'Enfant Plaza,AM Peak,7:30 AM to 7:45 AM,14,2.0,3.0,2.4
+Weekday,Wed,Friendship Heights,Tenleytown-AU,AM Peak,7:00 AM to 7:15 AM,2,1.0,2.25,2.025
+Weekday,Tue,Ballston-MU,NoMa-Gallaudet U,AM Peak,8:30 AM to 8:45 AM,4,1.0,3.45,3.105
+Weekday,Tue,Crystal City,Federal Triangle,Evening,7:00 PM to 7:15 PM,1,1.0,2.45,2.205
+Weekday,Tue,Friendship Heights,Naylor Road,PM Peak,6:30 PM to 6:45 PM,1,1.0,4.85,4.364999999999999
+Weekday,Thu,Gallery Pl-Chinatown,Navy Yard-Ballpark,AM Peak,7:30 AM to 7:45 AM,6,1.0,2.25,2.025
+Weekday,Thu,Fort Totten,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,4:45 PM to 5:00 PM,5,1.0,2.25,2.025
+Weekday,Wed,Medical Center,Huntington,PM Peak,5:45 PM to 6:00 PM,1,1.0,6.0,5.4
+Weekday,Wed,Mt Vernon Sq 7th St-Convention Center,Crystal City,AM Peak,5:15 AM to 5:30 AM,1,1.0,2.7,2.43
+Weekday,Thu,Silver Spring,Twinbrook,PM Peak,5:00 PM to 5:15 PM,1,1.0,5.6,5.04
+Weekday,Tue,Naylor Road,West Falls Church-VT/UVA,AM Peak,8:00 AM to 8:15 AM,1,1.0,5.85,5.265
+Weekday,Fri,Eastern Market,Gallery Pl-Chinatown,Midday,10:45 AM to 11:00 AM,3,1.0,2.25,2.025
+Weekday,Fri,Eastern Market,Farragut West,PM Peak,6:15 PM to 6:30 PM,3,1.0,2.25,2.025
+Weekday,Tue,Shady Grove,Vienna/Fairfax-GMU,PM Peak,5:30 PM to 5:45 PM,2,1.0,6.0,5.4
+Weekday,Thu,Vienna/Fairfax-GMU,Ballston-MU,Evening,8:30 PM to 8:45 PM,1,1.0,4.1,3.6899999999999995
+Weekday,Mon,Addison Road-Seat Pleasant,Tenleytown-AU,Midday,2:45 PM to 3:00 PM,1,1.0,5.05,4.545
+Weekday,Tue,Union Station,Judiciary Square,PM Peak,5:30 PM to 5:45 PM,3,1.0,2.25,2.025
+Saturday,Sat,Federal Triangle,Virginia Square-GMU,Evening,10:15 PM to 10:30 PM,1,1.0,2.75,2.475
+Saturday,Sat,Huntington,Shaw-Howard U,Midday,10:15 AM to 10:30 AM,2,1.0,4.35,3.9149999999999996
+Weekday,Fri,Gallery Pl-Chinatown,West Falls Church-VT/UVA,PM Peak,6:30 PM to 6:45 PM,2,1.0,4.25,3.825
+Sunday,Sun,Archives-Navy Memorial-Penn Quarter,Silver Spring,PM Peak,6:15 PM to 6:30 PM,1,1.0,3.75,3.375
+Weekday,Thu,Metro Center,Potomac Ave,Midday,2:00 PM to 2:15 PM,2,1.0,2.25,2.025
+Weekday,Thu,New Carrollton,Dunn Loring-Merrifield,Evening,8:30 PM to 8:45 PM,1,1.0,6.0,5.4
+Saturday,Sat,Branch Ave,Addison Road-Seat Pleasant,AM Peak,9:15 AM to 9:30 AM,1,1.0,4.6,4.14
+Weekday,Fri,Georgia Ave-Petworth,Anacostia,PM Peak,6:00 PM to 6:15 PM,6,1.0,3.25,2.925
+Weekday,Mon,NoMa-Gallaudet U,Foggy Bottom-GWU,Midday,1:00 PM to 1:15 PM,3,1.0,2.25,2.025
+Saturday,Sat,Eastern Market,Court House,AM Peak,7:45 AM to 8:00 AM,1,1.0,3.1,2.79
+Weekday,Thu,King St-Old Town,Benning Road,Evening,8:30 PM to 8:45 PM,1,1.0,4.65,4.1850000000000005
+Weekday,Thu,Metro Center,Forest Glen,PM Peak,3:00 PM to 3:15 PM,3,1.0,4.15,3.7350000000000003
+Weekday,Tue,U Street/African-Amer Civil War Memorial/Cardozo,Suitland,PM Peak,4:30 PM to 4:45 PM,6,1.0,4.0,3.6
+Weekday,Mon,King St-Old Town,Vienna/Fairfax-GMU,Evening,8:15 PM to 8:30 PM,1,1.0,6.0,5.4
+Weekday,Tue,Union Station,Columbia Heights,PM Peak,4:00 PM to 4:15 PM,14,2.0,2.25,1.8
+Weekday,Tue,Naylor Road,NoMa-Gallaudet U,Midday,2:45 PM to 3:00 PM,3,1.0,3.45,3.105
+Weekday,Tue,Dupont Circle,Gallery Pl-Chinatown,Evening,9:15 PM to 9:30 PM,6,1.0,2.25,2.025
+Weekday,Thu,Greenbelt,Silver Spring,Midday,12:30 PM to 12:45 PM,2,1.0,4.05,3.6449999999999996
+Saturday,Sat,Pentagon City,Southern Avenue,Evening,9:00 PM to 9:15 PM,2,1.0,3.3,2.9699999999999998
+Weekday,Tue,Capitol Heights,Grosvenor-Strathmore,AM Peak,7:00 AM to 7:15 AM,1,1.0,6.0,5.4
+Weekday,Tue,Van Dorn Street,Suitland,Evening,7:30 PM to 7:45 PM,1,1.0,5.9,5.3100000000000005
+Weekday,Tue,Archives-Navy Memorial-Penn Quarter,Crystal City,Midday,2:30 PM to 2:45 PM,8,1.0,2.45,2.205
+Weekday,Tue,West Hyattsville,Metro Center,AM Peak,5:00 AM to 5:15 AM,8,1.0,3.25,2.925
+Weekday,Thu,Congress Heights,L'Enfant Plaza,Midday,11:00 AM to 11:15 AM,1,1.0,2.45,2.205
+Weekday,Thu,Georgia Ave-Petworth,Court House,Midday,12:30 PM to 12:45 PM,1,1.0,3.25,2.925
+Weekday,Thu,Farragut North,Southern Avenue,AM Peak,6:00 AM to 6:15 AM,1,1.0,3.3,2.9699999999999998
+Weekday,Thu,Archives-Navy Memorial-Penn Quarter,Addison Road-Seat Pleasant,Midday,1:00 PM to 1:15 PM,1,1.0,3.7,3.33
+Weekday,Mon,Vienna/Fairfax-GMU,Greenbelt,PM Peak,3:15 PM to 3:30 PM,1,1.0,6.0,5.4
+Sunday,Sun,Grosvenor-Strathmore,Tenleytown-AU,AM Peak,9:00 AM to 9:15 AM,1,1.0,3.15,2.835
+Saturday,Sat,Archives-Navy Memorial-Penn Quarter,Landover,PM Peak,4:15 PM to 4:30 PM,2,1.0,3.95,3.555
+Weekday,Thu,Largo Town Center,Gallery Pl-Chinatown,AM Peak,5:45 AM to 6:00 AM,1,1.0,4.55,4.095
+Saturday Holiday,Mon,Prince George's Plaza,Navy Yard-Ballpark,AM Peak,7:15 AM to 7:30 AM,1,1.0,3.95,3.555
+Saturday Holiday,Mon,Smithsonian,Capitol South,AM Peak,6:15 AM to 6:30 AM,1,1.0,2.25,2.025
+Saturday Holiday,Mon,Smithsonian,Eisenhower Avenue,PM Peak,3:45 PM to 4:00 PM,3,1.0,3.75,3.375
+Saturday Holiday,Mon,Naylor Road,Congress Heights,PM Peak,6:15 PM to 6:30 PM,2,1.0,2.25,2.025
+Saturday,Sat,Metro Center,Tenleytown-AU,Midday,12:00 PM to 12:15 PM,3,1.0,2.8,2.52
+Weekday,Fri,Takoma,Foggy Bottom-GWU,PM Peak,5:00 PM to 5:15 PM,2,1.0,3.5,3.15
+Sunday,Sun,Union Station,Suitland,PM Peak,3:30 PM to 3:45 PM,1,1.0,3.65,3.285
+Weekday,Fri,Takoma,Georgia Ave-Petworth,PM Peak,4:15 PM to 4:30 PM,2,1.0,2.3,2.07
+Weekday,Mon,Capitol South,Van Ness-UDC,PM Peak,6:00 PM to 6:15 PM,3,1.0,3.05,2.7449999999999997
+Weekday,Mon,Gallery Pl-Chinatown,Shaw-Howard U,Evening,8:45 PM to 9:00 PM,8,1.0,2.25,2.025
+Weekday,Mon,McPherson Square,Potomac Ave,PM Peak,3:45 PM to 4:00 PM,3,1.0,2.35,2.115
+Weekday,Wed,Farragut West,Stadium-Armory,PM Peak,5:45 PM to 6:00 PM,13,2.0,2.65,2.12
+Weekday,Wed,Federal Triangle,Morgan Boulevard,Midday,2:15 PM to 2:30 PM,1,1.0,4.2,3.7800000000000002
+Weekday,Wed,Vienna/Fairfax-GMU,Metro Center,AM Peak,8:00 AM to 8:15 AM,62,3.0,5.55,3.885
+Weekday,Fri,Medical Center,Tenleytown-AU,Midday,12:00 PM to 12:15 PM,1,1.0,2.45,2.205
+Saturday Holiday,Mon,Grosvenor-Strathmore,Dupont Circle,Midday,11:45 AM to 12:00 PM,2,1.0,4.15,3.7350000000000003
+Weekday,Thu,U Street/African-Amer Civil War Memorial/Cardozo,Union Station,Midday,12:00 PM to 12:15 PM,2,1.0,2.25,2.025
+Weekday,Fri,Tenleytown-AU,Bethesda,Midday,2:45 PM to 3:00 PM,6,1.0,2.25,2.025
+Weekday,Thu,Farragut West,Court House,AM Peak,6:15 AM to 6:30 AM,2,1.0,2.25,2.025
+Weekday,Wed,East Falls Church,McPherson Square,Midday,10:00 AM to 10:15 AM,6,1.0,3.55,3.195
+Saturday Holiday,Mon,Van Ness-UDC,Clarendon,PM Peak,4:00 PM to 4:15 PM,2,1.0,3.3,2.9699999999999998
+Saturday,Sat,Minnesota Ave,Foggy Bottom-GWU,PM Peak,4:45 PM to 5:00 PM,2,1.0,3.35,3.015
+Sunday,Sun,Georgia Ave-Petworth,Potomac Ave,Midday,11:30 AM to 11:45 AM,1,1.0,3.0,2.7
+Saturday,Sat,Farragut West,Crystal City,Midday,10:15 AM to 10:30 AM,1,1.0,2.65,2.385
+Saturday,Sat,U Street/African-Amer Civil War Memorial/Cardozo,Metro Center,Midday,1:45 PM to 2:00 PM,2,1.0,2.25,2.025
+Weekday,Fri,L'Enfant Plaza,Waterfront,Midday,11:00 AM to 11:15 AM,1,1.0,2.25,2.025
+Weekday,Fri,Clarendon,Van Ness-UDC,Evening,10:30 PM to 10:45 PM,1,1.0,3.3,2.9699999999999998
+Saturday,Sat,Tenleytown-AU,Gallery Pl-Chinatown,PM Peak,5:30 PM to 5:45 PM,6,1.0,2.9,2.61
+Saturday Holiday,Mon,McPherson Square,Smithsonian,Midday,11:15 AM to 11:30 AM,7,1.0,2.25,2.025
+Sunday,Sun,Huntington,New Carrollton,Midday,12:00 PM to 12:15 PM,2,1.0,6.0,5.4
+Saturday,Sat,College Park-U of Md,Dupont Circle,PM Peak,6:00 PM to 6:15 PM,8,1.0,4.3,3.8699999999999997
+Sunday,Sun,West Hyattsville,Brookland-CUA,PM Peak,4:00 PM to 4:15 PM,1,1.0,2.25,2.025
+Weekday,Fri,Van Ness-UDC,Clarendon,Evening,11:45 PM to 12:00 AM,1,1.0,3.3,2.9699999999999998
+Weekday,Fri,Cleveland Park,Smithsonian,Midday,1:15 PM to 1:30 PM,1,1.0,2.5,2.25
+Weekday,Fri,Mt Vernon Sq 7th St-Convention Center,Minnesota Ave,Midday,1:45 PM to 2:00 PM,1,1.0,2.95,2.6550000000000002
+Sunday,Sun,Tenleytown-AU,Smithsonian,PM Peak,3:45 PM to 4:00 PM,2,1.0,3.0,2.7
+Sunday,Sun,Eastern Market,Wiehle-Reston East,PM Peak,3:00 PM to 3:15 PM,2,1.0,6.0,5.4
+Weekday,Wed,Greenbelt,Greenbelt,AM Peak,7:15 AM to 7:30 AM,1,1.0,,
+Weekday,Wed,Van Dorn Street,Franconia-Springfield,AM Peak,8:15 AM to 8:30 AM,4,1.0,2.35,2.115
+Weekday,Wed,NoMa-Gallaudet U,Rhode Island Ave-Brentwood,Midday,1:45 PM to 2:00 PM,2,1.0,2.25,2.025
+Weekday,Wed,Shady Grove,Medical Center,PM Peak,5:00 PM to 5:15 PM,3,1.0,4.2,3.7800000000000002
+Weekday,Wed,Twinbrook,Southern Avenue,AM Peak,5:00 AM to 5:15 AM,1,1.0,6.0,5.4
+Weekday,Wed,Friendship Heights,Foggy Bottom-GWU,PM Peak,5:30 PM to 5:45 PM,1,1.0,3.15,2.835
+Weekday,Wed,Potomac Ave,Silver Spring,PM Peak,6:15 PM to 6:30 PM,2,1.0,4.3,3.8699999999999997
+Weekday,Fri,Largo Town Center,Brookland-CUA,AM Peak,6:45 AM to 7:00 AM,2,1.0,4.9,4.41
+Weekday,Wed,Dunn Loring-Merrifield,Prince George's Plaza,PM Peak,4:30 PM to 4:45 PM,1,1.0,6.0,5.4
+Saturday,Sat,Prince George's Plaza,Minnesota Ave,Evening,8:00 PM to 8:15 PM,1,1.0,4.15,3.7350000000000003
+Weekday,Fri,McPherson Square,Benning Road,Late Night Peak,2:30 AM to 2:45 AM,1,1.0,3.25,2.925
+Weekday,Mon,McPherson Square,L'Enfant Plaza,Evening,7:00 PM to 7:15 PM,1,1.0,2.25,2.025
+Saturday,Sat,Fort Totten,Twinbrook,PM Peak,4:30 PM to 4:45 PM,1,1.0,5.6,5.04
+Saturday,Sat,Silver Spring,Wiehle-Reston East,Midday,10:30 AM to 10:45 AM,2,1.0,6.0,5.4
+Sunday,Sun,Columbia Heights,Crystal City,PM Peak,3:00 PM to 3:15 PM,1,1.0,3.2,2.88
+Saturday,Sat,Glenmont,Wiehle-Reston East,AM Peak,7:30 AM to 7:45 AM,1,1.0,6.0,5.4
+Weekday,Tue,Metro Center,Van Dorn Street,Evening,10:45 PM to 11:00 PM,4,1.0,4.6,4.14
+Weekday,Tue,Gallery Pl-Chinatown,Columbia Heights,AM Peak,7:30 AM to 7:45 AM,3,1.0,2.25,2.025
+Weekday,Fri,Van Ness-UDC,Landover,PM Peak,5:00 PM to 5:15 PM,1,1.0,4.8,4.32
+Weekday,Wed,Court House,Metro Center,AM Peak,6:30 AM to 6:45 AM,6,1.0,2.4,2.16
+Weekday,Wed,Potomac Ave,Judiciary Square,Midday,9:30 AM to 9:45 AM,2,1.0,2.25,2.025
+Weekday,Wed,Rockville,Columbia Heights,AM Peak,6:00 AM to 6:15 AM,1,1.0,5.85,5.265
+Sunday,Sun,Rhode Island Ave-Brentwood,Dupont Circle,PM Peak,5:30 PM to 5:45 PM,1,1.0,2.4,2.16
+Weekday,Fri,Gallery Pl-Chinatown,Shady Grove,Midday,1:45 PM to 2:00 PM,5,1.0,6.0,5.4
+Sunday,Sun,Clarendon,Wiehle-Reston East,Midday,12:30 PM to 12:45 PM,1,1.0,5.8,5.22
+Weekday,Fri,Crystal City,Georgia Ave-Petworth,PM Peak,4:45 PM to 5:00 PM,2,1.0,3.45,3.105
+Saturday,Sat,Van Ness-UDC,Cleveland Park,Midday,2:45 PM to 3:00 PM,1,1.0,2.25,2.025
+Weekday,Fri,Fort Totten,King St-Old Town,AM Peak,6:30 AM to 6:45 AM,2,1.0,5.0,4.5
+Weekday,Wed,Eastern Market,Gallery Pl-Chinatown,PM Peak,6:15 PM to 6:30 PM,7,1.0,2.25,2.025
+Weekday,Wed,L'Enfant Plaza,Foggy Bottom-GWU,Midday,2:00 PM to 2:15 PM,3,1.0,2.25,2.025
+Weekday,Wed,Ballston-MU,Tenleytown-AU,Midday,2:00 PM to 2:15 PM,1,1.0,3.7,3.33
+Weekday,Tue,Columbia Heights,Ballston-MU,Evening,8:15 PM to 8:30 PM,1,1.0,3.45,3.105
+Saturday,Sat,Union Station,Branch Ave,Midday,10:30 AM to 10:45 AM,1,1.0,4.15,3.7350000000000003
+Weekday,Wed,Southern Avenue,Waterfront,AM Peak,9:00 AM to 9:15 AM,2,1.0,2.5,2.25
+Saturday,Sat,Friendship Heights,Georgia Ave-Petworth,PM Peak,3:15 PM to 3:30 PM,1,1.0,3.35,3.015
+Weekday,Mon,Medical Center,Friendship Heights,Midday,12:00 PM to 12:15 PM,2,1.0,2.25,2.025
+Saturday,Sat,Franconia-Springfield,Archives-Navy Memorial-Penn Quarter,AM Peak,7:45 AM to 8:00 AM,2,1.0,5.5,4.95
+Weekday,Wed,Federal Triangle,Dunn Loring-Merrifield,Evening,10:15 PM to 10:30 PM,3,1.0,4.85,4.364999999999999
+Weekday,Mon,Bethesda,Dupont Circle,Evening,8:15 PM to 8:30 PM,6,1.0,3.2,2.88
+Weekday,Mon,Minnesota Ave,Dupont Circle,AM Peak,8:30 AM to 8:45 AM,1,1.0,3.3,2.9699999999999998
+Weekday,Mon,Archives-Navy Memorial-Penn Quarter,Eisenhower Avenue,Evening,8:00 PM to 8:15 PM,2,1.0,3.8,3.42
+Weekday,Mon,Glenmont,Smithsonian,AM Peak,9:00 AM to 9:15 AM,3,1.0,5.3,4.77
+Weekday,Mon,Van Ness-UDC,Rhode Island Ave-Brentwood,Midday,1:00 PM to 1:15 PM,2,1.0,3.05,2.7449999999999997
+Weekday,Wed,NoMa-Gallaudet U,Metro Center,PM Peak,4:00 PM to 4:15 PM,16,2.0,2.25,1.8
+Weekday,Tue,King St-Old Town,Twinbrook,PM Peak,5:00 PM to 5:15 PM,3,1.0,6.0,5.4
+Weekday,Tue,Minnesota Ave,Court House,AM Peak,7:00 AM to 7:15 AM,1,1.0,4.0,3.6
+Weekday,Fri,Glenmont,Branch Ave,AM Peak,8:30 AM to 8:45 AM,1,1.0,6.0,5.4
+Sunday,Sun,Greenbelt,Archives-Navy Memorial-Penn Quarter,AM Peak,6:30 AM to 6:45 AM,20,0.0,4.8,4.8
+Sunday,Sun,Fort Totten,Farragut North,Midday,12:00 PM to 12:15 PM,3,1.0,2.9,2.61
+Weekday,Wed,McPherson Square,Greenbelt,Evening,10:15 PM to 10:30 PM,1,1.0,4.85,4.364999999999999
+Weekday,Wed,Farragut West,White Flint,Midday,2:30 PM to 2:45 PM,1,1.0,4.95,4.455
+Saturday Holiday,Mon,Shaw-Howard U,Wheaton,Midday,12:15 PM to 12:30 PM,1,1.0,4.25,3.825
+Saturday Holiday,Mon,Farragut North,Judiciary Square,Evening,7:00 PM to 7:15 PM,1,1.0,2.25,2.025
+Saturday Holiday,Mon,Wiehle-Reston East,Metro Center,PM Peak,3:00 PM to 3:15 PM,3,1.0,6.0,5.4
+Weekday,Tue,White Flint,Rockville,PM Peak,3:45 PM to 4:00 PM,8,1.0,2.3,2.07
+Weekday,Tue,Branch Ave,Federal Triangle,AM Peak,8:45 AM to 9:00 AM,8,1.0,4.1,3.6899999999999995
+Weekday,Tue,Medical Center,Twinbrook,Evening,8:00 PM to 8:15 PM,9,1.0,2.8,2.52
+Weekday,Tue,Smithsonian,Smithsonian,PM Peak,6:15 PM to 6:30 PM,1,1.0,,
+Weekday,Wed,Judiciary Square,Gallery Pl-Chinatown,Midday,10:30 AM to 10:45 AM,1,1.0,2.25,2.025
+Weekday,Wed,Foggy Bottom-GWU,Foggy Bottom-GWU,Midday,12:00 PM to 12:15 PM,2,1.0,,
+Weekday,Tue,Union Station,L'Enfant Plaza,AM Peak,5:00 AM to 5:15 AM,2,1.0,2.25,2.025
+Weekday,Tue,White Flint,Bethesda,Midday,1:00 PM to 1:15 PM,2,1.0,2.8,2.52
+Weekday,Wed,Judiciary Square,Union Station,Midday,1:15 PM to 1:30 PM,8,1.0,2.25,2.025
+Weekday,Wed,L'Enfant Plaza,Union Station,PM Peak,4:30 PM to 4:45 PM,69,3.0,2.25,1.5750000000000002
+Weekday,Thu,Congress Heights,Crystal City,PM Peak,3:30 PM to 3:45 PM,1,1.0,3.05,2.7449999999999997
+Weekday,Wed,L'Enfant Plaza,Largo Town Center,AM Peak,7:15 AM to 7:30 AM,1,1.0,4.4,3.9600000000000004
+Saturday Holiday,Mon,Grosvenor-Strathmore,Shady Grove,AM Peak,7:15 AM to 7:30 AM,1,1.0,3.55,3.195
+Weekday,Tue,Glenmont,Vienna/Fairfax-GMU,PM Peak,5:00 PM to 5:15 PM,2,1.0,6.0,5.4
+Weekday,Tue,Southern Avenue,Landover,PM Peak,5:30 PM to 5:45 PM,1,1.0,4.6,4.14
+Weekday,Wed,Silver Spring,Capitol Heights,Evening,7:45 PM to 8:00 PM,1,1.0,5.2,4.68
+Weekday,Wed,Grosvenor-Strathmore,Bethesda,PM Peak,5:00 PM to 5:15 PM,3,1.0,2.35,2.115
+Weekday,Tue,Dupont Circle,Union Station,Evening,10:30 PM to 10:45 PM,5,1.0,2.25,2.025
+Weekday,Tue,Anacostia,Fort Totten,Evening,8:00 PM to 8:15 PM,2,1.0,3.6,3.24
+Weekday,Tue,Benning Road,White Flint,Midday,12:00 PM to 12:15 PM,1,1.0,6.0,5.4
+Weekday,Tue,NoMa-Gallaudet U,Friendship Heights,PM Peak,6:15 PM to 6:30 PM,3,1.0,3.45,3.105
+Weekday,Tue,Eisenhower Avenue,Shady Grove,Evening,9:00 PM to 9:15 PM,1,1.0,6.0,5.4
+Saturday,Sat,Tysons Corner,New Carrollton,PM Peak,4:30 PM to 4:45 PM,2,1.0,6.0,5.4
+Weekday,Wed,Virginia Square-GMU,Clarendon,PM Peak,6:15 PM to 6:30 PM,2,1.0,2.25,2.025
+Weekday,Wed,Largo Town Center,Eastern Market,PM Peak,5:45 PM to 6:00 PM,2,1.0,4.0,3.6
+Weekday,Wed,Shady Grove,Metro Center,AM Peak,4:45 AM to 5:00 AM,18,2.0,6.0,4.8
+Weekday,Tue,Brookland-CUA,Potomac Ave,Midday,1:30 PM to 1:45 PM,1,1.0,2.95,2.6550000000000002
+Weekday,Wed,College Park-U of Md,Largo Town Center,Midday,2:45 PM to 3:00 PM,1,1.0,5.65,5.085
+Weekday,Tue,Greenbelt,NoMa-Gallaudet U,AM Peak,9:15 AM to 9:30 AM,3,1.0,4.35,3.9149999999999996
+Weekday,Tue,Southern Avenue,Union Station,AM Peak,5:00 AM to 5:15 AM,5,1.0,3.1,2.79
+Weekday,Wed,Tysons Corner,Foggy Bottom-GWU,AM Peak,7:45 AM to 8:00 AM,3,1.0,4.55,4.095
+Weekday,Wed,Dupont Circle,College Park-U of Md,Midday,10:30 AM to 10:45 AM,3,1.0,4.3,3.8699999999999997
+Weekday,Wed,Capitol Heights,Rhode Island Ave-Brentwood,Midday,2:45 PM to 3:00 PM,3,1.0,3.75,3.375
+Weekday,Mon,Virginia Square-GMU,Metro Center,AM Peak,6:15 AM to 6:30 AM,2,1.0,2.75,2.475
+Weekday,Mon,Bethesda,Medical Center,Midday,11:00 AM to 11:15 AM,2,1.0,2.25,2.025
+Weekday,Wed,West Hyattsville,Court House,AM Peak,5:30 AM to 5:45 AM,1,1.0,4.2,3.7800000000000002
+Saturday,Sat,Tysons Corner,King St-Old Town,Midday,12:15 PM to 12:30 PM,2,1.0,5.8,5.22
+Sunday,Sun,Mt Vernon Sq 7th St-Convention Center,U Street/African-Amer Civil War Memorial/Cardozo,Midday,11:45 AM to 12:00 PM,2,1.0,2.25,2.025
+Saturday,Sat,Rosslyn,New Carrollton,Evening,11:00 PM to 11:15 PM,2,1.0,5.15,4.635000000000001
+Sunday,Sun,Bethesda,Smithsonian,AM Peak,9:00 AM to 9:15 AM,5,1.0,3.75,3.375
+Weekday,Tue,Pentagon,Smithsonian,AM Peak,5:15 AM to 5:30 AM,3,1.0,2.25,2.025
+Weekday,Tue,Gallery Pl-Chinatown,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,3:15 PM to 3:30 PM,3,1.0,2.25,2.025
+Weekday,Tue,Union Station,Friendship Heights,Midday,11:45 AM to 12:00 PM,3,1.0,3.35,3.015
+Weekday,Tue,Eastern Market,Foggy Bottom-GWU,Midday,10:45 AM to 11:00 AM,4,1.0,2.45,2.205
+Weekday,Thu,Rhode Island Ave-Brentwood,Archives-Navy Memorial-Penn Quarter,PM Peak,3:30 PM to 3:45 PM,1,1.0,2.25,2.025
+Weekday,Tue,Georgia Ave-Petworth,Potomac Ave,Evening,9:00 PM to 9:15 PM,1,1.0,3.0,2.7
+Weekday,Wed,Metro Center,Dunn Loring-Merrifield,Midday,1:30 PM to 1:45 PM,1,1.0,4.8,4.32
+Weekday,Tue,Foggy Bottom-GWU,Federal Center SW,AM Peak,7:45 AM to 8:00 AM,3,1.0,2.25,2.025
+Weekday,Tue,Foggy Bottom-GWU,Georgia Ave-Petworth,Midday,2:30 PM to 2:45 PM,2,1.0,2.55,2.295
+Weekday,Thu,Silver Spring,Woodley Park-Zoo/Adams Morgan,AM Peak,7:15 AM to 7:30 AM,3,1.0,3.8,3.42
+Weekday,Thu,Capitol Heights,Foggy Bottom-GWU,AM Peak,6:30 AM to 6:45 AM,6,1.0,3.9,3.51
+Weekday,Tue,Mt Vernon Sq 7th St-Convention Center,Anacostia,PM Peak,6:00 PM to 6:15 PM,2,1.0,2.45,2.205
+Weekday,Thu,Vienna/Fairfax-GMU,East Falls Church,PM Peak,6:30 PM to 6:45 PM,2,1.0,3.4,3.06
+Weekday,Thu,Anacostia,Mt Vernon Sq 7th St-Convention Center,AM Peak,7:15 AM to 7:30 AM,10,2.0,2.45,1.9600000000000002
+Weekday,Thu,Farragut North,Farragut North,PM Peak,5:30 PM to 5:45 PM,4,1.0,,
+Saturday,Sat,Foggy Bottom-GWU,Capitol South,Midday,9:30 AM to 9:45 AM,7,1.0,2.25,2.025
+Weekday,Thu,West Hyattsville,Crystal City,AM Peak,9:15 AM to 9:30 AM,1,1.0,4.3,3.8699999999999997
+Weekday,Tue,Bethesda,King St-Old Town,Midday,2:45 PM to 3:00 PM,1,1.0,5.65,5.085
+Weekday,Thu,Dupont Circle,Wheaton,Evening,7:00 PM to 7:15 PM,7,1.0,4.65,4.1850000000000005
+Sunday,Sun,Takoma,Silver Spring,Midday,11:00 AM to 11:15 AM,3,1.0,2.25,2.025
+Weekday,Fri,Union Station,L'Enfant Plaza,PM Peak,5:30 PM to 5:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Rosslyn,New Carrollton,PM Peak,5:30 PM to 5:45 PM,9,1.0,5.15,4.635000000000001
+Weekday,Tue,Van Ness-UDC,Shady Grove,PM Peak,3:00 PM to 3:15 PM,2,1.0,5.45,4.905
+Weekday,Tue,Takoma,Fort Totten,Evening,7:30 PM to 7:45 PM,2,1.0,2.25,2.025
+Weekday,Fri,Ballston-MU,Wiehle-Reston East,AM Peak,8:45 AM to 9:00 AM,5,1.0,5.55,4.995
+Saturday,Sat,U Street/African-Amer Civil War Memorial/Cardozo,Huntington,Late Night Peak,12:15 AM to 12:30 AM,2,1.0,4.45,4.005
+Weekday,Fri,Farragut West,L'Enfant Plaza,AM Peak,9:15 AM to 9:30 AM,7,1.0,2.25,2.025
+Saturday,Sat,Clarendon,Judiciary Square,Midday,10:30 AM to 10:45 AM,1,1.0,2.8,2.52
+Weekday,Fri,Farragut West,Ballston-MU,PM Peak,4:45 PM to 5:00 PM,39,3.0,2.7,1.8900000000000001
+Weekday,Fri,Bethesda,Shady Grove,Evening,11:15 PM to 11:30 PM,3,1.0,4.45,4.005
+Saturday,Sat,Gallery Pl-Chinatown,Silver Spring,Evening,7:15 PM to 7:30 PM,12,2.0,3.65,2.92
+Weekday,Fri,Ronald Reagan Washington National Airport,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,5:45 PM to 6:00 PM,3,1.0,3.1,2.79
+Saturday,Sat,Shady Grove,Mt Vernon Sq 7th St-Convention Center,Midday,10:30 AM to 10:45 AM,7,1.0,6.0,5.4
+Weekday,Thu,Rosslyn,Branch Ave,PM Peak,6:30 PM to 6:45 PM,2,1.0,4.8,4.32
+Weekday,Fri,Ronald Reagan Washington National Airport,Wiehle-Reston East,Evening,7:45 PM to 8:00 PM,1,1.0,6.0,5.4
+Weekday,Thu,Wheaton,Brookland-CUA,PM Peak,3:15 PM to 3:30 PM,2,1.0,3.75,3.375
+Weekday,Tue,Eastern Market,Pentagon City,Evening,8:00 PM to 8:15 PM,1,1.0,2.6,2.34
+Weekday,Tue,Takoma,Pentagon City,AM Peak,9:00 AM to 9:15 AM,2,1.0,4.2,3.7800000000000002
+Weekday,Tue,Woodley Park-Zoo/Adams Morgan,Ballston-MU,Midday,11:15 AM to 11:30 AM,1,1.0,3.25,2.925
+Weekday,Fri,Union Station,U Street/African-Amer Civil War Memorial/Cardozo,AM Peak,8:30 AM to 8:45 AM,3,1.0,2.25,2.025
+Weekday,Fri,Shady Grove,Suitland,PM Peak,5:15 PM to 5:30 PM,2,1.0,6.0,5.4
+Weekday,Fri,Crystal City,Gallery Pl-Chinatown,Midday,10:45 AM to 11:00 AM,3,1.0,2.55,2.295
+Saturday,Sat,Arlington Cemetery,Capitol South,Midday,12:45 PM to 1:00 PM,9,1.0,2.5,2.25
+Saturday,Sat,Fort Totten,Brookland-CUA,PM Peak,3:45 PM to 4:00 PM,2,1.0,2.25,2.025
+Saturday,Sat,Tysons Corner,Suitland,PM Peak,4:15 PM to 4:30 PM,1,1.0,6.0,5.4
+Weekday,Thu,Union Station,Anacostia,PM Peak,5:00 PM to 5:15 PM,10,2.0,2.4,1.92
+Saturday,Sat,Suitland,Foggy Bottom-GWU,Midday,2:30 PM to 2:45 PM,1,1.0,4.05,3.6449999999999996
+Weekday,Tue,McPherson Square,Bethesda,Evening,10:45 PM to 11:00 PM,1,1.0,3.55,3.195
+Weekday,Tue,Suitland,Naylor Road,PM Peak,4:15 PM to 4:30 PM,1,1.0,2.25,2.025
+Weekday,Tue,Capitol South,Rosslyn,AM Peak,9:15 AM to 9:30 AM,2,1.0,2.65,2.385
+Weekday,Tue,Largo Town Center,Addison Road-Seat Pleasant,Midday,2:30 PM to 2:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Farragut North,Southern Avenue,PM Peak,4:00 PM to 4:15 PM,6,1.0,3.3,2.9699999999999998
+Weekday,Thu,Braddock Road,Fort Totten,Evening,8:30 PM to 8:45 PM,1,1.0,4.8,4.32
+Saturday,Sat,Foggy Bottom-GWU,Tysons Corner,Evening,8:45 PM to 9:00 PM,2,1.0,4.55,4.095
+Weekday,Wed,New Carrollton,Georgia Ave-Petworth,AM Peak,6:45 AM to 7:00 AM,1,1.0,4.75,4.275
+Weekday,Mon,Farragut West,McPherson Square,Midday,1:00 PM to 1:15 PM,3,1.0,2.25,2.025
+Weekday,Mon,Glenmont,Metro Center,PM Peak,3:15 PM to 3:30 PM,2,1.0,5.1,4.59
+Weekday,Thu,Twinbrook,Addison Road-Seat Pleasant,PM Peak,6:15 PM to 6:30 PM,1,1.0,6.0,5.4
+Weekday,Fri,Rosslyn,Pentagon City,Evening,8:15 PM to 8:30 PM,4,1.0,2.25,2.025
+Weekday,Fri,Pentagon City,Federal Center SW,Midday,11:15 AM to 11:30 AM,1,1.0,2.25,2.025
+Weekday,Tue,Gallery Pl-Chinatown,McPherson Square,PM Peak,5:45 PM to 6:00 PM,1,1.0,2.25,2.025
+Weekday,Mon,L'Enfant Plaza,Minnesota Ave,Midday,9:45 AM to 10:00 AM,1,1.0,2.75,2.475
+Weekday,Thu,Shaw-Howard U,Anacostia,AM Peak,7:00 AM to 7:15 AM,3,1.0,2.6,2.34
+Weekday,Thu,Largo Town Center,U Street/African-Amer Civil War Memorial/Cardozo,Midday,12:30 PM to 12:45 PM,1,1.0,4.8,4.32
+Sunday,Sun,Union Station,Addison Road-Seat Pleasant,PM Peak,3:15 PM to 3:30 PM,1,1.0,3.8,3.42
+Weekday,Mon,Rockville,Addison Road-Seat Pleasant,PM Peak,4:45 PM to 5:00 PM,1,1.0,6.0,5.4
+Weekday,Mon,Columbia Heights,Rosslyn,AM Peak,9:15 AM to 9:30 AM,5,1.0,2.65,2.385
+Weekday,Mon,Bethesda,Shady Grove,Evening,7:45 PM to 8:00 PM,6,1.0,4.45,4.005
+Weekday,Thu,Vienna/Fairfax-GMU,Ballston-MU,PM Peak,4:45 PM to 5:00 PM,8,1.0,4.1,3.6899999999999995
+Weekday,Thu,Pentagon City,Tysons Corner,Midday,10:00 AM to 10:15 AM,1,1.0,4.8,4.32
+Weekday,Thu,Glenmont,Federal Triangle,Midday,11:45 AM to 12:00 PM,1,1.0,5.15,4.635000000000001
+Weekday,Wed,Union Station,Suitland,PM Peak,3:30 PM to 3:45 PM,4,1.0,3.65,3.285
+Weekday,Thu,West Hyattsville,Farragut North,AM Peak,7:30 AM to 7:45 AM,13,2.0,3.4,2.7199999999999998
+Sunday,Sun,Minnesota Ave,Minnesota Ave,Evening,8:00 PM to 8:15 PM,2,1.0,,
+Weekday,Wed,Archives-Navy Memorial-Penn Quarter,Anacostia,Midday,12:15 PM to 12:30 PM,4,1.0,2.25,2.025
+Weekday,Wed,Anacostia,Shaw-Howard U,PM Peak,6:15 PM to 6:30 PM,2,1.0,2.6,2.34
+Weekday,Wed,Archives-Navy Memorial-Penn Quarter,Rosslyn,Midday,1:15 PM to 1:30 PM,2,1.0,2.25,2.025
+Weekday,Thu,Crystal City,McPherson Square,AM Peak,7:15 AM to 7:30 AM,13,2.0,2.65,2.12
+Weekday,Thu,Pentagon City,Potomac Ave,AM Peak,6:45 AM to 7:00 AM,1,1.0,2.75,2.475
+Weekday,Thu,Metro Center,Cleveland Park,Midday,2:45 PM to 3:00 PM,3,1.0,2.3,2.07
+Weekday,Thu,Medical Center,Tenleytown-AU,Evening,7:45 PM to 8:00 PM,2,1.0,2.45,2.205
+Weekday,Thu,Twinbrook,Cleveland Park,Midday,1:45 PM to 2:00 PM,1,1.0,4.3,3.8699999999999997
+Weekday,Wed,Rosslyn,New Carrollton,PM Peak,4:45 PM to 5:00 PM,14,2.0,5.15,4.12
+Weekday,Wed,Silver Spring,Glenmont,Evening,9:30 PM to 9:45 PM,5,1.0,2.9,2.61
+Weekday,Wed,Georgia Ave-Petworth,Farragut West,AM Peak,9:00 AM to 9:15 AM,3,1.0,2.45,2.205
+Weekday,Thu,Grosvenor-Strathmore,Metro Center,AM Peak,6:15 AM to 6:30 AM,10,2.0,4.5,3.6
+Weekday,Fri,L'Enfant Plaza,Branch Ave,Midday,12:00 PM to 12:15 PM,2,1.0,3.9,3.51
+Weekday,Thu,Bethesda,Van Ness-UDC,PM Peak,4:00 PM to 4:15 PM,5,1.0,2.4,2.16
+Weekday,Thu,Vienna/Fairfax-GMU,Waterfront,PM Peak,3:30 PM to 3:45 PM,1,1.0,5.9,5.3100000000000005
+Saturday Holiday,Mon,Navy Yard-Ballpark,Union Station,AM Peak,8:00 AM to 8:15 AM,2,1.0,2.25,2.025
+Saturday Holiday,Mon,Judiciary Square,Tenleytown-AU,Midday,10:30 AM to 10:45 AM,2,1.0,3.0,2.7
+Saturday,Sat,East Falls Church,Rockville,Midday,11:30 AM to 11:45 AM,1,1.0,6.0,5.4
+Weekday,Thu,Suitland,Anacostia,Midday,10:15 AM to 10:30 AM,3,1.0,2.7,2.43
+Weekday,Thu,Suitland,Federal Center SW,AM Peak,6:30 AM to 6:45 AM,2,1.0,3.4,3.06
+Weekday,Thu,Brookland-CUA,Fort Totten,Evening,8:45 PM to 9:00 PM,2,1.0,2.25,2.025
+Weekday,Thu,Waterfront,Gallery Pl-Chinatown,AM Peak,7:00 AM to 7:15 AM,4,1.0,2.25,2.025
+Weekday,Thu,L'Enfant Plaza,Woodley Park-Zoo/Adams Morgan,PM Peak,4:00 PM to 4:15 PM,4,1.0,2.4,2.16
+Weekday,Thu,Virginia Square-GMU,McPherson Square,PM Peak,4:45 PM to 5:00 PM,2,1.0,2.6,2.34
+Saturday Holiday,Mon,Braddock Road,Bethesda,AM Peak,7:15 AM to 7:30 AM,2,1.0,5.5,4.95
+Weekday,Wed,Union Station,Greenbelt,Evening,8:15 PM to 8:30 PM,2,1.0,4.55,4.095
+Weekday,Wed,Union Station,Takoma,AM Peak,8:30 AM to 8:45 AM,3,1.0,3.1,2.79
+Weekday,Wed,Foggy Bottom-GWU,Judiciary Square,PM Peak,6:00 PM to 6:15 PM,2,1.0,2.25,2.025
+Weekday,Fri,Southern Avenue,Bethesda,Midday,12:00 PM to 12:15 PM,1,1.0,5.15,4.635000000000001
+Sunday,Sun,Deanwood,Mt Vernon Sq 7th St-Convention Center,Evening,9:45 PM to 10:00 PM,1,1.0,3.2,2.88
+Saturday Holiday,Mon,Wiehle-Reston East,Rosslyn,PM Peak,3:15 PM to 3:30 PM,2,1.0,6.0,5.4
+Weekday,Tue,Farragut West,McLean,Midday,11:15 AM to 11:30 AM,1,1.0,4.5,4.05
+Weekday,Tue,Capitol South,West Falls Church-VT/UVA,Midday,12:30 PM to 12:45 PM,1,1.0,4.65,4.1850000000000005
+Weekday,Tue,Capitol South,Brookland-CUA,Midday,12:15 PM to 12:30 PM,1,1.0,2.7,2.43
+Weekday,Thu,College Park-U of Md,King St-Old Town,Midday,12:15 PM to 12:30 PM,1,1.0,6.0,5.4
+Weekday,Thu,Court House,Brookland-CUA,PM Peak,6:00 PM to 6:15 PM,1,1.0,3.45,3.105
+Weekday,Thu,Prince George's Plaza,College Park-U of Md,PM Peak,3:00 PM to 3:15 PM,1,1.0,2.25,2.025
+Weekday,Thu,Union Station,Addison Road-Seat Pleasant,PM Peak,4:45 PM to 5:00 PM,4,1.0,3.8,3.42
+Sunday,Sun,Crystal City,Van Ness-UDC,Midday,11:45 AM to 12:00 PM,2,1.0,3.6,3.24
+Weekday,Fri,Takoma,Shaw-Howard U,PM Peak,6:15 PM to 6:30 PM,1,1.0,2.9,2.61
+Weekday,Thu,Crystal City,U Street/African-Amer Civil War Memorial/Cardozo,Evening,7:00 PM to 7:15 PM,5,1.0,2.95,2.6550000000000002
+Weekday,Tue,Georgia Ave-Petworth,College Park-U of Md,AM Peak,9:15 AM to 9:30 AM,5,1.0,3.3,2.9699999999999998
+Weekday,Fri,Tysons Corner,Glenmont,PM Peak,5:45 PM to 6:00 PM,1,1.0,6.0,5.4
+Sunday,Sun,Addison Road-Seat Pleasant,Addison Road-Seat Pleasant,Midday,10:00 AM to 10:15 AM,1,1.0,,
+Weekday,Tue,Dupont Circle,Smithsonian,AM Peak,6:30 AM to 6:45 AM,1,1.0,2.25,2.025
+Weekday,Tue,Ronald Reagan Washington National Airport,Gallery Pl-Chinatown,Midday,12:15 PM to 12:30 PM,4,1.0,2.65,2.385
+Weekday,Thu,Cheverly,Huntington,PM Peak,5:45 PM to 6:00 PM,2,1.0,5.55,4.995
+Weekday,Thu,Gallery Pl-Chinatown,Crystal City,Evening,7:30 PM to 7:45 PM,12,2.0,2.55,2.04
+Weekday,Fri,East Falls Church,Farragut West,Evening,10:00 PM to 10:15 PM,3,1.0,3.4,3.06
+Sunday,Sun,Cleveland Park,Gallery Pl-Chinatown,PM Peak,5:45 PM to 6:00 PM,3,1.0,2.35,2.115
+Weekday,Fri,Brookland-CUA,Columbia Heights,Evening,7:15 PM to 7:30 PM,3,1.0,2.25,2.025
+Weekday,Fri,Georgia Ave-Petworth,Navy Yard-Ballpark,PM Peak,5:15 PM to 5:30 PM,1,1.0,2.9,2.61
+Weekday,Fri,Morgan Boulevard,Capitol Heights,Evening,11:15 PM to 11:30 PM,1,1.0,2.25,2.025
+Weekday,Fri,Suitland,Branch Ave,AM Peak,9:15 AM to 9:30 AM,2,1.0,2.25,2.025
+Weekday,Fri,Woodley Park-Zoo/Adams Morgan,Smithsonian,Midday,2:00 PM to 2:15 PM,4,1.0,2.25,2.025
+Weekday,Fri,Waterfront,Deanwood,AM Peak,8:45 AM to 9:00 AM,1,1.0,3.15,2.835
+Saturday Holiday,Mon,Mt Vernon Sq 7th St-Convention Center,Rosslyn,PM Peak,3:00 PM to 3:15 PM,3,1.0,2.3,2.07
+Weekday,Mon,Prince George's Plaza,Branch Ave,PM Peak,4:15 PM to 4:30 PM,2,1.0,5.55,4.995
+Weekday,Tue,Gallery Pl-Chinatown,Wiehle-Reston East,Midday,2:00 PM to 2:15 PM,2,1.0,6.0,5.4
+Weekday,Mon,NoMa-Gallaudet U,McPherson Square,PM Peak,4:30 PM to 4:45 PM,3,1.0,2.25,2.025
+Saturday Holiday,Mon,Ballston-MU,Clarendon,Midday,2:00 PM to 2:15 PM,1,1.0,2.25,2.025
+Saturday Holiday,Mon,Van Ness-UDC,College Park-U of Md,Midday,12:00 PM to 12:15 PM,1,1.0,4.65,4.1850000000000005
+Weekday,Fri,Georgia Ave-Petworth,Suitland,AM Peak,8:45 AM to 9:00 AM,1,1.0,4.35,3.9149999999999996
+Weekday,Fri,Georgia Ave-Petworth,Shaw-Howard U,Midday,11:00 AM to 11:15 AM,1,1.0,2.25,2.025
+Saturday,Sat,Silver Spring,Anacostia,Midday,10:15 AM to 10:30 AM,1,1.0,4.5,4.05
+Weekday,Mon,Dupont Circle,Ronald Reagan Washington National Airport,AM Peak,6:15 AM to 6:30 AM,1,1.0,3.0,2.7
+Weekday,Tue,Rhode Island Ave-Brentwood,Pentagon City,PM Peak,4:15 PM to 4:30 PM,2,1.0,3.2,2.88
+Saturday Holiday,Mon,Farragut West,Federal Center SW,AM Peak,9:15 AM to 9:30 AM,1,1.0,2.25,2.025
+Saturday Holiday,Mon,Anacostia,Spring Hill,Midday,11:45 AM to 12:00 PM,1,1.0,6.0,5.4
+Weekday,Mon,Addison Road-Seat Pleasant,Addison Road-Seat Pleasant,Evening,9:00 PM to 9:15 PM,1,1.0,,
+Weekday,Mon,McLean,Shaw-Howard U,PM Peak,5:15 PM to 5:30 PM,1,1.0,4.95,4.455
+Weekday,Mon,Gallery Pl-Chinatown,Rosslyn,AM Peak,9:00 AM to 9:15 AM,3,1.0,2.25,2.025
+Weekday,Mon,Forest Glen,Forest Glen,PM Peak,3:15 PM to 3:30 PM,2,1.0,,
+Weekday,Mon,Forest Glen,Congress Heights,Evening,7:30 PM to 7:45 PM,1,1.0,5.35,4.8149999999999995
+Weekday,Tue,Benning Road,Pentagon City,AM Peak,9:15 AM to 9:30 AM,1,1.0,3.65,3.285
+Weekday,Tue,Addison Road-Seat Pleasant,Foggy Bottom-GWU,Midday,12:15 PM to 12:30 PM,2,1.0,4.2,3.7800000000000002
+Sunday,Sun,Brookland-CUA,Deanwood,PM Peak,4:45 PM to 5:00 PM,1,1.0,3.5,3.15
+Weekday,Wed,Ballston-MU,Tysons Corner,AM Peak,5:45 AM to 6:00 AM,2,1.0,3.55,3.195
+Sunday,Sun,White Flint,Tenleytown-AU,Midday,1:30 PM to 1:45 PM,1,1.0,3.55,3.195
+Weekday,Thu,Takoma,Branch Ave,Evening,9:45 PM to 10:00 PM,1,1.0,5.65,5.085
+Weekday,Mon,Suitland,Brookland-CUA,PM Peak,5:30 PM to 5:45 PM,1,1.0,4.25,3.825
+Weekday,Wed,Union Station,Shady Grove,PM Peak,3:45 PM to 4:00 PM,10,2.0,6.0,4.8
+Weekday,Wed,Dupont Circle,Ballston-MU,Evening,8:15 PM to 8:30 PM,2,1.0,3.05,2.7449999999999997
+Weekday,Wed,Mt Vernon Sq 7th St-Convention Center,Pentagon,Evening,8:15 PM to 8:30 PM,1,1.0,2.4,2.16
+Weekday,Wed,Union Station,Rhode Island Ave-Brentwood,Evening,9:45 PM to 10:00 PM,6,1.0,2.25,2.025
+Weekday,Tue,Stadium-Armory,Metro Center,PM Peak,6:45 PM to 7:00 PM,2,1.0,2.4,2.16
+Weekday,Mon,Franconia-Springfield,Medical Center,AM Peak,8:15 AM to 8:30 AM,2,1.0,6.0,5.4
+Weekday,Wed,Deanwood,L'Enfant Plaza,AM Peak,8:45 AM to 9:00 AM,2,1.0,3.0,2.7
+Weekday,Wed,Van Dorn Street,Woodley Park-Zoo/Adams Morgan,Midday,10:00 AM to 10:15 AM,1,1.0,5.1,4.59
+Weekday,Wed,Cheverly,Metro Center,AM Peak,6:30 AM to 6:45 AM,2,1.0,3.55,3.195
+Weekday,Wed,Vienna/Fairfax-GMU,Smithsonian,PM Peak,5:45 PM to 6:00 PM,3,1.0,5.6,5.04
+Weekday,Thu,L'Enfant Plaza,Spring Hill,PM Peak,5:15 PM to 5:30 PM,2,1.0,5.55,4.995
+Weekday,Thu,Van Ness-UDC,White Flint,Midday,9:30 AM to 9:45 AM,2,1.0,3.8,3.42
+Weekday,Thu,Medical Center,Friendship Heights,Midday,9:30 AM to 9:45 AM,3,1.0,2.25,2.025
+Weekday,Thu,Union Station,Suitland,Evening,7:45 PM to 8:00 PM,2,1.0,3.65,3.285
+Weekday,Mon,Fort Totten,Clarendon,PM Peak,6:00 PM to 6:15 PM,1,1.0,3.85,3.465
+Weekday,Mon,Foggy Bottom-GWU,White Flint,Evening,11:15 PM to 11:30 PM,1,1.0,5.0,4.5
+Saturday,Sat,Ballston-MU,Farragut West,Midday,11:30 AM to 11:45 AM,3,1.0,2.7,2.43
+Weekday,Tue,Navy Yard-Ballpark,Georgia Ave-Petworth,Evening,7:30 PM to 7:45 PM,2,1.0,2.9,2.61
+Weekday,Wed,Gallery Pl-Chinatown,Metro Center,PM Peak,4:30 PM to 4:45 PM,4,1.0,2.25,2.025
+Weekday,Thu,Medical Center,White Flint,PM Peak,5:30 PM to 5:45 PM,12,2.0,2.45,1.9600000000000002
+Weekday,Mon,Crystal City,Archives-Navy Memorial-Penn Quarter,PM Peak,4:30 PM to 4:45 PM,3,1.0,2.45,2.205
+Sunday,Sun,Arlington Cemetery,Smithsonian,Midday,1:30 PM to 1:45 PM,6,1.0,2.25,2.025
+Weekday,Fri,Woodley Park-Zoo/Adams Morgan,White Flint,PM Peak,5:45 PM to 6:00 PM,2,1.0,4.2,3.7800000000000002
+Weekday,Fri,Takoma,Rosslyn,AM Peak,7:30 AM to 7:45 AM,3,1.0,3.8,3.42
+Weekday,Tue,Federal Center SW,Smithsonian,AM Peak,7:30 AM to 7:45 AM,3,1.0,2.25,2.025
+Weekday,Wed,Fort Totten,Wheaton,Midday,11:30 AM to 11:45 AM,2,1.0,3.4,3.06
+Weekday,Thu,Dupont Circle,Cleveland Park,Midday,2:15 PM to 2:30 PM,5,1.0,2.25,2.025
+Weekday,Tue,Tenleytown-AU,White Flint,Midday,12:15 PM to 12:30 PM,1,1.0,3.55,3.195
+Weekday,Tue,Eastern Market,Georgia Ave-Petworth,PM Peak,6:45 PM to 7:00 PM,2,1.0,2.85,2.565
+Weekday,Fri,Tysons Corner,Gallery Pl-Chinatown,AM Peak,9:00 AM to 9:15 AM,1,1.0,5.0,4.5
+Weekday,Thu,Crystal City,Braddock Road,Midday,2:30 PM to 2:45 PM,1,1.0,2.35,2.115
+Weekday,Wed,Foggy Bottom-GWU,Rockville,Evening,7:00 PM to 7:15 PM,1,1.0,5.85,5.265
+Weekday,Wed,Friendship Heights,Addison Road-Seat Pleasant,Midday,12:00 PM to 12:15 PM,1,1.0,5.25,4.725
+Weekday,Thu,Foggy Bottom-GWU,East Falls Church,Midday,11:15 AM to 11:30 AM,1,1.0,3.25,2.925
+Weekday,Thu,Eastern Market,King St-Old Town,Midday,1:00 PM to 1:15 PM,1,1.0,3.75,3.375
+Weekday,Thu,Smithsonian,Capitol South,Midday,2:30 PM to 2:45 PM,2,1.0,2.25,2.025
+Sunday,Sun,Silver Spring,Rhode Island Ave-Brentwood,Evening,11:30 PM to 11:45 PM,2,1.0,3.05,2.7449999999999997
+Weekday,Wed,Clarendon,Capitol South,Midday,2:30 PM to 2:45 PM,1,1.0,3.1,2.79
+Weekday,Fri,Huntington,L'Enfant Plaza,Midday,1:30 PM to 1:45 PM,3,1.0,3.8,3.42
+Saturday,Sat,Pentagon,Van Dorn Street,PM Peak,6:15 PM to 6:30 PM,2,1.0,3.75,3.375
+Weekday,Mon,Wheaton,Gallery Pl-Chinatown,AM Peak,8:30 AM to 8:45 AM,11,2.0,4.55,3.6399999999999997
+Weekday,Wed,Capitol South,Bethesda,Midday,1:45 PM to 2:00 PM,2,1.0,4.05,3.6449999999999996
+Weekday,Fri,Congress Heights,McPherson Square,AM Peak,8:00 AM to 8:15 AM,3,1.0,2.9,2.61
+Sunday,Sun,Van Ness-UDC,Rockville,Midday,10:15 AM to 10:30 AM,1,1.0,4.7,4.23
+Weekday,Wed,Gallery Pl-Chinatown,Rockville,Evening,7:30 PM to 7:45 PM,3,1.0,5.8,5.22
+Weekday,Wed,Gallery Pl-Chinatown,Capitol Heights,PM Peak,4:00 PM to 4:15 PM,1,1.0,3.45,3.105
+Weekday,Thu,Rockville,Vienna/Fairfax-GMU,AM Peak,8:15 AM to 8:30 AM,1,1.0,6.0,5.4
+Weekday,Fri,Georgia Ave-Petworth,Benning Road,PM Peak,6:15 PM to 6:30 PM,1,1.0,3.65,3.285
+Weekday,Fri,Van Dorn Street,NoMa-Gallaudet U,Midday,2:00 PM to 2:15 PM,1,1.0,5.0,4.5
+Weekday,Wed,Judiciary Square,Prince George's Plaza,Midday,2:45 PM to 3:00 PM,1,1.0,3.45,3.105
+Weekday,Wed,Court House,Van Dorn Street,PM Peak,5:45 PM to 6:00 PM,2,1.0,4.3,3.8699999999999997
+Weekday,Wed,Eastern Market,Wheaton,Evening,9:15 PM to 9:30 PM,1,1.0,5.05,4.545
+Weekday,Mon,Shady Grove,Smithsonian,Midday,1:30 PM to 1:45 PM,2,1.0,6.0,5.4
+Weekday,Fri,Minnesota Ave,New Carrollton,PM Peak,6:30 PM to 6:45 PM,4,1.0,3.0,2.7
+Saturday,Sat,Navy Yard-Ballpark,U Street/African-Amer Civil War Memorial/Cardozo,Evening,11:00 PM to 11:15 PM,1,1.0,2.4,2.16
+Weekday,Wed,Takoma,McPherson Square,Midday,12:30 PM to 12:45 PM,1,1.0,3.35,3.015
+Sunday,Sun,U Street/African-Amer Civil War Memorial/Cardozo,Greenbelt,Midday,1:45 PM to 2:00 PM,2,1.0,4.4,3.9600000000000004
+Weekday,Thu,Vienna/Fairfax-GMU,Friendship Heights,Midday,9:45 AM to 10:00 AM,1,1.0,6.0,5.4
+Weekday,Fri,Judiciary Square,Court House,Midday,12:45 PM to 1:00 PM,1,1.0,2.6,2.34
+Sunday,Sun,Fort Totten,King St-Old Town,Midday,2:45 PM to 3:00 PM,1,1.0,5.0,4.5
+Weekday,Fri,Smithsonian,Capitol Heights,Midday,12:15 PM to 12:30 PM,1,1.0,3.45,3.105
+Weekday,Wed,Ballston-MU,Van Ness-UDC,PM Peak,6:00 PM to 6:15 PM,1,1.0,3.55,3.195
+Weekday,Mon,Ballston-MU,Friendship Heights,PM Peak,5:00 PM to 5:15 PM,2,1.0,3.9,3.51
+Weekday,Fri,Court House,Dupont Circle,AM Peak,7:45 AM to 8:00 AM,2,1.0,2.55,2.295
+Weekday,Fri,Metro Center,Eisenhower Avenue,Evening,11:15 PM to 11:30 PM,2,1.0,3.95,3.555
+Sunday,Sun,Van Ness-UDC,Pentagon City,Midday,11:30 AM to 11:45 AM,2,1.0,3.45,3.105
+Weekday,Wed,McPherson Square,Metro Center,Midday,12:15 PM to 12:30 PM,3,1.0,2.25,2.025
+Weekday,Wed,Glenmont,Anacostia,PM Peak,4:30 PM to 4:45 PM,1,1.0,5.95,5.355
+Sunday,Sun,Navy Yard-Ballpark,Archives-Navy Memorial-Penn Quarter,PM Peak,3:15 PM to 3:30 PM,1,1.0,2.25,2.025
+Weekday,Wed,Pentagon City,Rhode Island Ave-Brentwood,Evening,8:00 PM to 8:15 PM,1,1.0,3.2,2.88
+Weekday,Wed,College Park-U of Md,Huntington,PM Peak,5:15 PM to 5:30 PM,1,1.0,6.0,5.4
+Weekday,Thu,Bethesda,Capitol South,Midday,12:15 PM to 12:30 PM,1,1.0,4.05,3.6449999999999996
+Weekday,Wed,Farragut North,Farragut North,PM Peak,6:00 PM to 6:15 PM,3,1.0,,
+Weekday,Wed,Cleveland Park,Gallery Pl-Chinatown,Midday,2:15 PM to 2:30 PM,2,1.0,2.35,2.115
+Weekday,Thu,Benning Road,Fort Totten,AM Peak,5:45 AM to 6:00 AM,2,1.0,3.9,3.51
+Sunday,Sun,Fort Totten,Anacostia,Evening,11:15 PM to 11:30 PM,3,1.0,3.6,3.24
+Weekday,Wed,Potomac Ave,Morgan Boulevard,PM Peak,5:00 PM to 5:15 PM,1,1.0,3.45,3.105
+Sunday,Sun,Friendship Heights,Union Station,Evening,11:15 PM to 11:30 PM,1,1.0,3.35,3.015
+Weekday,Wed,Rhode Island Ave-Brentwood,U Street/African-Amer Civil War Memorial/Cardozo,Midday,2:15 PM to 2:30 PM,1,1.0,2.25,2.025
+Weekday,Mon,Shady Grove,Friendship Heights,PM Peak,3:00 PM to 3:15 PM,2,1.0,4.95,4.455
+Weekday,Fri,Brookland-CUA,Prince George's Plaza,Midday,11:15 AM to 11:30 AM,1,1.0,2.5,2.25
+Saturday,Sat,Ballston-MU,U Street/African-Amer Civil War Memorial/Cardozo,PM Peak,4:15 PM to 4:30 PM,1,1.0,3.3,2.9699999999999998
+Saturday Holiday,Mon,Ronald Reagan Washington National Airport,Ballston-MU,PM Peak,4:45 PM to 5:00 PM,4,1.0,3.05,2.7449999999999997
+Weekday,Mon,Rosslyn,Shady Grove,Midday,2:30 PM to 2:45 PM,2,1.0,6.0,5.4
+Saturday Holiday,Mon,Ballston-MU,Largo Town Center,PM Peak,5:00 PM to 5:15 PM,1,1.0,6.0,5.4
+Saturday Holiday,Mon,Clarendon,Vienna/Fairfax-GMU,Midday,2:00 PM to 2:15 PM,3,1.0,4.4,3.9600000000000004
+Saturday Holiday,Mon,Mt Vernon Sq 7th St-Convention Center,Suitland,Evening,7:15 PM to 7:30 PM,2,1.0,3.75,3.375
+Weekday,Wed,Morgan Boulevard,Clarendon,AM Peak,8:15 AM to 8:30 AM,1,1.0,5.4,4.86
+Weekday,Fri,U Street/African-Amer Civil War Memorial/Cardozo,Suitland,Late Night Peak,2:45 AM to 3:00 AM,1,1.0,4.0,3.6
+Saturday,Sat,Twinbrook,Cleveland Park,Midday,10:15 AM to 10:30 AM,3,1.0,4.3,3.8699999999999997
+Weekday,Wed,Archives-Navy Memorial-Penn Quarter,Farragut North,PM Peak,3:30 PM to 3:45 PM,1,1.0,2.25,2.025
+Weekday,Fri,Suitland,Georgia Ave-Petworth,AM Peak,7:30 AM to 7:45 AM,2,1.0,4.35,3.9149999999999996
+Saturday,Sat,Fort Totten,Huntington,Midday,10:00 AM to 10:15 AM,2,1.0,5.3,4.77
+Weekday,Thu,Tenleytown-AU,Bethesda,PM Peak,6:45 PM to 7:00 PM,6,1.0,2.25,2.025
+Weekday,Thu,Crystal City,Pentagon,Midday,2:45 PM to 3:00 PM,8,1.0,2.25,2.025
+Weekday,Thu,Union Station,Bethesda,PM Peak,4:15 PM to 4:30 PM,14,2.0,3.85,3.08
+Weekday,Thu,Bethesda,NoMa-Gallaudet U,PM Peak,5:30 PM to 5:45 PM,7,1.0,3.9,3.51
+Weekday,Thu,Crystal City,Prince George's Plaza,AM Peak,8:00 AM to 8:15 AM,1,1.0,4.6,4.14
+Weekday,Fri,Federal Triangle,Branch Ave,Evening,7:00 PM to 7:15 PM,2,1.0,4.1,3.6899999999999995
+Weekday,Wed,Brookland-CUA,Wiehle-Reston East,Midday,1:15 PM to 1:30 PM,1,1.0,6.0,5.4
+Weekday,Mon,Congress Heights,Anacostia,AM Peak,6:30 AM to 6:45 AM,2,1.0,2.25,2.025
+Weekday,Mon,Smithsonian,Archives-Navy Memorial-Penn Quarter,PM Peak,3:30 PM to 3:45 PM,2,1.0,2.25,2.025
+Weekday,Thu,Mt Vernon Sq 7th St-Convention Center,Southern Avenue,Evening,8:15 PM to 8:30 PM,1,1.0,3.15,2.835
+Weekday,Tue,Federal Triangle,Capitol South,AM Peak,8:30 AM to 8:45 AM,1,1.0,2.25,2.025
+Weekday,Tue,Federal Center SW,Potomac Ave,Evening,9:00 PM to 9:15 PM,1,1.0,2.25,2.025
+Weekday,Thu,Cleveland Park,Dupont Circle,AM Peak,7:00 AM to 7:15 AM,2,1.0,2.25,2.025
+Weekday,Thu,Georgia Ave-Petworth,Van Ness-UDC,PM Peak,3:00 PM to 3:15 PM,1,1.0,2.85,2.565
+Sunday,Sun,U Street/African-Amer Civil War Memorial/Cardozo,New Carrollton,AM Peak,7:15 AM to 7:30 AM,1,1.0,4.55,4.095
+Saturday,Sat,Silver Spring,Rhode Island Ave-Brentwood,Evening,7:15 PM to 7:30 PM,2,1.0,3.05,2.7449999999999997
+Weekday,Fri,Bethesda,Union Station,Midday,12:15 PM to 12:30 PM,5,1.0,3.85,3.465
+Weekday,Mon,Ballston-MU,Ronald Reagan Washington National Airport,PM Peak,3:45 PM to 4:00 PM,1,1.0,3.05,2.7449999999999997
+Weekday,Tue,Mt Vernon Sq 7th St-Convention Center,King St-Old Town,Midday,11:00 AM to 11:15 AM,3,1.0,3.9,3.51
+Weekday,Tue,Federal Triangle,Tysons Corner,Evening,9:15 PM to 9:30 PM,2,1.0,4.95,4.455
+Weekday,Tue,Vienna/Fairfax-GMU,Eastern Market,AM Peak,6:15 AM to 6:30 AM,4,1.0,6.0,5.4
+Weekday,Wed,Fort Totten,Georgia Ave-Petworth,Midday,9:45 AM to 10:00 AM,3,1.0,2.25,2.025
