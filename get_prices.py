@@ -1,5 +1,5 @@
 import httplib, urllib, base64, json
-
+import csv
 headers = {
     # Request headers
     'api_key': '3f6ff37b63da417080ac532315a3da01',
@@ -61,3 +61,8 @@ def makeNameToCodeMap():
 	    return station_and_codes
 	except Exception as e:
 	    print("eghj")
+
+def addPricesToCSV():
+	fields = ['ENTSTATION', 'EXTSTATION', 'Fare']
+	filename = "prices.csv"
+	
