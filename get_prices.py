@@ -28,11 +28,13 @@ def fun(p, q):
         newdict = dict((k.encode('ascii'), v) for (k, v) in y.items())
         # print("new value= ")
         # print(newdict['PeakTime'])
-        return newdict['PeakTime'], newdict['OffPeakTime']
+        value = float(newdict['PeakTime'])
+        # print(type(value))
+        return value# , newdict['OffPeakTime']
     except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+        print("erfgh")
 
-def make_map(p, q):
+def make_map():
 	params = urllib.urlencode({
 	    # Request parameters
 	    # 'LineCode': '',
@@ -56,6 +58,6 @@ def make_map(p, q):
 	    # keys = station_and_codes.keys()    
 	    # print("printing fares from " + keys[0] + " to " + keys[1] + " ")
 	    # fun(station_and_codes.get(keys[0]), station_and_codes.get(keys[1]))
-	    return station_and_codes[p], station_and_codes[q]
+	    return station_and_codes
 	except Exception as e:
 	    print("eghj")

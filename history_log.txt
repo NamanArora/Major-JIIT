@@ -1,0 +1,1016 @@
+sandeepsandy62014@gmail.com
+
+dravit@themachine:~/Desktop/branches/Major-JIIT$ python svm.py 
+  ENTDATESERVICETYPE ENTDATEDAYOFWEEK    ...           ENTQUARTHOUR AVG_TRIPS
+0           Saturday              Sat    ...     4:00 PM to 4:15 PM         2
+1            Weekday              Thu    ...     5:30 AM to 5:45 AM         5
+2            Weekday              Thu    ...     9:00 AM to 9:15 AM        11
+3            Weekday              Thu    ...     5:45 PM to 6:00 PM        10
+4            Weekday              Thu    ...     5:30 PM to 5:45 PM        12
+
+[5 rows x 7 columns]
+(999, 7)
+Binarizing the station names...
+/usr/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Hot encoding the features...
+   ENTDATEDAYOFWEEK  ENTSTATION  AVG_TRIPS  ENTDATESERVICETYPE_Saturday  ENTDATESERVICETYPE_Saturday Holiday  ENTDATESERVICETYPE_Sunday  ENTDATESERVICETYPE_Weekday  EXTSTATION_Addison Road-Seat Pleasant  EXTSTATION_Anacostia  EXTSTATION_Archives-Navy Memorial-Penn Quarter  EXTSTATION_Ballston-MU  EXTSTATION_Benning Road  EXTSTATION_Bethesda  EXTSTATION_Braddock Road  EXTSTATION_Branch Ave  EXTSTATION_Brookland-CUA  EXTSTATION_Capitol Heights  EXTSTATION_Capitol South  EXTSTATION_Cheverly  EXTSTATION_Clarendon  EXTSTATION_Cleveland Park  EXTSTATION_College Park-U of Md  EXTSTATION_Columbia Heights  EXTSTATION_Congress Heights  EXTSTATION_Court House  EXTSTATION_Crystal City  EXTSTATION_Deanwood  EXTSTATION_Dunn Loring-Merrifield  EXTSTATION_Dupont Circle  EXTSTATION_East Falls Church  EXTSTATION_Eastern Market  EXTSTATION_Eisenhower Avenue  EXTSTATION_Farragut North  EXTSTATION_Farragut West  EXTSTATION_Federal Center SW  EXTSTATION_Federal Triangle  EXTSTATION_Foggy Bottom-GWU  EXTSTATION_Forest Glen  EXTSTATION_Fort Totten  EXTSTATION_Franconia-Springfield  EXTSTATION_Friendship Heights  EXTSTATION_Gallery Pl-Chinatown  EXTSTATION_Georgia Ave-Petworth  EXTSTATION_Glenmont  EXTSTATION_Greenbelt  EXTSTATION_Grosvenor-Strathmore  EXTSTATION_Huntington  EXTSTATION_Judiciary Square  EXTSTATION_King St-Old Town  EXTSTATION_L'Enfant Plaza  EXTSTATION_Landover  EXTSTATION_Largo Town Center  EXTSTATION_McLean  EXTSTATION_McPherson Square  EXTSTATION_Medical Center  EXTSTATION_Metro Center  EXTSTATION_Minnesota Ave  EXTSTATION_Morgan Boulevard  EXTSTATION_Mt Vernon Sq 7th St-Convention Center  EXTSTATION_Navy Yard-Ballpark  EXTSTATION_Naylor Road  EXTSTATION_New Carrollton  EXTSTATION_NoMa-Gallaudet U  EXTSTATION_Pentagon  EXTSTATION_Pentagon City  EXTSTATION_Potomac Ave  EXTSTATION_Prince George's Plaza  EXTSTATION_Rhode Island Ave-Brentwood  EXTSTATION_Rockville  EXTSTATION_Ronald Reagan Washington National Airport  EXTSTATION_Rosslyn  EXTSTATION_Shady Grove  EXTSTATION_Shaw-Howard U  EXTSTATION_Silver Spring  EXTSTATION_Smithsonian  EXTSTATION_Southern Avenue  EXTSTATION_Spring Hill  EXTSTATION_Stadium-Armory  EXTSTATION_Suitland  EXTSTATION_Takoma        ...        
+0                 2          54          2                            1                                    0                          0                           0                                      0                     0                                               0                       0                        0                    0                         0                      0                         0                           0                         0                    0                     0                          0                                0                            0                            0                       0                        0                    0                                  0                         1                             0                          0                             0                          0                         0                             0                            0                            0                       0                       0                                 0                              0                                0                                0                    0                     0                                0                      0                            0                            0                          0                    0                             0                  0                            0                          0                        0                         0                            0                                                 0                              0                       0                          0                            0                    0                         0                       0                                 0                                      0                     0                                                  0                      0                       0                         0                         0                       0                           0                       0                          0                    0                  0        ...        
+1                 4          41          5                            0                                    0                          0                           1                                      0                     0                                               0                       0                        0                    0                         0                      0                         0                           0                         0                    0                     0                          0                                0                            0                            0                       0                        0                    0                                  0                         0                             0                          0                             0                          0                         0                             0                            0                            0                       0                       0                                 0                              0                                1                                0                    0                     0                                0                      0                            0                            0                          0                    0                             0                  0                            0                          0                        0                         0                            0                                                 0                              0                       0                          0                            0                    0                         0                       0                                 0                                      0                     0                                                  0                      0                       0                         0                         0                       0                           0                       0                          0                    0                  0        ...        
+2                 4          66         11                            0                                    0                          0                           1                                      0                     0                                               0                       0                        0                    0                         0                      0                         0                           0                         0                    0                     0                          0                                0                            0                            0                       0                        0                    0                                  0                         0                             0                          0                             0                          0                         0                             0                            0                            0                       0                       0                                 0                              0                                0                                0                    0                     0                                0                      0                            1                            0                          0                    0                             0                  0                            0                          0                        0                         0                            0                                                 0                              0                       0                          0                            0                    0                         0                       0                                 0                                      0                     0                                                  0                      0                       0                         0                         0                       0                           0                       0                          0                    0                  0        ...        
+3                 4          30         10                            0                                    0                          0                           1                                      0                     0                                               0                       0                        0                    0                         0                      0                         0                           0                         0                    0                     0                          0                                0                            0                            0                       0                        0                    0                                  0                         0                             0                          0                             0                          0                         0                             0                            0                            0                       0                       0                                 0                              0                                0                                0                    0                     0                                0                      0                            0                            0                          0                    0                             0                  0                            0                          0                        0                         0                            0                                                 0                              0                       0                          0                            0                    0                         0                       0                                 0                                      0                     0                                                  0                      0                       0                         0                         0                       0                           0                       0                          0                    0                  0        ...        
+4                 4          44         12                            0                                    0                          0                           1                                      0                     0                                               0                       0                        0                    0                         0                      0                         0                           0                         0                    0                     0                          0                                0                            0                            0                       0                        0                    0                                  0                         0                             0                          0                             0                          0                         0                             0                            0                            0                       0                       0                                 0                              0                                0                                0                    0                     0                                0                      0                            0                            0                          0                    0                             0                  0                            0                          0                        0                         0                            0                                                 0                              0                       0                          0                            0                    0                         0                       0                                 0                                      0                     0                                                  0                      0                       0                         0                         0                       0                           0                       0                          0                    0                  0        ...        
+
+[5 rows x 183 columns]
+('Training Features Shape:', (749, 182))
+('Training Labels Shape:', (749,))
+('Testing Features Shape:', (250, 182))
+('Testing Labels Shape:', (250,))
+Training data in progress...
+('Mean Absolute Error:', 2.89, '.')
+svm.py:29: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  csvFile.set_value(i, 'congestion_level', val)
+station names from csv given as follow
+
+0. Navy Yard-Ballpark Dupont Circle
+svm.py:62: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  csvFile.set_value(i, 'old_cost', old_cost)
+svm.py:63: FutureWarning: set_value is deprecated and will be removed in a future release. Please use .at[] or .iat[] accessors instead
+  csvFile.set_value(i, 'new_cost', new_cost)
+1. Huntington Gallery Pl-Chinatown
+2. Shady Grove Judiciary Square
+3. Foggy Bottom-GWU Van Dorn Street
+4. L'Enfant Plaza West Hyattsville
+5. Federal Center SW Vienna/Fairfax-GMU
+6. Capitol Heights U Street/African-Amer Civil War Memorial/Cardozo
+7. West Falls Church-VT/UVA McPherson Square
+8. Union Station L'Enfant Plaza
+9. Archives-Navy Memorial-Penn Quarter Ronald Reagan Washington National Airport
+10. Metro Center Forest Glen
+11. Gallery Pl-Chinatown Bethesda
+12. McPherson Square Farragut West
+13. Gallery Pl-Chinatown Ronald Reagan Washington National Airport
+14. Dunn Loring-Merrifield Crystal City
+15. L'Enfant Plaza Wheaton
+16. Bethesda Woodley Park-Zoo/Adams Morgan
+17. Southern Avenue Silver Spring
+18. Rosslyn Federal Triangle
+19. Columbia Heights Wheaton
+20. Friendship Heights Vienna/Fairfax-GMU
+21. Capitol Heights McPherson Square
+22. Navy Yard-Ballpark Spring Hill
+23. Dupont Circle Franconia-Springfield
+24. Farragut North L'Enfant Plaza
+25. Takoma Columbia Heights
+26. King St-Old Town Eastern Market
+27. New Carrollton Branch Ave
+28. Cleveland Park L'Enfant Plaza
+29. Navy Yard-Ballpark Shady Grove
+30. Brookland-CUA Ballston-MU
+31. West Falls Church-VT/UVA Virginia Square-GMU
+32. College Park-U of Md Archives-Navy Memorial-Penn Quarter
+33. Judiciary Square Cheverly
+34. Tenleytown-AU Grosvenor-Strathmore
+35. Benning Road Ballston-MU
+36. Federal Center SW Pentagon City
+37. Potomac Ave King St-Old Town
+38. Landover Ballston-MU
+39. Judiciary Square Takoma
+40. Union Station Pentagon City
+41. Columbia Heights Wheaton
+42. Columbia Heights Forest Glen
+43. Spring Hill Capitol South
+44. Dupont Circle Woodley Park-Zoo/Adams Morgan
+45. Union Station Virginia Square-GMU
+46. Cleveland Park Metro Center
+47. Foggy Bottom-GWU Crystal City
+48. Farragut West McLean
+	49. Gallery Pl-Chinatown Huntington
+50. Medical Center Prince George's Plaza
+51. Takoma Rhode Island Ave-Brentwood
+52. Southern Avenue Union Station
+53. Georgia Ave-Petworth Foggy Bottom-GWU
+54. McPherson Square Dupont Circle
+55. Georgia Ave-Petworth Dupont Circle
+56. Takoma Farragut West
+57. Court House Ballston-MU
+58. Farragut North Judiciary Square
+59. Medical Center Pentagon City
+60. Brookland-CUA Judiciary Square
+61. Mt Vernon Sq 7th St-Convention Center Wheaton
+62. Addison Road-Seat Pleasant McLean
+63. Shady Grove Friendship Heights
+64. Fort Totten U Street/African-Amer Civil War Memorial/Cardozo
+65. Cleveland Park Naylor Road
+66. Gallery Pl-Chinatown Dupont Circle
+67. Farragut North Rhode Island Ave-Brentwood
+68. Union Station Franconia-Springfield
+69. U Street/African-Amer Civil War Memorial/Cardozo Ronald Reagan Washington National Airport
+70. Braddock Road Naylor Road
+71. Pentagon Foggy Bottom-GWU
+72. Crystal City Archives-Navy Memorial-Penn Quarter
+73. Braddock Road King St-Old Town
+74. Federal Triangle McPherson Square
+75. Smithsonian College Park-U of Md
+76. Anacostia Addison Road-Seat Pleasant
+77. Shady Grove Van Ness-UDC
+78. Brookland-CUA Federal Center SW
+79. Archives-Navy Memorial-Penn Quarter Braddock Road
+80. King St-Old Town Pentagon City
+81. Georgia Ave-Petworth U Street/African-Amer Civil War Memorial/Cardozo
+82. Silver Spring Foggy Bottom-GWU
+83. Medical Center Branch Ave
+84. Dupont Circle Pentagon City
+85. Eisenhower Avenue Gallery Pl-Chinatown
+86. Ronald Reagan Washington National Airport Mt Vernon Sq 7th St-Convention Center
+87. Virginia Square-GMU Waterfront
+88. Cleveland Park Fort Totten
+89. Tenleytown-AU Dupont Circle
+90. Union Station Southern Avenue
+91. Pentagon City Court House
+92. Suitland Dupont Circle
+93. L'Enfant Plaza McPherson Square
+94. U Street/African-Amer Civil War Memorial/Cardozo L'Enfant Plaza
+95. McPherson Square Glenmont
+96. Pentagon City Gallery Pl-Chinatown
+97. Metro Center Rosslyn
+98. Crystal City Eastern Market
+99. Gallery Pl-Chinatown Friendship Heights
+100. Farragut West Wiehle-Reston East
+101. Foggy Bottom-GWU Smithsonian
+102. Braddock Road Federal Center SW
+103. Prince George's Plaza Glenmont
+104. McPherson Square Rhode Island Ave-Brentwood
+105. Eastern Market Dupont Circle
+106. Navy Yard-Ballpark Takoma
+107. Anacostia U Street/African-Amer Civil War Memorial/Cardozo
+108. Crystal City Metro Center
+109. Foggy Bottom-GWU Wheaton
+110. L'Enfant Plaza Crystal City
+111. Navy Yard-Ballpark Rhode Island Ave-Brentwood
+112. Twinbrook Rockville
+113. Ronald Reagan Washington National Airport Huntington
+114. Farragut West College Park-U of Md
+115. Judiciary Square College Park-U of Md
+116. White Flint Dupont Circle
+117. Friendship Heights Shady Grove
+118. Naylor Road Court House
+119. Landover Dupont Circle
+120. Georgia Ave-Petworth Fort Totten
+121. College Park-U of Md Branch Ave
+122. McPherson Square Rockville
+123. Virginia Square-GMU Farragut West
+124. Waterfront Vienna/Fairfax-GMU
+125. Navy Yard-Ballpark Shaw-Howard U
+126. Friendship Heights Greenbelt
+127. Franconia-Springfield Gallery Pl-Chinatown
+128. Georgia Ave-Petworth Pentagon City
+129. Metro Center L'Enfant Plaza
+130. Ronald Reagan Washington National Airport Braddock Road
+131. White Flint Stadium-Armory
+132. Dupont Circle Union Station
+133. Grosvenor-Strathmore Woodley Park-Zoo/Adams Morgan
+134. Pentagon City Tenleytown-AU
+135. Georgia Ave-Petworth Judiciary Square
+136. McLean Metro Center
+137. Arlington Cemetery Woodley Park-Zoo/Adams Morgan
+138. Rosslyn Virginia Square-GMU
+139. Waterfront Union Station
+140. Twinbrook Landover
+141. Brookland-CUA Pentagon
+142. Foggy Bottom-GWU Largo Town Center
+143. Metro Center Pentagon City
+144. Fort Totten Ronald Reagan Washington National Airport
+145. Pentagon City Pentagon
+146. Friendship Heights Rockville
+147. Ronald Reagan Washington National Airport Federal Center SW
+148. Clarendon Eastern Market
+149. Rhode Island Ave-Brentwood Waterfront
+150. Takoma Fort Totten
+151. Crystal City Foggy Bottom-GWU
+152. Smithsonian McLean
+153. Judiciary Square Court House
+154. Navy Yard-Ballpark Farragut North
+155. Glenmont King St-Old Town
+156. Huntington Mt Vernon Sq 7th St-Convention Center
+157. Clarendon Foggy Bottom-GWU
+158. Rockville Potomac Ave
+159. L'Enfant Plaza Van Ness-UDC
+160. Bethesda Shady Grove
+161. Union Station Columbia Heights
+162. Foggy Bottom-GWU Ballston-MU
+163. Tysons Corner Clarendon
+164. Shaw-Howard U Forest Glen
+165. Farragut North NoMa-Gallaudet U
+166. Foggy Bottom-GWU Bethesda
+167. Fort Totten West Hyattsville
+168. Silver Spring Dupont Circle
+169. Ronald Reagan Washington National Airport Fort Totten
+170. College Park-U of Md Foggy Bottom-GWU
+171. Takoma Brookland-CUA
+172. Ronald Reagan Washington National Airport Stadium-Armory
+173. Farragut West Ballston-MU
+174. Pentagon City Metro Center
+175. Prince George's Plaza Archives-Navy Memorial-Penn Quarter
+176. Judiciary Square Silver Spring
+177. Farragut West Wiehle-Reston East
+178. Pentagon City Crystal City
+179. Pentagon City Federal Center SW
+180. West Falls Church-VT/UVA L'Enfant Plaza
+181. Foggy Bottom-GWU Suitland
+182. Crystal City Suitland
+183. Tenleytown-AU Shady Grove
+184. Van Ness-UDC Brookland-CUA
+185. Ronald Reagan Washington National Airport Farragut West
+186. Farragut West Pentagon
+187. Benning Road Prince George's Plaza
+188. West Hyattsville Takoma
+189. Farragut North Branch Ave
+190. Pentagon City Tysons Corner
+191. Stadium-Armory Huntington
+192. Tenleytown-AU Metro Center
+193. Farragut North Fort Totten
+194. Gallery Pl-Chinatown Van Ness-UDC
+195. Federal Center SW Silver Spring
+196. U Street/African-Amer Civil War Memorial/Cardozo Medical Center
+197. Anacostia Dupont Circle
+198. Navy Yard-Ballpark Brookland-CUA
+199. Wiehle-Reston East Virginia Square-GMU
+200. Rosslyn Clarendon
+201. Naylor Road Prince George's Plaza
+202. Archives-Navy Memorial-Penn Quarter Pentagon
+203. Capitol Heights Smithsonian
+204. College Park-U of Md Georgia Ave-Petworth
+205. King St-Old Town Dunn Loring-Merrifield
+206. Union Station Columbia Heights
+207. Deanwood Rhode Island Ave-Brentwood
+208. Congress Heights Suitland
+209. Van Dorn Street Columbia Heights
+210. King St-Old Town Smithsonian
+211. Dupont Circle Vienna/Fairfax-GMU
+212. Georgia Ave-Petworth Mt Vernon Sq 7th St-Convention Center
+213. Largo Town Center Addison Road-Seat Pleasant
+214. L'Enfant Plaza Branch Ave
+215. McPherson Square Southern Avenue
+216. Van Dorn Street Benning Road
+217. Pentagon City Eastern Market
+218. Smithsonian Friendship Heights
+219. Federal Triangle Bethesda
+220. Dunn Loring-Merrifield Mt Vernon Sq 7th St-Convention Center
+221. Pentagon Addison Road-Seat Pleasant
+222. Pentagon NoMa-Gallaudet U
+223. Silver Spring Tenleytown-AU
+224. Braddock Road Rosslyn
+225. Rosslyn New Carrollton
+226. Largo Town Center White Flint
+227. East Falls Church Clarendon
+228. Judiciary Square Eastern Market
+229. Columbia Heights Smithsonian
+230. Shady Grove Smithsonian
+231. Eastern Market Metro Center
+232. Gallery Pl-Chinatown Forest Glen
+233. Gallery Pl-Chinatown Stadium-Armory
+234. Woodley Park-Zoo/Adams Morgan Metro Center
+235. Anacostia New Carrollton
+236. Foggy Bottom-GWU Eastern Market
+237. Suitland L'Enfant Plaza
+238. Smithsonian Brookland-CUA
+239. Woodley Park-Zoo/Adams Morgan Federal Center SW
+240. Federal Center SW Southern Avenue
+241. Rockville Largo Town Center
+242. Takoma Union Station
+243. White Flint Bethesda
+244. Crystal City Vienna/Fairfax-GMU
+245. Pentagon Capitol South
+246. Pentagon City Largo Town Center
+247. Georgia Ave-Petworth U Street/African-Amer Civil War Memorial/Cardozo
+248. Takoma Rosslyn
+249. Eastern Market U Street/African-Amer Civil War Memorial/Cardozo
+250. Foggy Bottom-GWU Suitland
+251. Archives-Navy Memorial-Penn Quarter Waterfront
+252. New Carrollton Farragut West
+253. Judiciary Square Union Station
+254. Shaw-Howard U Ballston-MU
+255. Tenleytown-AU Cleveland Park
+256. Smithsonian College Park-U of Md
+257. Grosvenor-Strathmore Bethesda
+258. Georgia Ave-Petworth Columbia Heights
+259. Smithsonian Union Station
+260. Ronald Reagan Washington National Airport Union Station
+261. Fort Totten Branch Ave
+262. Crystal City L'Enfant Plaza
+263. Foggy Bottom-GWU Shaw-Howard U
+264. Silver Spring Clarendon
+265. Southern Avenue Mt Vernon Sq 7th St-Convention Center
+266. Silver Spring Clarendon
+267. Columbia Heights Union Station
+268. Twinbrook Shady Grove
+269. Federal Triangle King St-Old Town
+270. Farragut North Rockville
+271. Pentagon City Ronald Reagan Washington National Airport
+272. Dupont Circle Metro Center
+273. Ronald Reagan Washington National Airport King St-Old Town
+274. Union Station Tenleytown-AU
+275. Crystal City Metro Center
+276. McPherson Square Union Station
+277. Dupont Circle Rockville
+278. King St-Old Town Farragut West
+279. Capitol South Fort Totten
+280. Suitland Virginia Square-GMU
+281. West Falls Church-VT/UVA Ronald Reagan Washington National Airport
+282. Smithsonian Court House
+283. Suitland Rhode Island Ave-Brentwood
+284. Stadium-Armory Gallery Pl-Chinatown
+285. Congress Heights Fort Totten
+286. Union Station Dupont Circle
+287. Ronald Reagan Washington National Airport Court House
+288. Largo Town Center King St-Old Town
+289. King St-Old Town Union Station
+290. Archives-Navy Memorial-Penn Quarter Gallery Pl-Chinatown
+291. Waterfront Mt Vernon Sq 7th St-Convention Center
+292. Wiehle-Reston East Judiciary Square
+293. King St-Old Town Farragut West
+294. Mt Vernon Sq 7th St-Convention Center L'Enfant Plaza
+295. Smithsonian Morgan Boulevard
+296. Wiehle-Reston East Dupont Circle
+297. Suitland Archives-Navy Memorial-Penn Quarter
+298. Braddock Road Columbia Heights
+299. Rosslyn East Falls Church
+300. Dupont Circle White Flint
+301. Union Station Franconia-Springfield
+302. Federal Triangle Silver Spring
+303. Judiciary Square Grosvenor-Strathmore
+304. Metro Center Greenbelt
+305. Rhode Island Ave-Brentwood Crystal City
+306. New Carrollton Judiciary Square
+307. Ronald Reagan Washington National Airport Wheaton
+308. Stadium-Armory Crystal City
+309. Rosslyn Tysons Corner
+310. Rhode Island Ave-Brentwood Gallery Pl-Chinatown
+311. Judiciary Square U Street/African-Amer Civil War Memorial/Cardozo
+312. Shady Grove Gallery Pl-Chinatown
+313. Rosslyn L'Enfant Plaza
+314. Capitol South Glenmont
+315. Archives-Navy Memorial-Penn Quarter Dupont Circle
+316. Mt Vernon Sq 7th St-Convention Center Capitol South
+317. Vienna/Fairfax-GMU King St-Old Town
+318. Farragut North Metro Center
+319. U Street/African-Amer Civil War Memorial/Cardozo College Park-U of Md
+320. Bethesda Columbia Heights
+321. Gallery Pl-Chinatown Bethesda
+322. NoMa-Gallaudet U Forest Glen
+323. L'Enfant Plaza Tysons Corner
+324. Twinbrook Woodley Park-Zoo/Adams Morgan
+325. Silver Spring Wheaton
+326. West Hyattsville Navy Yard-Ballpark
+327. Union Station Waterfront
+328. Franconia-Springfield King St-Old Town
+329. Metro Center McPherson Square
+330. Ronald Reagan Washington National Airport Bethesda
+331. West Falls Church-VT/UVA Crystal City
+332. Mt Vernon Sq 7th St-Convention Center Farragut North
+333. Woodley Park-Zoo/Adams Morgan Wheaton
+334. Ronald Reagan Washington National Airport Georgia Ave-Petworth
+335. Naylor Road Rockville
+336. Foggy Bottom-GWU Braddock Road
+337. West Hyattsville Rhode Island Ave-Brentwood
+338. College Park-U of Md Dupont Circle
+339. Suitland Anacostia
+340. Farragut West Ronald Reagan Washington National Airport
+341. Ronald Reagan Washington National Airport Franconia-Springfield
+342. Wiehle-Reston East Takoma
+343. Grosvenor-Strathmore L'Enfant Plaza
+344. Shaw-Howard U Benning Road
+345. New Carrollton Metro Center
+346. Metro Center Minnesota Ave
+347. New Carrollton McPherson Square
+348. Mt Vernon Sq 7th St-Convention Center Georgia Ave-Petworth
+349. West Falls Church-VT/UVA Court House
+350. Farragut West Tysons Corner
+351. NoMa-Gallaudet U Franconia-Springfield
+352. Fort Totten Rosslyn
+353. Capitol South McPherson Square
+354. Wiehle-Reston East Metro Center
+355. Pentagon City U Street/African-Amer Civil War Memorial/Cardozo
+356. Mt Vernon Sq 7th St-Convention Center New Carrollton
+357. Tysons Corner Woodley Park-Zoo/Adams Morgan
+358. Smithsonian Minnesota Ave
+359. Shady Grove Navy Yard-Ballpark
+360. Clarendon Ronald Reagan Washington National Airport
+361. Eastern Market Georgia Ave-Petworth
+362. Ballston-MU Farragut West
+363. Court House Spring Hill
+364. Huntington Court House
+365. Virginia Square-GMU King St-Old Town
+366. Ballston-MU Spring Hill
+367. Grosvenor-Strathmore Woodley Park-Zoo/Adams Morgan
+368. L'Enfant Plaza Prince George's Plaza
+369. McPherson Square Greenbelt
+370. Columbia Heights Pentagon
+371. Shaw-Howard U Glenmont
+372. Archives-Navy Memorial-Penn Quarter Tysons Corner
+373. Cleveland Park King St-Old Town
+374. Largo Town Center Ronald Reagan Washington National Airport
+375. NoMa-Gallaudet U Foggy Bottom-GWU
+376. Rosslyn Shady Grove
+377. Archives-Navy Memorial-Penn Quarter Capitol Heights
+378. Vienna/Fairfax-GMU Anacostia
+379. Wiehle-Reston East Stadium-Armory
+380. Metro Center Vienna/Fairfax-GMU
+381. Navy Yard-Ballpark Waterfront
+382. Archives-Navy Memorial-Penn Quarter Potomac Ave
+383. Suitland Pentagon City
+384. Virginia Square-GMU Medical Center
+385. Shaw-Howard U Eastern Market
+386. Deanwood New Carrollton
+387. Capitol South Metro Center
+388. Deanwood Minnesota Ave
+389. Anacostia Brookland-CUA
+390. Van Dorn Street Pentagon
+391. Wiehle-Reston East McLean
+392. Union Station Farragut West
+393. Dupont Circle Van Ness-UDC
+394. Farragut West Virginia Square-GMU
+395. Georgia Ave-Petworth Dupont Circle
+396. Franconia-Springfield Suitland
+397. King St-Old Town Eisenhower Avenue
+398. Wheaton Glenmont
+399. Virginia Square-GMU Van Ness-UDC
+400. Archives-Navy Memorial-Penn Quarter Federal Center SW
+401. Woodley Park-Zoo/Adams Morgan Friendship Heights
+402. White Flint New Carrollton
+403. Rosslyn Minnesota Ave
+404. Dupont Circle Federal Triangle
+405. Foggy Bottom-GWU Van Ness-UDC
+406. Potomac Ave Union Station
+407. Farragut North U Street/African-Amer Civil War Memorial/Cardozo
+408. Gallery Pl-Chinatown Takoma
+409. Farragut North Pentagon
+410. Gallery Pl-Chinatown Georgia Ave-Petworth
+411. Clarendon Union Station
+412. Dupont Circle Metro Center
+413. New Carrollton Pentagon
+414. Forest Glen NoMa-Gallaudet U
+415. Braddock Road Greenbelt
+416. Rhode Island Ave-Brentwood Capitol Heights
+417. Huntington Eastern Market
+418. Georgia Ave-Petworth Woodley Park-Zoo/Adams Morgan
+419. Federal Center SW Stadium-Armory
+420. East Falls Church Van Dorn Street
+421. Branch Ave Van Ness-UDC
+422. Forest Glen Federal Triangle
+423. Southern Avenue Mt Vernon Sq 7th St-Convention Center
+424. Georgia Ave-Petworth Gallery Pl-Chinatown
+425. Rhode Island Ave-Brentwood Naylor Road
+426. West Hyattsville Medical Center
+427. Judiciary Square Vienna/Fairfax-GMU
+428. Foggy Bottom-GWU Columbia Heights
+429. Metro Center Tenleytown-AU
+430. U Street/African-Amer Civil War Memorial/Cardozo Foggy Bottom-GWU
+431. Federal Center SW McPherson Square
+432. Brookland-CUA Pentagon
+433. King St-Old Town Farragut North
+434. Shady Grove Federal Center SW
+435. Metro Center Tenleytown-AU
+436. Greenbelt Gallery Pl-Chinatown
+437. Georgia Ave-Petworth Congress Heights
+438. Southern Avenue Stadium-Armory
+439. Foggy Bottom-GWU Naylor Road
+440. Shaw-Howard U Benning Road
+441. Twinbrook Union Station
+442. Rockville Silver Spring
+443. Judiciary Square Brookland-CUA
+444. Benning Road Foggy Bottom-GWU
+445. Silver Spring NoMa-Gallaudet U
+446. Potomac Ave Union Station
+447. Brookland-CUA Columbia Heights
+448. Suitland Southern Avenue
+449. Southern Avenue Waterfront
+450. Rhode Island Ave-Brentwood Smithsonian
+451. Shady Grove Grosvenor-Strathmore
+452. Bethesda Brookland-CUA
+453. Pentagon City Van Ness-UDC
+454. Rosslyn Franconia-Springfield
+455. Wiehle-Reston East L'Enfant Plaza
+456. Rhode Island Ave-Brentwood Branch Ave
+457. Navy Yard-Ballpark Columbia Heights
+458. Georgia Ave-Petworth Greenbelt
+459. NoMa-Gallaudet U Takoma
+460. Franconia-Springfield Ballston-MU
+461. Greensboro Crystal City
+462. Friendship Heights McLean
+463. Ballston-MU Tysons Corner
+464. Gallery Pl-Chinatown Branch Ave
+465. Greenbelt Fort Totten
+466. Navy Yard-Ballpark Congress Heights
+467. NoMa-Gallaudet U Glenmont
+468. Mt Vernon Sq 7th St-Convention Center Pentagon
+469. McPherson Square Glenmont
+470. Archives-Navy Memorial-Penn Quarter Dupont Circle
+471. Dupont Circle Braddock Road
+472. U Street/African-Amer Civil War Memorial/Cardozo Fort Totten
+473. Huntington New Carrollton
+474. Tenleytown-AU Union Station
+475. Rhode Island Ave-Brentwood Metro Center
+476. Shady Grove Woodley Park-Zoo/Adams Morgan
+477. Takoma Navy Yard-Ballpark
+478. Franconia-Springfield Ronald Reagan Washington National Airport
+479. Glenmont Judiciary Square
+480. Spring Hill Branch Ave
+481. Pentagon City Dupont Circle
+482. Eastern Market Cleveland Park
+483. Foggy Bottom-GWU Largo Town Center
+484. White Flint Judiciary Square
+485. Van Ness-UDC Waterfront
+486. Capitol Heights Columbia Heights
+487. Greenbelt Southern Avenue
+488. Rosslyn Cleveland Park
+489. Archives-Navy Memorial-Penn Quarter Congress Heights
+490. McPherson Square Smithsonian
+491. Deanwood Southern Avenue
+492. Shaw-Howard U Waterfront
+493. Navy Yard-Ballpark Waterfront
+494. Benning Road Van Ness-UDC
+495. U Street/African-Amer Civil War Memorial/Cardozo Archives-Navy Memorial-Penn Quarter
+496. Judiciary Square Farragut North
+497. Farragut North Takoma
+498. L'Enfant Plaza Rosslyn
+499. Minnesota Ave Silver Spring
+500. L'Enfant Plaza Gallery Pl-Chinatown
+501. Anacostia Gallery Pl-Chinatown
+502. L'Enfant Plaza Greenbelt
+503. Southern Avenue Minnesota Ave
+504. Stadium-Armory Ballston-MU
+505. Capitol Heights Metro Center
+506. Navy Yard-Ballpark NoMa-Gallaudet U
+507. College Park-U of Md Tysons Corner
+508. Morgan Boulevard Court House
+509. U Street/African-Amer Civil War Memorial/Cardozo College Park-U of Md
+510. Twinbrook Navy Yard-Ballpark
+511. Deanwood Shaw-Howard U
+512. L'Enfant Plaza McLean
+513. L'Enfant Plaza Federal Triangle
+514. Georgia Ave-Petworth Greenbelt
+515. Eastern Market Van Dorn Street
+516. Union Station Eisenhower Avenue
+517. Union Station Tysons Corner
+518. Union Station Judiciary Square
+519. Franconia-Springfield Mt Vernon Sq 7th St-Convention Center
+520. Greensboro Congress Heights
+521. Waterfront Farragut West
+522. Benning Road Foggy Bottom-GWU
+523. Suitland New Carrollton
+524. Waterfront Prince George's Plaza
+525. Navy Yard-Ballpark McPherson Square
+526. Wheaton Foggy Bottom-GWU
+527. Pentagon Capitol Heights
+528. Ronald Reagan Washington National Airport Twinbrook
+529. Archives-Navy Memorial-Penn Quarter Pentagon
+530. Van Dorn Street Landover
+531. Georgia Ave-Petworth Addison Road-Seat Pleasant
+532. Pentagon City East Falls Church
+533. U Street/African-Amer Civil War Memorial/Cardozo Gallery Pl-Chinatown
+534. Fort Totten L'Enfant Plaza
+535. Friendship Heights Tenleytown-AU
+536. Ballston-MU NoMa-Gallaudet U
+537. Crystal City Federal Triangle
+538. Friendship Heights Naylor Road
+539. Gallery Pl-Chinatown Navy Yard-Ballpark
+540. Fort Totten U Street/African-Amer Civil War Memorial/Cardozo
+541. Medical Center Huntington
+542. Mt Vernon Sq 7th St-Convention Center Crystal City
+543. Silver Spring Twinbrook
+544. Naylor Road West Falls Church-VT/UVA
+545. Eastern Market Gallery Pl-Chinatown
+546. Eastern Market Farragut West
+547. Shady Grove Vienna/Fairfax-GMU
+548. Vienna/Fairfax-GMU Ballston-MU
+549. Addison Road-Seat Pleasant Tenleytown-AU
+550. Union Station Judiciary Square
+551. Federal Triangle Virginia Square-GMU
+552. Huntington Shaw-Howard U
+553. Gallery Pl-Chinatown West Falls Church-VT/UVA
+554. Archives-Navy Memorial-Penn Quarter Silver Spring
+555. Metro Center Potomac Ave
+556. New Carrollton Dunn Loring-Merrifield
+557. Branch Ave Addison Road-Seat Pleasant
+558. Georgia Ave-Petworth Anacostia
+559. NoMa-Gallaudet U Foggy Bottom-GWU
+560. Eastern Market Court House
+561. King St-Old Town Benning Road
+562. Metro Center Forest Glen
+563. U Street/African-Amer Civil War Memorial/Cardozo Suitland
+564. King St-Old Town Vienna/Fairfax-GMU
+565. Union Station Columbia Heights
+566. Naylor Road NoMa-Gallaudet U
+567. Dupont Circle Gallery Pl-Chinatown
+568. Greenbelt Silver Spring
+569. Pentagon City Southern Avenue
+570. Capitol Heights Grosvenor-Strathmore
+571. Van Dorn Street Suitland
+572. Archives-Navy Memorial-Penn Quarter Crystal City
+573. West Hyattsville Metro Center
+574. Congress Heights L'Enfant Plaza
+575. Georgia Ave-Petworth Court House
+576. Farragut North Southern Avenue
+577. Archives-Navy Memorial-Penn Quarter Addison Road-Seat Pleasant
+578. Vienna/Fairfax-GMU Greenbelt
+579. Grosvenor-Strathmore Tenleytown-AU
+580. Archives-Navy Memorial-Penn Quarter Landover
+581. Largo Town Center Gallery Pl-Chinatown
+582. Prince George's Plaza Navy Yard-Ballpark
+583. Smithsonian Capitol South
+584. Smithsonian Eisenhower Avenue
+585. Naylor Road Congress Heights
+586. Metro Center Tenleytown-AU
+587. Takoma Foggy Bottom-GWU
+588. Union Station Suitland
+589. Takoma Georgia Ave-Petworth
+590. Capitol South Van Ness-UDC
+591. Gallery Pl-Chinatown Shaw-Howard U
+592. McPherson Square Potomac Ave
+593. Farragut West Stadium-Armory
+594. Federal Triangle Morgan Boulevard
+595. Vienna/Fairfax-GMU Metro Center
+596. Medical Center Tenleytown-AU
+597. Grosvenor-Strathmore Dupont Circle
+598. U Street/African-Amer Civil War Memorial/Cardozo Union Station
+599. Tenleytown-AU Bethesda
+600. Farragut West Court House
+601. East Falls Church McPherson Square
+602. Van Ness-UDC Clarendon
+603. Minnesota Ave Foggy Bottom-GWU
+604. Georgia Ave-Petworth Potomac Ave
+605. Farragut West Crystal City
+606. U Street/African-Amer Civil War Memorial/Cardozo Metro Center
+607. L'Enfant Plaza Waterfront
+608. Clarendon Van Ness-UDC
+609. Tenleytown-AU Gallery Pl-Chinatown
+610. McPherson Square Smithsonian
+611. Huntington New Carrollton
+612. College Park-U of Md Dupont Circle
+613. West Hyattsville Brookland-CUA
+614. Van Ness-UDC Clarendon
+615. Cleveland Park Smithsonian
+616. Mt Vernon Sq 7th St-Convention Center Minnesota Ave
+617. Tenleytown-AU Smithsonian
+618. Eastern Market Wiehle-Reston East
+619. Van Dorn Street Franconia-Springfield
+620. NoMa-Gallaudet U Rhode Island Ave-Brentwood
+621. Shady Grove Medical Center
+622. Twinbrook Southern Avenue
+623. Friendship Heights Foggy Bottom-GWU
+624. Potomac Ave Silver Spring
+625. Largo Town Center Brookland-CUA
+626. Dunn Loring-Merrifield Prince George's Plaza
+627. Prince George's Plaza Minnesota Ave
+628. McPherson Square Benning Road
+629. McPherson Square L'Enfant Plaza
+630. Fort Totten Twinbrook
+631. Silver Spring Wiehle-Reston East
+632. Columbia Heights Crystal City
+633. Glenmont Wiehle-Reston East
+634. Metro Center Van Dorn Street
+635. Gallery Pl-Chinatown Columbia Heights
+636. Van Ness-UDC Landover
+637. Court House Metro Center
+638. Potomac Ave Judiciary Square
+639. Rockville Columbia Heights
+640. Rhode Island Ave-Brentwood Dupont Circle
+641. Gallery Pl-Chinatown Shady Grove
+642. Clarendon Wiehle-Reston East
+643. Crystal City Georgia Ave-Petworth
+644. Van Ness-UDC Cleveland Park
+645. Fort Totten King St-Old Town
+646. Eastern Market Gallery Pl-Chinatown
+647. L'Enfant Plaza Foggy Bottom-GWU
+648. Ballston-MU Tenleytown-AU
+649. Columbia Heights Ballston-MU
+650. Union Station Branch Ave
+651. Southern Avenue Waterfront
+652. Friendship Heights Georgia Ave-Petworth
+653. Medical Center Friendship Heights
+654. Franconia-Springfield Archives-Navy Memorial-Penn Quarter
+655. Federal Triangle Dunn Loring-Merrifield
+656. Bethesda Dupont Circle
+657. Minnesota Ave Dupont Circle
+658. Archives-Navy Memorial-Penn Quarter Eisenhower Avenue
+659. Glenmont Smithsonian
+660. Van Ness-UDC Rhode Island Ave-Brentwood
+661. NoMa-Gallaudet U Metro Center
+662. King St-Old Town Twinbrook
+663. Minnesota Ave Court House
+664. Glenmont Branch Ave
+665. Greenbelt Archives-Navy Memorial-Penn Quarter
+666. Fort Totten Farragut North
+667. McPherson Square Greenbelt
+668. Farragut West White Flint
+669. Shaw-Howard U Wheaton
+670. Farragut North Judiciary Square
+671. Wiehle-Reston East Metro Center
+672. White Flint Rockville
+673. Branch Ave Federal Triangle
+674. Medical Center Twinbrook
+675. Judiciary Square Gallery Pl-Chinatown
+676. Union Station L'Enfant Plaza
+677. White Flint Bethesda
+678. Judiciary Square Union Station
+679. L'Enfant Plaza Union Station
+680. Congress Heights Crystal City
+681. L'Enfant Plaza Largo Town Center
+682. Grosvenor-Strathmore Shady Grove
+683. Glenmont Vienna/Fairfax-GMU
+684. Southern Avenue Landover
+685. Silver Spring Capitol Heights
+686. Grosvenor-Strathmore Bethesda
+687. Dupont Circle Union Station
+688. Anacostia Fort Totten
+689. Benning Road White Flint
+690. NoMa-Gallaudet U Friendship Heights
+691. Eisenhower Avenue Shady Grove
+692. Tysons Corner New Carrollton
+693. Virginia Square-GMU Clarendon
+694. Largo Town Center Eastern Market
+695. Shady Grove Metro Center
+696. Brookland-CUA Potomac Ave
+697. College Park-U of Md Largo Town Center
+698. Greenbelt NoMa-Gallaudet U
+699. Southern Avenue Union Station
+700. Tysons Corner Foggy Bottom-GWU
+701. Dupont Circle College Park-U of Md
+702. Capitol Heights Rhode Island Ave-Brentwood
+703. Virginia Square-GMU Metro Center
+704. Bethesda Medical Center
+705. West Hyattsville Court House
+706. Tysons Corner King St-Old Town
+707. Mt Vernon Sq 7th St-Convention Center U Street/African-Amer Civil War Memorial/Cardozo
+708. Rosslyn New Carrollton
+709. Bethesda Smithsonian
+710. Pentagon Smithsonian
+711. Gallery Pl-Chinatown U Street/African-Amer Civil War Memorial/Cardozo
+712. Union Station Friendship Heights
+713. Eastern Market Foggy Bottom-GWU
+714. Rhode Island Ave-Brentwood Archives-Navy Memorial-Penn Quarter
+715. Georgia Ave-Petworth Potomac Ave
+716. Metro Center Dunn Loring-Merrifield
+717. Foggy Bottom-GWU Federal Center SW
+718. Foggy Bottom-GWU Georgia Ave-Petworth
+719. Silver Spring Woodley Park-Zoo/Adams Morgan
+720. Capitol Heights Foggy Bottom-GWU
+721. Mt Vernon Sq 7th St-Convention Center Anacostia
+722. Vienna/Fairfax-GMU East Falls Church
+723. Anacostia Mt Vernon Sq 7th St-Convention Center
+724. Foggy Bottom-GWU Capitol South
+725. West Hyattsville Crystal City
+726. Bethesda King St-Old Town
+727. Dupont Circle Wheaton
+728. Takoma Silver Spring
+729. Union Station L'Enfant Plaza
+730. Rosslyn New Carrollton
+731. Van Ness-UDC Shady Grove
+732. Takoma Fort Totten
+733. Ballston-MU Wiehle-Reston East
+734. U Street/African-Amer Civil War Memorial/Cardozo Huntington
+735. Farragut West L'Enfant Plaza
+736. Clarendon Judiciary Square
+737. Farragut West Ballston-MU
+738. Bethesda Shady Grove
+739. Gallery Pl-Chinatown Silver Spring
+740. Ronald Reagan Washington National Airport U Street/African-Amer Civil War Memorial/Cardozo
+741. Shady Grove Mt Vernon Sq 7th St-Convention Center
+742. Rosslyn Branch Ave
+743. Ronald Reagan Washington National Airport Wiehle-Reston East
+744. Wheaton Brookland-CUA
+745. Eastern Market Pentagon City
+746. Takoma Pentagon City
+747. Woodley Park-Zoo/Adams Morgan Ballston-MU
+748. Union Station U Street/African-Amer Civil War Memorial/Cardozo
+749. Shady Grove Suitland
+750. Crystal City Gallery Pl-Chinatown
+751. Arlington Cemetery Capitol South
+752. Fort Totten Brookland-CUA
+753. Tysons Corner Suitland
+754. Union Station Anacostia
+755. Suitland Foggy Bottom-GWU
+756. McPherson Square Bethesda
+757. Suitland Naylor Road
+758. Capitol South Rosslyn
+759. Largo Town Center Addison Road-Seat Pleasant
+760. Farragut North Southern Avenue
+761. Braddock Road Fort Totten
+762. Foggy Bottom-GWU Tysons Corner
+763. New Carrollton Georgia Ave-Petworth
+764. Farragut West McPherson Square
+765. Glenmont Metro Center
+766. Twinbrook Addison Road-Seat Pleasant
+767. Rosslyn Pentagon City
+768. Pentagon City Federal Center SW
+769. Gallery Pl-Chinatown McPherson Square
+770. L'Enfant Plaza Minnesota Ave
+771. Shaw-Howard U Anacostia
+772. Largo Town Center U Street/African-Amer Civil War Memorial/Cardozo
+773. Union Station Addison Road-Seat Pleasant
+774. Rockville Addison Road-Seat Pleasant
+775. Columbia Heights Rosslyn
+776. Bethesda Shady Grove
+777. Vienna/Fairfax-GMU Ballston-MU
+778. Pentagon City Tysons Corner
+779. Glenmont Federal Triangle
+780. Union Station Suitland
+781. West Hyattsville Farragut North
+782. Archives-Navy Memorial-Penn Quarter Anacostia
+783. Anacostia Shaw-Howard U
+784. Archives-Navy Memorial-Penn Quarter Rosslyn
+785. Crystal City McPherson Square
+786. Pentagon City Potomac Ave
+787. Metro Center Cleveland Park
+788. Medical Center Tenleytown-AU
+789. Twinbrook Cleveland Park
+790. Rosslyn New Carrollton
+791. Silver Spring Glenmont
+792. Georgia Ave-Petworth Farragut West
+793. Grosvenor-Strathmore Metro Center
+794. L'Enfant Plaza Branch Ave
+795. Bethesda Van Ness-UDC
+796. Vienna/Fairfax-GMU Waterfront
+797. Navy Yard-Ballpark Union Station
+798. Judiciary Square Tenleytown-AU
+799. East Falls Church Rockville
+800. Suitland Anacostia
+801. Suitland Federal Center SW
+802. Brookland-CUA Fort Totten
+803. Waterfront Gallery Pl-Chinatown
+804. L'Enfant Plaza Woodley Park-Zoo/Adams Morgan
+805. Virginia Square-GMU McPherson Square
+806. Braddock Road Bethesda
+807. Union Station Greenbelt
+808. Union Station Takoma
+809. Foggy Bottom-GWU Judiciary Square
+810. Southern Avenue Bethesda
+811. Deanwood Mt Vernon Sq 7th St-Convention Center
+812. Wiehle-Reston East Rosslyn
+813. Farragut West McLean
+814. Capitol South West Falls Church-VT/UVA
+815. Capitol South Brookland-CUA
+816. College Park-U of Md King St-Old Town
+817. Court House Brookland-CUA
+818. Prince George's Plaza College Park-U of Md
+819. Union Station Addison Road-Seat Pleasant
+820. Crystal City Van Ness-UDC
+821. Takoma Shaw-Howard U
+822. Crystal City U Street/African-Amer Civil War Memorial/Cardozo
+823. Georgia Ave-Petworth College Park-U of Md
+824. Tysons Corner Glenmont
+825. Dupont Circle Smithsonian
+826. Ronald Reagan Washington National Airport Gallery Pl-Chinatown
+827. Cheverly Huntington
+828. Gallery Pl-Chinatown Crystal City
+829. East Falls Church Farragut West
+830. Cleveland Park Gallery Pl-Chinatown
+831. Brookland-CUA Columbia Heights
+832. Georgia Ave-Petworth Navy Yard-Ballpark
+833. Morgan Boulevard Capitol Heights
+834. Suitland Branch Ave
+835. Woodley Park-Zoo/Adams Morgan Smithsonian
+836. Waterfront Deanwood
+837. Mt Vernon Sq 7th St-Convention Center Rosslyn
+838. Prince George's Plaza Branch Ave
+839. Gallery Pl-Chinatown Wiehle-Reston East
+840. NoMa-Gallaudet U McPherson Square
+841. Ballston-MU Clarendon
+842. Van Ness-UDC College Park-U of Md
+843. Georgia Ave-Petworth Suitland
+844. Georgia Ave-Petworth Shaw-Howard U
+845. Silver Spring Anacostia
+846. Dupont Circle Ronald Reagan Washington National Airport
+847. Rhode Island Ave-Brentwood Pentagon City
+848. Farragut West Federal Center SW
+849. Anacostia Spring Hill
+850. McLean Shaw-Howard U
+851. Gallery Pl-Chinatown Rosslyn
+852. Forest Glen Congress Heights
+853. Benning Road Pentagon City
+854. Addison Road-Seat Pleasant Foggy Bottom-GWU
+855. Brookland-CUA Deanwood
+856. Ballston-MU Tysons Corner
+857. White Flint Tenleytown-AU
+858. Takoma Branch Ave
+859. Suitland Brookland-CUA
+860. Union Station Shady Grove
+861. Dupont Circle Ballston-MU
+862. Mt Vernon Sq 7th St-Convention Center Pentagon
+863. Union Station Rhode Island Ave-Brentwood
+864. Stadium-Armory Metro Center
+865. Franconia-Springfield Medical Center
+866. Deanwood L'Enfant Plaza
+867. Van Dorn Street Woodley Park-Zoo/Adams Morgan
+868. Cheverly Metro Center
+869. Vienna/Fairfax-GMU Smithsonian
+870. L'Enfant Plaza Spring Hill
+871. Van Ness-UDC White Flint
+872. Medical Center Friendship Heights
+873. Union Station Suitland
+874. Fort Totten Clarendon
+875. Foggy Bottom-GWU White Flint
+876. Ballston-MU Farragut West
+877. Navy Yard-Ballpark Georgia Ave-Petworth
+878. Gallery Pl-Chinatown Metro Center
+879. Medical Center White Flint
+880. Crystal City Archives-Navy Memorial-Penn Quarter
+881. Arlington Cemetery Smithsonian
+882. Woodley Park-Zoo/Adams Morgan White Flint
+883. Takoma Rosslyn
+884. Federal Center SW Smithsonian
+885. Fort Totten Wheaton
+886. Dupont Circle Cleveland Park
+887. Tenleytown-AU White Flint
+888. Eastern Market Georgia Ave-Petworth
+889. Tysons Corner Gallery Pl-Chinatown
+890. Crystal City Braddock Road
+891. Foggy Bottom-GWU Rockville
+892. Friendship Heights Addison Road-Seat Pleasant
+893. Foggy Bottom-GWU East Falls Church
+894. Eastern Market King St-Old Town
+895. Smithsonian Capitol South
+896. Silver Spring Rhode Island Ave-Brentwood
+897. Clarendon Capitol South
+898. Huntington L'Enfant Plaza
+899. Pentagon Van Dorn Street
+900. Wheaton Gallery Pl-Chinatown
+901. Capitol South Bethesda
+902. Congress Heights McPherson Square
+903. Van Ness-UDC Rockville
+904. Gallery Pl-Chinatown Rockville
+905. Gallery Pl-Chinatown Capitol Heights
+906. Rockville Vienna/Fairfax-GMU
+907. Georgia Ave-Petworth Benning Road
+908. Van Dorn Street NoMa-Gallaudet U
+909. Judiciary Square Prince George's Plaza
+910. Court House Van Dorn Street
+911. Eastern Market Wheaton
+912. Shady Grove Smithsonian
+913. Minnesota Ave New Carrollton
+914. Navy Yard-Ballpark U Street/African-Amer Civil War Memorial/Cardozo
+915. Takoma McPherson Square
+916. U Street/African-Amer Civil War Memorial/Cardozo Greenbelt
+917. Vienna/Fairfax-GMU Friendship Heights
+918. Judiciary Square Court House
+919. Fort Totten King St-Old Town
+920. Smithsonian Capitol Heights
+921. Ballston-MU Van Ness-UDC
+922. Ballston-MU Friendship Heights
+923. Court House Dupont Circle
+924. Metro Center Eisenhower Avenue
+925. Van Ness-UDC Pentagon City
+926. McPherson Square Metro Center
+927. Glenmont Anacostia
+928. Navy Yard-Ballpark Archives-Navy Memorial-Penn Quarter
+929. Pentagon City Rhode Island Ave-Brentwood
+930. College Park-U of Md Huntington
+931. Bethesda Capitol South
+932. Cleveland Park Gallery Pl-Chinatown
+933. Benning Road Fort Totten
+934. Fort Totten Anacostia
+935. Potomac Ave Morgan Boulevard
+936. Friendship Heights Union Station
+937. Rhode Island Ave-Brentwood U Street/African-Amer Civil War Memorial/Cardozo
+938. Shady Grove Friendship Heights
+939. Brookland-CUA Prince George's Plaza
+940. Ballston-MU U Street/African-Amer Civil War Memorial/Cardozo
+941. Ronald Reagan Washington National Airport Ballston-MU
+942. Rosslyn Shady Grove
+943. Ballston-MU Largo Town Center
+944. Clarendon Vienna/Fairfax-GMU
+945. Mt Vernon Sq 7th St-Convention Center Suitland
+946. Morgan Boulevard Clarendon
+947. U Street/African-Amer Civil War Memorial/Cardozo Suitland
+948. Twinbrook Cleveland Park
+949. Archives-Navy Memorial-Penn Quarter Farragut North
+950. Suitland Georgia Ave-Petworth
+951. Fort Totten Huntington
+952. Tenleytown-AU Bethesda
+953. Crystal City Pentagon
+954. Union Station Bethesda
+955. Bethesda NoMa-Gallaudet U
+956. Crystal City Prince George's Plaza
+957. Federal Triangle Branch Ave
+958. Brookland-CUA Wiehle-Reston East
+959. Congress Heights Anacostia
+960. Smithsonian Archives-Navy Memorial-Penn Quarter
+961. Mt Vernon Sq 7th St-Convention Center Southern Avenue
+962. Federal Triangle Capitol South
+963. Federal Center SW Potomac Ave
+964. Cleveland Park Dupont Circle
+965. Georgia Ave-Petworth Van Ness-UDC
+966. U Street/African-Amer Civil War Memorial/Cardozo New Carrollton
+967. Silver Spring Rhode Island Ave-Brentwood
+968. Bethesda Union Station
+969. Ballston-MU Ronald Reagan Washington National Airport
+970. Mt Vernon Sq 7th St-Convention Center King St-Old Town
+971. Federal Triangle Tysons Corner
+972. Vienna/Fairfax-GMU Eastern Market
+973. Fort Totten Georgia Ave-Petworth
+Cost before discount: 
+3545.0
+Cost after discount: 
+3164.925

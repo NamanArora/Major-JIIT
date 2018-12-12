@@ -8,6 +8,7 @@ import os
 import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
+from get_prices import make_map, fun
 
 
 
@@ -34,20 +35,33 @@ def categorize_ridership():
 def compute_final_prices():
     csvFile = pd.read_csv('categorized.csv')
     before_discount = 0
-    after_discount = 0
+    after_discount = float(0)
+    station_and_codes = make_map()
+    stations = {}
+    print("station names from csv given as follow\n")
+    sno = 0
     for i,row in csvFile.iterrows():
         val=0
         #we call the api here to get the cost 
         #TODO: replace old_cost with api response 
-        # fetcher(row['ENTSTATION'],row['EXTSTATION'])
-        old_cost = 100
-        before_discount =before_discount +old_cost
+        # print(row['ENTSTATION'],row['EXTSTATION'])
+        ent_station = row['ENTSTATION']
+        ext_station = row['EXTSTATION']
+        if(ent_station == ext_station):
+            continue
+        # old_cost = 100
+        stations[row['ENTSTATION']] = 1
+        old_cost = fun(station_and_codes[ent_station], station_and_codes[ext_station])
+        # print(type(before_discount))
+        # print(str(sno) + ". " + ent_station + " " + ext_station)
+        # sno = sno + 1
+        before_discount = before_discount + old_cost
         discount = row['congestion_level']/(10*1.0)
         new_cost = old_cost - old_cost * discount
         after_discount = after_discount + new_cost
         csvFile.set_value(i, 'old_cost', old_cost)
         csvFile.set_value(i, 'new_cost', new_cost)
-
+    # print(length(stations))
     print("Cost before discount: ")
     print(before_discount)
     print("Cost after discount: ")
