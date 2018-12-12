@@ -158,6 +158,5 @@ def read_csv():
     compute_final_prices()
     return features
 
-# read_csv()
 lstm()
 
