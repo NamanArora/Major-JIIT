@@ -9,6 +9,51 @@ import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 from get_prices import make_map, fun
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import Sequential
+
+
+def lstm():
+    features = pd.read_csv('data.csv')
+    print(features.head())
+    print(features.shape)
+    binarizer1=LabelEncoder()
+    binarizer2=LabelEncoder()
+    print('Binarizing the station names...')
+    features.iloc[:,1:2]=binarizer1.fit_transform(features.iloc[:,1:2])
+    features.iloc[:,2:3]=binarizer2.fit_transform(features.iloc[:,2:3])
+    # print(features.head())
+    #hot encoder
+    print('Hot encoding the features...')
+    Y = pd.get_dummies(features['AVG_TRIPS'])
+    features = pd.get_dummies(features)
+    print(features.head())
+    labels = np.array(features['AVG_TRIPS'])
+    # features= features.drop('AVG_TRIPS', axis = 1)
+    feature_list = list(features.columns)
+    features = np.array(features)
+
+    embed_dim = 256
+    lstm_out = 250
+    batch_size = 128
+
+    model = Sequential()
+    model.add(Embedding(3500, embed_dim,input_length = features.shape[1], dropout = 0.4))
+    model.add(LSTM(lstm_out, dropout_U = 0.4, dropout_W = 0.4))
+    model.add(Dense(32,activation='softmax'))
+    model.compile(loss = 'mean_squared_error', optimizer='adam',metrics = ['accuracy'])
+    print(model.summary())
+    
+    train_features, test_features, train_labels, test_labels = train_test_split(features, Y, test_size = 0.25, random_state = 42)
+    # # X_train, X_valid, Y_train, Y_valid = train_test_split(X,Y, test_size = 0.20, random_state = 36)
+
+    # #Here we train the Network.
+
+    model.fit(train_features, train_labels, batch_size =batch_size, nb_epoch = 5, verbose = 10)
+    score,acc = model.evaluate(test_features, test_labels, verbose = 2, batch_size = batch_size)
+    print("Logloss score: %.2f" % (score))
+    print("Validation set Accuracy: %.2f" % (acc))
+
 
 
 
@@ -113,6 +158,6 @@ def read_csv():
     compute_final_prices()
     return features
 
-read_csv()
-
+# read_csv()
+lstm()
 
