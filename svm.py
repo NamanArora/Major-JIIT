@@ -8,7 +8,7 @@ import os
 import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
-from get_prices import make_map, fun
+from get_prices import readPrices
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 
@@ -78,6 +78,7 @@ def categorize_ridership():
 # Uses the congestion level to compute on the prices
 # reads categorized.csv and stores result in final.csv
 def compute_final_prices():
+    prices = readPrices()
     csvFile = pd.read_csv('categorized.csv')
     before_discount = 0
     after_discount = float(0)
@@ -96,7 +97,7 @@ def compute_final_prices():
             continue
         # old_cost = 100
         stations[row['ENTSTATION']] = 1
-        old_cost = fun(station_and_codes[ent_station], station_and_codes[ext_station])
+        old_cost = prices[(row['ENTSTATION'], row['EXTSTATION'])]
         # print(type(before_discount))
         # print(str(sno) + ". " + ent_station + " " + ext_station)
         # sno = sno + 1
@@ -125,7 +126,7 @@ def create_extra_columns():
 
 
 def read_csv():
-    features = pd.read_csv('data.csv')
+    features = pd.read_csv('newfile.csv')
     print(features.head())
     print(features.shape)
     binarizer1=LabelEncoder()
@@ -158,5 +159,5 @@ def read_csv():
     compute_final_prices()
     return features
 
-lstm()
+read_csv()
 
