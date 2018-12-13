@@ -11,7 +11,8 @@ def findDiscount(demand, fare):
 	# assuming no price hike in peak hours, 
 	# we have fpd = ff
 	# 	=> b = 1/a
-	for d in range(1, 100):
+	netrev = []
+	for d in range(1, 31):
 		discount = float(d)
 		fnpd = ff-(ff*discount/100)
 		fpd = ff+(ff*discount/100)
@@ -22,4 +23,6 @@ def findDiscount(demand, fare):
 		revnpd = fnpd*rnpd
 		revpd = rpd*fpd
 		# print(str(revpd) + ", " + str(revnpd))
+		netrev.append(revpd+revnpd-2*(orev))
 		print(str(revpd+revnpd - 2*(orev)) + " at " + str(d) + "%")
+	return netrev	
