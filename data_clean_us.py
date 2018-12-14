@@ -1,6 +1,6 @@
 import csv
 
-filename = "export.csv"
+filename = "data.csv"
 newfile = "newfile.csv"
 stations = set()
 quarters= set()
@@ -43,6 +43,9 @@ def makeDataCompatible():
 				temp = (row[0], row[2], row[3], row[5])
 			else:
 				temp = ("Weekend", row[2], row[3], row[5])	
+			# print("yo")
+			if row[2]=="Pentagon" :
+    				print(row[5])
 			if temp in data:
 				data[temp] = data[temp] + int(row[6])
 			else:

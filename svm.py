@@ -8,9 +8,86 @@ import os
 import re
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
-from get_prices import make_map, fun
+from get_prices import readPrices
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
+from sklearn.externals import joblib
+from discount import findDiscount
+
+
+def gbdt():
+    features = pd.read_csv('data.csv')
+    print(features.head())
+    print(features.shape)
+    binarizer1=LabelEncoder()
+    binarizer2=LabelEncoder()
+    print('Binarizing the station names...')
+    features.iloc[:,1:2]=binarizer1.fit_transform(features.iloc[:,1:2])
+    features.iloc[:,2:3]=binarizer2.fit_transform(features.iloc[:,2:3])
+    # print(features.head())
+    #hot encoder
+    print('Hot encoding the features...')
+    features = pd.get_dummies(features)
+    print(features.head())
+    labels = np.array(features['AVG_TRIPS'])
+    features= features.drop('AVG_TRIPS', axis = 1)
+    feature_list = list(features.columns)
+    features = np.array(features)
+    svr_rbf = SVR(kernel= 'rbf', C= 1e3, gamma= 0.1)
+    train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.25, random_state = 42)
+    gbm0 = GradientBoostingClassifier(random_state=10)
+    gbm0.fit(train_features, train_labels)
+    dtrain_predictions = gbm0.predict(test_features)
+    dtrain_predprob = gbm0.predict_proba(test_features)[:,1]
+    #Print model report:
+    print "\nModel Report"
+    print "Accuracy : %.4g" % metrics.accuracy_score(test_labels,dtrain_predictions)
+    # # X_train, X_valid, Y_train, Y_valid = train_test_split(X,Y, test_size = 0.20, random_state = 36)
+
+    # #Here we train the Network.
+
+
+def lstm():
+    features = pd.read_csv('data.csv')
+    print(features.head())
+    print(features.shape)
+    binarizer1=LabelEncoder()
+    binarizer2=LabelEncoder()
+    print('Binarizing the station names...')
+    features.iloc[:,1:2]=binarizer1.fit_transform(features.iloc[:,1:2])
+    features.iloc[:,2:3]=binarizer2.fit_transform(features.iloc[:,2:3])
+    # print(features.head())
+    #hot encoder
+    print('Hot encoding the features...')
+    Y = pd.get_dummies(features['AVG_TRIPS'])
+    features = pd.get_dummies(features)
+    print(features.head())
+    labels = np.array(features['AVG_TRIPS'])
+    # features= features.drop('AVG_TRIPS', axis = 1)
+    feature_list = list(features.columns)
+    features = np.array(features)
+
+    embed_dim = 256
+    lstm_out = 250
+    batch_size = 128
+
+    model = Sequential()
+    model.add(Embedding(3500, embed_dim,input_length = features.shape[1], dropout = 0.4))
+    model.add(LSTM(lstm_out, dropout_U = 0.4, dropout_W = 0.4))
+    model.add(Dense(32,activation='softmax'))
+    model.compile(loss = 'mean_squared_error', optimizer='adam',metrics = ['accuracy'])
+    print(model.summary())
+    
+    train_features, test_features, train_labels, test_labels = train_test_split(features, Y, test_size = 0.25, random_state = 42)
+    # # X_train, X_valid, Y_train, Y_valid = train_test_split(X,Y, test_size = 0.20, random_state = 36)
+
+    # #Here we train the Network.
+
+    model.fit(train_features, train_labels, batch_size =batch_size, nb_epoch = 5, verbose = 10)
+    score,acc = model.evaluate(test_features, test_labels, verbose = 2, batch_size = batch_size)
+    print("Logloss score: %.2f" % (score))
+    print("Validation set Accuracy: %.2f" % (acc))
+
 
 
 def lstm():
@@ -78,10 +155,10 @@ def categorize_ridership():
 # Uses the congestion level to compute on the prices
 # reads categorized.csv and stores result in final.csv
 def compute_final_prices():
+    prices = readPrices()
     csvFile = pd.read_csv('categorized.csv')
     before_discount = 0
     after_discount = float(0)
-    station_and_codes = make_map()
     stations = {}
     print("station names from csv given as follow\n")
     sno = 0
@@ -96,7 +173,7 @@ def compute_final_prices():
             continue
         # old_cost = 100
         stations[row['ENTSTATION']] = 1
-        old_cost = fun(station_and_codes[ent_station], station_and_codes[ext_station])
+        old_cost = prices[(row['ENTSTATION'], row['EXTSTATION'])]
         # print(type(before_discount))
         # print(str(sno) + ". " + ent_station + " " + ext_station)
         # sno = sno + 1
@@ -151,6 +228,8 @@ def read_csv():
     print('Training data in progress...')
     svr_rbf.fit(train_features, train_labels)
     predictions = svr_rbf.predict(test_features)
+    filename = 'svr_model.sav'
+    joblib.dump(svr_rbf, filename)
     errors = abs(predictions - test_labels)
     print('Mean Absolute Error:', round(np.mean(errors), 2), '.')
     create_extra_columns()
@@ -158,5 +237,4 @@ def read_csv():
     compute_final_prices()
     return features
 
-lstm()
-
+read_csv()

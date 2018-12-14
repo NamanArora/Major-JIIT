@@ -7,7 +7,7 @@ headers = {
 
 station_and_codes= {}
 
-def getPricesFromPtoQ(p, q):
+def fun(p, q):
     params = urllib.urlencode({
         'FromStationCode': p,
         'ToStationCode': q,
@@ -34,7 +34,7 @@ def getPricesFromPtoQ(p, q):
     except Exception as e:
         print("erfgh")
 
-def makeNameToCodeMap():
+def make_map():
 	params = urllib.urlencode({
 	    # Request parameters
 	    # 'LineCode': '',
